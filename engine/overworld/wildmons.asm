@@ -285,6 +285,7 @@ ChooseWildEncounter:
 	inc hl
 	ld a, [hli]
 	ld b, a
+
 	call ValidateTempWildMonSpecies
 	jr c, .nowildbattle
 
