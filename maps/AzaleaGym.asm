@@ -5,7 +5,7 @@
 	const AZALEAGYM_BUG_CATCHER3
 	const AZALEAGYM_TWIN1
 	const AZALEAGYM_TWIN2
-	const AZALEAGYM_GYM_GUIDE
+	const AZALEAGYM_GYM_GUIDE 
 
 AzaleaGym_MapScripts:
 	def_scene_scripts
