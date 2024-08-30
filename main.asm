@@ -124,12 +124,8 @@ INCLUDE "engine/events/kurt_selectquantity_interpretjoypad.asm"
 SECTION "bankA", ROMX
 
 INCLUDE "engine/link/link.asm"
-INCLUDE "engine/battle/link_result.asm"
-
-
-SECTION "Overworld Wildmon Data", ROMX
-
 INCLUDE "engine/overworld/wildmons.asm"
+INCLUDE "engine/battle/link_result.asm"
 
 
 SECTION "bankB", ROMX

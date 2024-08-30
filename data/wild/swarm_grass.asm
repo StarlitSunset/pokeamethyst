@@ -6,66 +6,56 @@ SwarmGrassWildMons:
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	;  %, species,		min, max
-	db 11, GEODUDE, 	 3,  4
-	db  5, GEODUDE, 	 3,  4
-	db  5, GEODUDE, 	 3,  4
-	db 10, GEODUDE, 	 3,  4
-	db  9, ZUBAT, 		 2,  4
-	db 10, TEDDIURSA, 	 2,  3
-	db 50, DUNSPARCE, 	 3,  5
-
+	db 3, GEODUDE
+	db 3, DUNSPARCE
+	db 2, ZUBAT
+	db 2, GEODUDE
+	db 2, DUNSPARCE
+	db 4, DUNSPARCE
+	db 4, DUNSPARCE
 	; day
-	;  %, species,		min, max
-	db 11, GEODUDE, 	 3,  4
-	db  5, GEODUDE, 	 3,  4
-	db  5, GEODUDE, 	 3,  4
-	db 10, GEODUDE, 	 3,  4
-	db  9, ZUBAT, 		 2,  4
-	db 10, TEDDIURSA, 	 2,  3
-	db 50, DUNSPARCE, 	 3,  5
-
+	db 3, GEODUDE
+	db 3, DUNSPARCE
+	db 2, ZUBAT
+	db 2, GEODUDE
+	db 2, DUNSPARCE
+	db 4, DUNSPARCE
+	db 4, DUNSPARCE
 	; nite
-	;  %, species,		min, max
-	db 10, GEODUDE, 	 3,  4
-	db 10, GEODUDE, 	 3,  4
-	db 10, GEODUDE, 	 3,  4
-	db 10, GEODUDE, 	 3,  4
-	db  9, ZUBAT, 	 	 2,  4
-	db  1, ZUBAT, 	 	 2,  4
-	db 50, DUNSPARCE, 	 3,  5
+	db 3, GEODUDE
+	db 3, DUNSPARCE
+	db 2, ZUBAT
+	db 2, GEODUDE
+	db 2, DUNSPARCE
+	db 4, DUNSPARCE
+	db 4, DUNSPARCE
 
 ; Yanma swarm
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	;  %, species,		min, max
-	db  5, SNUBBULL, 	 12, 14
-	db  5, SNUBBULL, 	 12, 14
-	db 20, PIDGEOTTO, 	 12, 14
-	db 10, GROWLITHE, 	 12, 13
-	db  5, ABRA,		 10, 10
-	db  5, JIGGLYPUFF, 	 12, 13
-	db 50, YANMA, 	 	 12, 12
-
+	db 12, NIDORAN_M
+	db 12, NIDORAN_F
+	db 12, YANMA
+	db 14, YANMA
+	db 14, PIDGEY
+	db 10, DITTO
+	db 10, DITTO
 	; day
-	;  %, species,		min, max
-	db  5, SNUBBULL, 	 12, 14
-	db  5, SNUBBULL, 	 12, 14
-	db 20, PIDGEOTTO, 	 12, 14
-	db 10, GROWLITHE, 	 12, 13
-	db  5, ABRA,		 10, 10
-	db  5, JIGGLYPUFF, 	 12, 13
-	db 50, YANMA, 	 	 12, 12
-
+	db 12, NIDORAN_M
+	db 12, NIDORAN_F
+	db 12, YANMA
+	db 14, YANMA
+	db 14, PIDGEY
+	db 10, DITTO
+	db 10, DITTO
 	; nite
-	;  %, species,		min, max
-	db 15, MEOWTH, 	 	 12, 14
-	db  5, MEOWTH, 	 	 12, 14
-	db 15, NOCTOWL, 	 12, 14
-	db  5, HOUNDOUR, 	 12, 13
-	db  5, GRIMER, 	 	 10, 10
-	db  5, CLEFAIRY, 	 12, 13
-	db 50, YANMA, 	 	 12, 12
+	db 12, NIDORAN_M
+	db 12, NIDORAN_F
+	db 12, YANMA
+	db 14, YANMA
+	db 14, HOOTHOOT
+	db 10, DITTO
+	db 10, DITTO
 
 	db -1 ; end
