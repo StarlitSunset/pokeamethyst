@@ -159,7 +159,7 @@ GameFreakPresents_PlaceGameFreak:
 	ret
 
 .game_freak
-	db $00, $01, $02, $03, $0d, $04, $05, $03, $01, $06
+	db $00, $01, $02, $03, $04, $05, $01
 .end
 	db "@"
 
