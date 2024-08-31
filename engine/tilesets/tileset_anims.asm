@@ -902,7 +902,7 @@ endr
 	ld sp, hl
 	ret
 
-WaitTileAnimation:
+AnimateWaterPalette:
 ; Transition between color values 0-2 for color 0 in palette 3.
 
 ; Don't update the palette on DMG
