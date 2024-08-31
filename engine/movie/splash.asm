@@ -150,7 +150,7 @@ GameFreakPresents_PlaceGameFreak:
 .PlaceGameFreak:
 	ld [hl], 0
 	ld hl, .game_freak
-	decoord 5, 10
+	decoord 3, 10
 	ld bc, .end - .game_freak
 	call CopyBytes
 	call GameFreakPresents_NextScene
@@ -174,7 +174,7 @@ GameFreakPresents_PlacePresents:
 .place_presents
 	ld [hl], 0
 	ld hl, .presents
-	decoord 7, 11
+	decoord 10, 10
 	ld bc, .end - .presents
 	call CopyBytes
 	call GameFreakPresents_NextScene
