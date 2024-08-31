@@ -21,7 +21,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons VERMILION_PORT
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -42,7 +42,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -63,7 +63,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -84,7 +84,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_9
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -105,7 +105,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -126,7 +126,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_12
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -147,7 +147,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_13
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -168,7 +168,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_19
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -189,7 +189,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_20
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -210,7 +210,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_21
 	; morn
@@ -230,7 +230,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_22
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -251,7 +251,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -272,7 +272,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -293,7 +293,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_26
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -314,7 +314,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -335,7 +335,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -356,7 +356,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons PALLET_TOWN
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -377,7 +377,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons VIRIDIAN_CITY
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -398,7 +398,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -419,7 +419,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons VERMILION_CITY
 	; morn
@@ -439,7 +439,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -460,7 +460,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -481,7 +481,7 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -502,6 +502,6 @@ KantoWaterWildMons:
 	db 40, TENTACOOL, 	 15, 24
 	db 30, TENTACOOL, 	 15, 19
 	db 30, TENTACOOL, 	 15, 19
-
+	end_water_wildmons
 
 	db -1 ; end
