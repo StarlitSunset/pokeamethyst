@@ -69,16 +69,9 @@ PredefPointers::
 	add_predef PartyMonItemName
 	add_predef GetMonFrontpic
 	add_predef GetMonBackpic
-	add_predef GetAnimatedFrontpic
 	add_predef GetTrainerPic
 	add_predef DecompressGet2bpp
 	add_predef CheckTypeMatchup
 	add_predef ConvertMon_1to2
 	add_predef NewPokedexEntry
-	add_predef Unused_AnimateMon_Slow_Normal
 	add_predef PlaceStatusString
-	add_predef LoadMonAnimation
-	add_predef AnimateFrontpic
-	add_predef Unused_HOF_AnimateAlignedFrontpic
-	add_predef HOF_AnimateFrontpic
-	dbw -1, DummyEndPredef ; pointless
