@@ -1,28 +1,22 @@
-_OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+_TeakText6::
+	text "Now, what's your"
+	line "name?"
 	prompt
 
-_OakText7::
+_TeakText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Come join me"
+	line "in my lab and"
+	cont "embark on this"
+	cont "brand new journey!"
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "I'll see you"
+	line "there!"
 
-	para "A world of dreams"
-	line "and adventures"
-
-	para "with #MON"
-	line "awaits! Let's go!"
-
-	para "I'll be seeing you"
-	line "later!"
+	para "And thank you"
+	line "again!"
 	done
 
 _ClockTimeMayBeWrongText::

@@ -64,7 +64,7 @@ NewGame:
 	call ResetWRAM
 	call NewGame_ClearTilemapEtc
 	call PlayerProfileSetup
-	call OakSpeech
+	call TeakSpeech
 	call InitializeWorld
 
 	ld a, LANDMARK_NEW_BARK_TOWN
@@ -628,7 +628,7 @@ Continue_DisplayGameTime:
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	jp PrintNum
 
-OakSpeech:
+TeakSpeech:
 	farcall InitClock
 	call RotateFourPalettesLeft
 	call ClearTilemap
@@ -648,7 +648,7 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText1
+	ld hl, TeakText1
 	call PrintText
 	call RotateThreePalettesRight
 	call ClearTilemap
@@ -669,9 +669,9 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_WipeInFrontpic
 
-	ld hl, OakText2
+	ld hl, TeakText2
 	call PrintText
-	ld hl, OakText4
+	ld hl, TeakText4
 	call PrintText
 	call RotateThreePalettesRight
 	call ClearTilemap
@@ -686,7 +686,7 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText5
+	ld hl, TeakText5
 	call PrintText
 	call RotateThreePalettesRight
 	call ClearTilemap
@@ -699,44 +699,39 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText6
+	ld hl, TeakText6
 	call PrintText
 	call NamePlayer
-	ld hl, OakText7
+	ld hl, TeakText7
 	call PrintText
 	ret
 
-OakText1:
-	text_far _OakText1
+TeakText1:
+	text_far _TeakText1
 	text_end
 
-OakText2:
-	text_far _OakText2
+TeakText2:
+	text_far _TeakText2
 	text_asm
 	ld a, WOOPER
 	call PlayMonCry
 	call WaitSFX
-	ld hl, OakText3
 	ret
 
-OakText3:
-	text_far _OakText3
+TeakText4:
+	text_far _TeakText4
 	text_end
 
-OakText4:
-	text_far _OakText4
+TeakText5:
+	text_far _TeakText5
 	text_end
 
-OakText5:
-	text_far _OakText5
+TeakText6:
+	text_far _TeakText6
 	text_end
 
-OakText6:
-	text_far _OakText6
-	text_end
-
-OakText7:
-	text_far _OakText7
+TeakText7:
+	text_far _TeakText7
 	text_end
 
 NamePlayer:

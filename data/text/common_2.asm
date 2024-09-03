@@ -1525,53 +1525,57 @@ _MayRegisterItemText::
 	line "on SELECT Button."
 	done
 
-_OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+_TeakText1::
+	text "Hello!"
+	line "My name is TEAK,"
+	cont "and I'm a #MON"
+	cont "Professor."
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Thank you for"
+	line "playing this ROM!"
 
-	para "My name is OAK."
+	para "As you know,"
+	line "we are always"
+	cont "discovering new"
+	cont "things about"
+	cont "#MON."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "This adventure"
+	line "will be no"
+	cont "exception!"
 	prompt
 
-_OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
-	text_end
-
-_OakText3::
-	text_promptbutton
-	text_end
-
-	text_end ; unreferenced
-
-_OakText4::
-	text "People and #MON"
-	line "live together by"
-
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+_TeakText2::
+	text "Originally in"
+	line "#MON Crystal,"
+	cont "Generation 2 was"
+	cont "introduced to"
+	cont "players around"
+	cont "the world."
 	prompt
 
-_OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+_TeakText4::
+	text "Since then, we"
+	line "have met new"
+	cont "#MON over the"
+	cont "years. . ."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "For better, or"
+	line "for worse."
+	prompt
 
-	para "That's why I study"
-	line "#MON every day."
+_TeakText5::
+	text "In this ROM,"
+	line "you will meet"
+	cont "old favorites,"
+
+	para "along with some"
+	line "new creatures!"
+
+	para "You will explore"
+	line "the Johto region,"
+	cont "and a brand NEW"
+	cont "region full of"
+	cont "secrets and"
+	cont "mysteries!"
 	prompt
