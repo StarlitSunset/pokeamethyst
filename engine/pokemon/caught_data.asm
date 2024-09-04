@@ -169,6 +169,7 @@ SetBoxmonOrEggmonCaughtData:
 	ld a, [wTimeOfDay]
 	inc a
 	rrca
+	and CAUGHT_TIME_MASK
 	rrca
 	ld b, a
 	ld a, [wCurPartyLevel]
