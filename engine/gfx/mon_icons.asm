@@ -423,8 +423,8 @@ GetSpeciesIcon:
 	ld a, [wTempIconSpecies]
 	push hl
 	call ReadMonMenuIcon
-	pop hl
 	ld [wCurIcon], a
+	pop hl
 	pop de
 	ld a, e
 	ld e, l
@@ -488,7 +488,7 @@ rept 4
 	add hl, hl
 endr
 
-push de
+	push de
 	ld de, vTiles0
 	add hl, de
 	pop de
