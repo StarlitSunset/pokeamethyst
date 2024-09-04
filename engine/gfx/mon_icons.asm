@@ -517,7 +517,6 @@ endr
 	jr .continue
 
 .not_unown
-	push hl
 	ld l, a
 	ld h, 0
 	add hl, hl
