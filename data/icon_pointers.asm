@@ -282,3 +282,5 @@ IconPointers:
 	dw UnownXIcon
 	dw UnownYIcon
 	dw UnownZIcon
+	dw UnownExclamationIcon
+	dw UnownQuestionIcon

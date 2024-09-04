@@ -51,7 +51,6 @@ ArbokFrontpic:       INCBIN "gfx/pokemon/arbok/front.animated.2bpp.lz"
 MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
-QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
 
 
 SECTION "Pics 3", ROMX
@@ -713,6 +712,11 @@ SECTION "Pics 19", ROMX
 
 SPichuFrontPic: 	 INCBIN "gfx/pokemon/s_pichu/front.animated.2bpp.lz"
 SPichuBackPic:		 INCBIN "gfx/pokemon/s_pichu/back.2bpp.lz"
+UnownExclamationFrontpic: INCBIN "gfx/pokemon/unown_exclamation/front.2bpp.lz"
+UnownExclamationBackpic:  INCBIN "gfx/pokemon/unown_exclamation/back.2bpp.lz"
+UnownQuestionFrontpic: INCBIN "gfx/pokemon/unown_question/front.2bpp.lz"
+UnownQuestionBackpic:  INCBIN "gfx/pokemon/unown_question/back.2bpp.lz"
+QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
