@@ -1,6 +1,7 @@
 UnownIconPointers:
 ; entries correspond to ICON_* constants (see constants/icon_constants.asm)
 	table_width 2, UnownIconPointers
+	dw NullIcon
 	dw UnownAIcon
 	dw UnownBIcon
 	dw UnownCIcon
@@ -27,5 +28,5 @@ UnownIconPointers:
 	dw UnownXIcon
 	dw UnownYIcon
 	dw UnownZIcon
-	assert_table_length NUM_UNOWN 
+	assert_table_length NUM_UNOWN + 1
 	

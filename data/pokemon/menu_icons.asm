@@ -1,3 +1,5 @@
+;party menu icons
+
 MonMenuIcons:
 	table_width 1, MonMenuIcons
 	db ICON_BULBASAUR   ; BULBASAUR*
