@@ -15,7 +15,7 @@ SpriteMons:
 	db BUTTERFREE
 	db DIGLETT
 	db POLIWAG
-	db PIKACHU
+	db S_PICHU
 	db CLEFAIRY
 	db CHARMANDER
 	db JYNX
