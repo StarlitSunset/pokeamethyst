@@ -1,4 +1,4 @@
-;party menu icons
+; party menu icons
 
 MonMenuIcons:
 	table_width 1, MonMenuIcons
