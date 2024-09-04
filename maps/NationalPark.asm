@@ -13,11 +13,22 @@
 	const NATIONALPARK_POKE_BALL1
 	const NATIONALPARK_GAMEBOY_KID
 	const NATIONALPARK_POKE_BALL2
+	const NATIONALPARK_PICHU
 
 NationalPark_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+	
+Pichu:
+    cry PICHU
+    pause 15
+    loadwildmon S_PICHU, 15
+    loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
+    startbattle
+    disappear NATIONALPARK_PICHU
+    reloadmapafterbattle
+    end
 
 NationalParkLassScript:
 	jumptextfaceplayer NationalParkLassText
@@ -543,3 +554,4 @@ NationalPark_MapEvents:
 	object_event 35, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NationalParkParlyzHeal, EVENT_NATIONAL_PARK_PARLYZ_HEAL
 	object_event 26,  6, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkGameboyKidScript, -1
 	object_event  1, 43, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NationalParkTMDig, EVENT_NATIONAL_PARK_TM_DIG
+	object_event 31, 35, SPRITE_PIKACHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Pichu, EVENT_S_PICHU
