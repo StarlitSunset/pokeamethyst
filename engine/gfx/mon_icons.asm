@@ -157,40 +157,6 @@ GetMenuMonIconPalette_PredeterminedShininess:
 	and $f
 	ld e, a
 	ret
-	
-LoadPartyMenuMonIconDVs:
-	push hl
-	push de
-	push bc
-	push af
-
-	ld a, [wPartyCount]
-	sub c
-	ld [wCurPartyMon], a
-	ld e, a
-	ld d, 0
-
-	ld hl, wPartySpecies
-	add hl, de
-	ld a, [hl]
-	ld [wCurPartySpecies], a
-	ld a, MON_DVS
-	call GetPartyParamLocation
-	push af
-	ld a, [wCurPartyMon]
-	swap a
-	ld d, 0
-	ld e, a
-	add hl, de
-	pop af
-	jr _FinishMenuMonIconDVs
-
-_FinishMenuMonIconDVs:
-	pop af
-	pop bc
-	pop de
-	pop hl
-	ret
 
 LoadMenuMonIcon:
 	push hl
@@ -522,7 +488,7 @@ rept 4
 	add hl, hl
 endr
 
-	push de
+push de
 	ld de, vTiles0
 	add hl, de
 	pop de
@@ -530,7 +496,7 @@ endr
 
 ; The icons are contiguous, in order and of the same
 ; size, so the pointer table is somewhat redundant.
-	push hl 
+	push hl
 	ld a, [wCurIcon]
 	cp ICON_UNOWN
 	jr nz, .not_unown
@@ -568,7 +534,7 @@ endr
 
 	pop hl
 	ret
-	
+
 GetIconBank:
 	ld a, [wCurIcon]
 	cp ICON_MAGIKARP ; first icon in Icons2

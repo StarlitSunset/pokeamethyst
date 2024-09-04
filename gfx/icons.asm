@@ -1,6 +1,3 @@
-; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Pikachu253, and Ryta
-; http://www.pokecommunity.com/showthread.php?t=338470
-
 SECTION "Mon Icons 1", ROMX
 
 NullIcon:
@@ -207,6 +204,7 @@ UmbreonIcon:      INCBIN "gfx/icons/umbreon.2bpp"
 MurkrowIcon:      INCBIN "gfx/icons/murkrow.2bpp"
 SlowkingIcon:     INCBIN "gfx/icons/slowking.2bpp"
 MisdreavusIcon:   INCBIN "gfx/icons/misdreavus.2bpp"
+UnownIcon:        INCBIN "gfx/icons/unown.2bpp"
 WobbuffetIcon:    INCBIN "gfx/icons/wobbuffet.2bpp"
 GirafarigIcon:    INCBIN "gfx/icons/girafarig.2bpp"
 PinecoIcon:       INCBIN "gfx/icons/pineco.2bpp"
@@ -259,6 +257,7 @@ HoOhIcon:         INCBIN "gfx/icons/ho_oh.2bpp"
 CelebiIcon:       INCBIN "gfx/icons/celebi.2bpp"
 SPichuIcon:	      INCBIN "gfx/icons/s_pichu.2bpp"
 EggIcon:          INCBIN "gfx/icons/egg.2bpp"
+
 
 SECTION "Unown Icons", ROMX
 

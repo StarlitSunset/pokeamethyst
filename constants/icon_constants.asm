@@ -265,7 +265,7 @@ DEF NUM_ICONS EQU const_value - 1
 	const MONICON_MOBILE1
 	const MONICON_MOBILE2
 	const MONICON_UNUSED
-
+	
 ; party menu icon palettes
 	const_def
 	const PAL_ICON_RED    ; 0
