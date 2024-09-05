@@ -67,7 +67,7 @@ MeetMomScript:
 	sjump .KnowPhone
 
 .KnowPhone:
-	writetext KnowTheInstructionsText
+	writetext RunningShoesText
 	promptbutton
 	sjump .FinishPhone
 
@@ -262,12 +262,13 @@ ComeHomeForDSTText:
 	cont "the PHONE?"
 	done
 
-KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
+RunningShoesText:
+	text "Okay. Don't forget"
+	line "you can press B"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "to run any time."
+	line "Whatever that"
+	cont "means………"
 	done
 
 DontKnowTheInstructionsText:
