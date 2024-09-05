@@ -103,7 +103,7 @@ ItemEffects:
 	dw NoEffect            ; BIG_MUSHROOM
 	dw NoEffect            ; SILVERPOWDER
 	dw NoEffect            ; BLU_APRICORN
-	dw NoEffect            ; ITEM_5A
+	dw PokeBallEffect      ; DUSK_BALL
 	dw NoEffect            ; AMULET_COIN
 	dw NoEffect            ; YLW_APRICORN
 	dw NoEffect            ; GRN_APRICORN
@@ -113,7 +113,7 @@ ItemEffects:
 	dw NoEffect            ; WHT_APRICORN
 	dw NoEffect            ; BLACKBELT_I
 	dw NoEffect            ; BLK_APRICORN
-	dw PokeBallEffect      ; DUSK_BALL
+	dw NoEffect		       ; ITEM_64
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; SLOWPOKETAIL
@@ -731,13 +731,6 @@ BallMultiplierFunctionTable:
 	dbw PARK_BALL,   ParkBallMultiplier
 	db -1 ; end
 
-UltraBallMultiplier:
-; multiply catch rate by 2
-	sla b
-	ret nc
-	ld b, $ff
-	ret
-
 DuskBallMultiplier:
 ; is it night?
 	ld a, [wTimeOfDay]
@@ -764,7 +757,14 @@ DuskBallMultiplier:
 .max
 	ld b, $ff
 	ret
-	
+
+UltraBallMultiplier:
+; multiply catch rate by 2
+	sla b
+	ret nc
+	ld b, $ff
+	ret
+
 GreatBallMultiplier:
 ParkBallMultiplier:
 ; multiply catch rate by 1.5
