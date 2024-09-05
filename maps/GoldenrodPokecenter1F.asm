@@ -15,8 +15,7 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd PokecenterNurseScript
 
 GoldenrodPokecenter1F_GSBallSceneLeft:
-	setval S_PICHU
-	special FindPartyMonThatSpecies
+	checkevent EVENT_S_PICHU
 	iftrue .gsball
 	end
 
@@ -47,8 +46,7 @@ GoldenrodPokecenter1F_GSBallSceneLeft:
 	end
 
 GoldenrodPokecenter1F_GSBallSceneRight:
-	setval S_PICHU
-	special FindPartyMonThatSpecies
+	checkevent EVENT_S_PICHU
 	iftrue .gsball
 	end
 

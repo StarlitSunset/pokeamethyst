@@ -26,9 +26,15 @@ Pichu:
     loadwildmon S_PICHU, 15
     loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
     startbattle
+	ifequal LOSE, .NotBeaten
     disappear NATIONALPARK_PICHU
-    reloadmapafterbattle
     end
+.NotBeaten
+	reloadmapafterbattle
+	waitsfx
+	playsound SFX_RUN
+	waitsfx
+	end
 
 NationalParkLassScript:
 	jumptextfaceplayer NationalParkLassText
