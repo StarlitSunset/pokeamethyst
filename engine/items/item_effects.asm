@@ -95,7 +95,7 @@ ItemEffects:
 	dw StatusHealingEffect ; BURNT_BERRY
 	dw StatusHealingEffect ; ICE_BERRY
 	dw NoEffect            ; POISON_BARB
-	dw NoEffect            ; KINGS_ROCK
+	dw EvoStoneEffect            ; KINGS_ROCK
 	dw BitterBerryEffect   ; BITTER_BERRY
 	dw StatusHealingEffect ; MINT_BERRY
 	dw NoEffect            ; RED_APRICORN
@@ -113,7 +113,7 @@ ItemEffects:
 	dw NoEffect            ; WHT_APRICORN
 	dw NoEffect            ; BLACKBELT_I
 	dw NoEffect            ; BLK_APRICORN
-	dw NoEffect		       ; ITEM_64
+	dw EvoStoneEffect      ; MIST_STONE
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; SLOWPOKETAIL
