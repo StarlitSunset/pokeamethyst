@@ -84,9 +84,6 @@ FoundNone:
 	ret
 
 NameRival:
-	ld b, NAME_RIVAL
-	ld de, wRivalName
-	farcall _NamingScreen
 	ld hl, wRivalName
 	ld de, .DefaultName
 	call InitName
