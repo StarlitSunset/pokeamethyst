@@ -84,12 +84,13 @@ FoundNone:
 	ret
 
 NameRival:
-	ld hl, wRivalName
-	ld de, .DefaultName
-	call InitName
+	ld hl, .Rival
+	ld de, wRivalName
+	ld bc, NAME_LENGTH
+	call CopyBytes
 	ret
 
-.DefaultName:
+.Rival:
 	db "SILVER@"
 
 NameRater:
