@@ -1572,3 +1572,8 @@ _TeakText5::
 	cont "secrets and"
 	cont "mysteries!"
 	prompt
+	
+_CantDepositText::
+	text "Can't deposit"
+	line "this item."
+	prompt

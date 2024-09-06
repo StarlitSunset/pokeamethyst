@@ -75,6 +75,8 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Thunder:
+	checkitem TM_THUNDER
+	iftrue GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM25_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	getitemname STRING_BUFFER_3, TM_THUNDER
@@ -86,6 +88,8 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	sjump GoldenrodGameCornerTMVendor_FinishScript
 
 .Blizzard:
+	checkitem TM_BLIZZARD
+	iftrue GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM14_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	getitemname STRING_BUFFER_3, TM_BLIZZARD
@@ -116,6 +120,11 @@ GoldenrodGameCornerTMVendor_FinishScript:
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
+	waitbutton
+	sjump GoldenrodGameCornerTMVendor_LoopScript
+	
+GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript:
+	writetext GoldenrodGameCornerPrizeVendorAlreadyHaveTMText
 	waitbutton
 	sjump GoldenrodGameCornerTMVendor_LoopScript
 
@@ -340,6 +349,11 @@ GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
 	text "Here you go!"
+	done
+	
+GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
+	text "But you already"
+	line "have that TM!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
