@@ -1546,6 +1546,12 @@ _TeakText2::
 	cont "players around"
 	cont "the world."
 	prompt
+	
+_OakText3::
+	text_promptbutton
+	text_end
+
+	text_end ; unreferenced
 
 _TeakText4::
 	text "Since then, we"

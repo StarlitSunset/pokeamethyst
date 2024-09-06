@@ -716,7 +716,12 @@ TeakText2:
 	ld a, WOOPER
 	call PlayMonCry
 	call WaitSFX
+	ld hl, OakText3
 	ret
+
+OakText3:
+	text_far _OakText3
+	text_end
 
 TeakText4:
 	text_far _TeakText4
