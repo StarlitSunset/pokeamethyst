@@ -16,7 +16,7 @@ ENDM
 	auto_weather_map ROUTE_43, AUTOMATIC_RAIN
 	auto_weather_map LAKE_OF_RAGE, AUTOMATIC_RAIN
 	auto_weather_map ROUTE_45, AUTOMATIC_SANDSTORM
-	auto_weather_map ROUTE_30, AUTOMATIC_HAIL
+	auto_weather_map ICE_PATH_1F, AUTOMATIC_HAIL
 	db 0 ; end
 
 AutomaticWeatherEffects:
