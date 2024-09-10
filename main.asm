@@ -531,6 +531,10 @@ INCLUDE "data/phone/text/todd_caller.asm"
 INCLUDE "data/phone/text/gina_caller.asm"
 
 
+SECTION "Battle Weather Images", ROMX
+
+INCLUDE "gfx/weather_images.asm"
+
 SECTION "UpdateBattleHUDs", ROMX
 
 INCLUDE "engine/battle/update_battle_huds.asm"
