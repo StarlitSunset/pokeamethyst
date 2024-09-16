@@ -3357,11 +3357,11 @@ CelebiEvosAttacks:
 	db 0 ; no more level-up moves
 
 SPichuEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, SWEET_KISS
+	db 1, SURF
+	db 1, THUNDER_WAVE	
+	db 20, TAIL_WHIP
+	db 20, SWEET_KISS
 	db 0 ; no more level-up moves
