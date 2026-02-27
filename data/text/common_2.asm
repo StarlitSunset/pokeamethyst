@@ -656,8 +656,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Which sprite do"
+	line "you prefer to use?"
 	done
 
 Text_BattleEffectActivate::
