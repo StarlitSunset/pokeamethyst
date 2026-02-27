@@ -12,8 +12,8 @@ ElmPhoneHealYourMonText:
 ElmPhoneSawMrPokemonText:
 	text "Hello, <PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
+	para "Did you meet"
+	line "PROF.ELM?"
 	cont "Come back safely!"
 	done
 
@@ -35,17 +35,8 @@ ElmPhoneCheckingTheEggText:
 	line "EGG now. It does"
 
 	para "appear to be a"
-	line "#MON EGG."
-	done
-
-ElmPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
-
-	para "Did you see my"
-	line "assistant? He's at"
-
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	line "#MON EGG from"
+	cont "another region."
 	done
 
 ElmPhoneHowIsTheEggText:
@@ -63,7 +54,7 @@ ElmPhoneEggHatchedText:
 	line "How is the EGG?"
 
 	para "What? It hatched?"
-	line "Wow! What kind of"
+	line "What kind of"
 	cont "#MON is it?"
 
 	para "Please come show"

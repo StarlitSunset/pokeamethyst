@@ -34,7 +34,6 @@ ElmPhoneCalleeScript:
 	end
 
 .assistant
-	farwritetext ElmPhoneAssistantText
 	end
 
 .eggunhatched
