@@ -31,7 +31,7 @@ MrPokemonsHouseMrPokemonEventScript:
 	giveegg TOGEPI, EGG_LEVEL
 	getstring STRING_BUFFER_4, .eggname
 	scall .AideGivesEgg
-	setevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	clearevent EVENT_ELMS_AIDE_IN_LAB
 	clearevent EVENT_TOGEPI_HATCHED
 	setmapscene ROUTE_32, SCENE_ROUTE32_OFFER_SLOWPOKETAIL
@@ -61,7 +61,7 @@ MrPokemonsHouse_MrPokemonScript:
 	opentext
 	checkitem RED_SCALE
 	iftrue .RedScale
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iftrue .AlwaysNewDiscoveries
 	writetext MrPokemonText_ImDependingOnYou
 	waitbutton
@@ -183,14 +183,14 @@ MrPokemonIntroText1:
 	text "Hello, hello! You"
 	line "must be <PLAY_G>."
 
-	para "PROF.ELM said that"
+	para "PROF.TEAK said that"
 	line "you would visit."
 	done
 
 MrPokemonIntroText2:
 	text "This is what I"
-	line "want PROF.ELM to"
-	cont "examine."
+	line "want PROF.TEAK"
+	cont "to examine."
 	done
 
 MrPokemonIntroText3:

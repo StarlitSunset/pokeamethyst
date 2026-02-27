@@ -208,7 +208,7 @@ TrainerBugCatcherDon:
 Route30YoungsterScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iftrue .CompletedEggQuest
 	writetext Route30YoungsterText_DirectionsToMrPokemonsHouse
 	waitbutton

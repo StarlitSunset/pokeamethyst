@@ -3,16 +3,16 @@ ElmPhoneCalleeScript:
 	ifequal SPECIALCALL_POKERUS, .pokerus
 	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
 	iftrue .discovery
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iffalse .next
 	checkevent EVENT_TOGEPI_HATCHED
 	iftrue .egghatched
 .next
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iftrue .eggunhatched
 	checkevent EVENT_ELMS_AIDE_IN_LAB
 	iftrue .assistant
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iftrue .checkingegg
 	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 	iftrue .stolen
@@ -79,7 +79,6 @@ ElmPhoneCallerScript:
 	end
 
 .assistant
-	farwritetext ElmPhoneEggAssistantText
 	specialphonecall SPECIALCALL_NONE
 	setevent EVENT_ELMS_AIDE_IN_LAB
 	end
