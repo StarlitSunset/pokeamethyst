@@ -67,18 +67,19 @@ MeetMomScript:
 	sjump .KnowPhone
 
 .KnowPhone:
-	writetext RunningShoesText
+	writetext NoInstructionNeeded
 	promptbutton
 	sjump .FinishPhone
 
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
+	writetext InstructionsNextText
+	waitbutton
+	closetext
 	sjump .FinishPhone
 
 .FinishPhone:
-	writetext InstructionsNextText
-	waitbutton
 	closetext
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight
@@ -211,38 +212,33 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Oh, <PLAYER>…!"
+	line "PROF.TEAK was"
 
-	para "ELM, was looking"
-	line "for you."
+	para "looking for you"
+	line "in the lab."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "Here's your #MON"
+	line "GEAR."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
-
-	para "GEAR is back from"
-	line "the repair shop."
-
-	para "Here you go!"
+	para "I also just bought"
+	line "you a new pair of"
+	cont "shoes!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "The shoes have a"
+	line "strange name..."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Looks like they"
+	line "are called, 'Press"
+	cont "B to Run' shoes."
+	cont "...how bizarre."
 
-	para "Oh, the day of the"
-	line "week isn't set."
-
-	para "You mustn't forget"
-	line "that!"
+	para "Well anyway,"
+	line "go ahead and"
+	cont "finish setting"
+	cont "the clock."
 	done
 
 IsItDSTText:
@@ -262,15 +258,6 @@ ComeHomeForDSTText:
 	cont "the PHONE?"
 	done
 
-RunningShoesText:
-	text "Okay. Don't forget"
-	line "you can press B"
-
-	para "to run any time."
-	line "Whatever that"
-	cont "means………"
-	done
-
 DontKnowTheInstructionsText:
 	text "I'll read the"
 	line "instructions."
@@ -286,37 +273,31 @@ InstructionsNextText:
 
 	para "Just choose a name"
 	line "you want to call."
+	done
 
-	para "Gee, isn't that"
-	line "convenient?"
+NoInstructionNeeded:
+	text "Okay!"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
+	text "PROF.TEAK is wait-"
 	line "ing for you."
-
-	para "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
 	text "So, what was PROF."
-	line "ELM's errand?"
+	line "TEAK's errand?"
 
-	para "…"
+	para "So Teak wants to"
+	line "send you on an"
+	cont "adventure!"
 
-	para "That does sound"
-	line "challenging."
-
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "How exciting!"
 	done
 
 ImBehindYouText:
 	text "<PLAYER>, do it!"
-
-	para "I'm behind you all"
-	line "the way!"
+	line "Ganbatte!"
 	done
 
 NeighborMornIntroText:
@@ -346,7 +327,7 @@ NeighborText:
 	line "adamant about"
 
 	para "becoming PROF."
-	line "ELM's assistant."
+	line "TEAK's assistant."
 
 	para "She really loves"
 	line "#MON!"
