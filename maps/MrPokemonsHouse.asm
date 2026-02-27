@@ -28,11 +28,13 @@ MrPokemonsHouseMrPokemonEventScript:
 	writetext MrPokemonIntroText2
 	promptbutton
 	waitsfx
-	giveitem MYSTERY_EGG
-	writetext MrPokemonsHouse_GotEggText
-	playsound SFX_KEY_ITEM
-	waitsfx
-	itemnotify
+	giveegg TOGEPI, EGG_LEVEL
+	getstring STRING_BUFFER_4, .eggname
+	scall .AideGivesEgg
+	setevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	clearevent EVENT_ELMS_AIDE_IN_LAB
+	clearevent EVENT_TOGEPI_HATCHED
+	setmapscene ROUTE_32, SCENE_ROUTE32_OFFER_SLOWPOKETAIL
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	blackoutmod CHERRYGROVE_CITY
 	writetext MrPokemonIntroText3
@@ -46,6 +48,13 @@ MrPokemonsHouseMrPokemonEventScript:
 	waitbutton
 	closetext
 	sjump MrPokemonsHouse_OakScript
+
+.eggname
+	db "EGG@"
+
+.AideGivesEgg:
+	jumpstd ReceiveTogepiEggScript
+	end
 
 MrPokemonsHouse_MrPokemonScript:
 	faceplayer
@@ -182,11 +191,6 @@ MrPokemonIntroText2:
 	text "This is what I"
 	line "want PROF.ELM to"
 	cont "examine."
-	done
-
-MrPokemonsHouse_GotEggText:
-	text "<PLAYER> received"
-	line "MYSTERY EGG."
 	done
 
 MrPokemonIntroText3:
@@ -387,5 +391,5 @@ MrPokemonsHouse_MapEvents:
 	bg_event  6,  4, BGEVENT_READ, MrPokemonsHouse_StrangeCoins
 
 	def_object_events
-	object_event  3,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MrPokemonsHouse_MrPokemonScript, -1
-	object_event  6,  5, SPRITE_OAK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MR_POKEMONS_HOUSE_OAK
+	object_event  3,  5, SPRITE_ELM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MrPokemonsHouse_MrPokemonScript, -1
+	object_event  6,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MR_POKEMONS_HOUSE_OAK
