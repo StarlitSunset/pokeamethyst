@@ -53,39 +53,8 @@ ElmsLabWalkUpToElmScript:
 	writetext ElmText_Intro
 .MustSayYes:
 	yesorno
-	iftrue .ElmGetsEmail
 	writetext ElmText_Refused
 	sjump .MustSayYes
-
-.ElmGetsEmail:
-	writetext ElmText_Accepted
-	promptbutton
-	writetext ElmText_ResearchAmbitions
-	waitbutton
-	closetext
-	playsound SFX_GLASS_TING
-	pause 30
-	showemote EMOTE_SHOCK, ELMSLAB_ELM, 10
-	turnobject ELMSLAB_ELM, DOWN
-	opentext
-	writetext ElmText_GotAnEmail
-	waitbutton
-	closetext
-	opentext
-	turnobject ELMSLAB_ELM, RIGHT
-	writetext ElmText_MissionFromMrPokemon
-	waitbutton
-	closetext
-	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement1
-	turnobject PLAYER, UP
-	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement2
-	turnobject PLAYER, RIGHT
-	opentext
-	writetext ElmText_ChooseAPokemon
-	waitbutton
-	setscene SCENE_ELMSLAB_CANT_LEAVE
-	closetext
-	end
 
 ProfElmScript:
 	faceplayer
@@ -324,7 +293,7 @@ ElmAfterTheftDoneScript:
 
 ElmAfterTheftScript:
 	writetext ElmAfterTheftText1
-	checkitem MYSTERY_EGG
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	iffalse ElmAfterTheftDoneScript
 	promptbutton
 	writetext ElmAfterTheftText2
@@ -460,7 +429,6 @@ AideScript_WalkPotion1:
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksRight1
 	turnobject PLAYER, DOWN
 	scall AideScript_GivePotion
-	scall AideScript_GivePocketPC
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksLeft1
 	end
 
@@ -468,7 +436,6 @@ AideScript_WalkPotion2:
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksRight2
 	turnobject PLAYER, DOWN
 	scall AideScript_GivePotion
-	scall AideScript_GivePocketPC
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksLeft2
 	end
 
@@ -478,16 +445,6 @@ AideScript_GivePotion:
 	promptbutton
 	verbosegiveitem POTION
 	writetext AideText_AlwaysBusy
-	waitbutton
-	closetext
-	end
-
-AideScript_GivePocketPC:
-	opentext
-	writetext AideText_GetPocketPCText
-	promptbutton
-	giveitem POCKET_PC
-	writetext AideText_PocketPCInfoText
 	waitbutton
 	closetext
 	setscene SCENE_ELMSLAB_NOOP
@@ -736,125 +693,51 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
+	text "TEAK: <PLAY_G>!"
 	line "There you are!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "I am currently"
+	line "looking into a"
+	
+	para "strange discovery"
+	line "PROF.ELM and I"
+	cont "made recently."
+	
+	para "I still need some"
+	line "time to work, so"
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "I wanted to give"
+	line "you a #MON and"
 
-	para "right now. I was"
-	line "wondering if you"
-
-	para "could help me with"
-	line "it, <PLAY_G>."
-
-	para "You see…"
-
-	para "I'm writing a"
-	line "paper that I want"
-
-	para "to present at a"
-	line "conference."
-
-	para "But there are some"
-	line "things I don't"
-
-	para "quite understand"
-	line "yet."
-
-	para "So!"
-
-	para "I'd like you to"
-	line "raise a #MON"
-
-	para "that I recently"
-	line "caught."
+	para "ask if you'd go"
+	line "check on ELM's"
+	cont "part of the"
+	cont "research?"
 	done
 
 ElmText_Accepted:
 	text "Thanks, <PLAY_G>!"
 
-	para "You're a great"
-	line "help!"
+	para ". . ."
+	line "Not like you"
+	cont "have a choice,"
+	cont "Heh."
 	done
 
 ElmText_Refused:
-	text "But… Please, I"
-	line "need your help!"
-	done
-
-ElmText_ResearchAmbitions:
-	text "When I announce my"
-	line "findings, I'm sure"
-
-	para "we'll delve a bit"
-	line "deeper into the"
-
-	para "many mysteries of"
-	line "#MON."
-
-	para "You can count on"
-	line "it!"
-	done
-
-ElmText_GotAnEmail:
-	text "Oh, hey! I got an"
-	line "e-mail!"
-
-	para "<……><……><……>"
-	line "Hm… Uh-huh…"
-
-	para "Okay…"
-	done
-
-ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
-
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
-
-	para "He keeps finding"
-	line "weird things and"
-
-	para "raving about his"
-	line "discoveries."
-
-	para "Anyway, I just got"
-	line "an e-mail from him"
-
-	para "saying that this"
-	line "time it's real."
-
-	para "It is intriguing,"
-	line "but we're busy"
-
-	para "with our #MON"
-	line "research…"
-
-	para "Wait!"
-
-	para "I know!"
-
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	text "Well… You"
+	line "have to."
+	cont "So……"
 	done
 
 ElmText_ChooseAPokemon:
-	text "I want you to"
-	line "raise one of the"
+	text "Choose your"
+	line "starter from these"
+	cont "three here."
 
-	para "#MON contained"
-	line "in these BALLS."
-
-	para "You'll be that"
-	line "#MON's first"
-	cont "partner, <PLAY_G>!"
-
-	para "Go on. Pick one!"
+	para "I didn't check"
+	line "but, they could"
+	cont "be shiny!"
 	done
 
 ElmText_LetYourMonBattleIt:
@@ -864,40 +747,40 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "BRO."
+	
+	para "CHOOSE."
+	
+	para "A."
+	
+	para "#MON."
+	
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
+	text "TEAK: You'll take"
 	line "CYNDAQUIL, the"
 	cont "fire #MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
+	text "TEAK: Do you want"
 	line "TOTODILE, the"
 	cont "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
+	text "TEAK: So, you like"
 	line "CHIKORITA, the"
 	cont "grass #MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
-
-	para "Your partner is"
-	line "important."
+	text "Choose carefully."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "Great choice!"
 	done
 
 ReceivedStarterText:
@@ -908,8 +791,9 @@ ReceivedStarterText:
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives a"
-	line "little bit beyond"
+	text "PROF. ELM"
+	line "recently moved"
+	cont "a little beyond"
 
 	para "CHERRYGROVE, the"
 	line "next city over."
@@ -944,12 +828,12 @@ ElmDirectionsText3:
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
+	text "<PLAYER> got TEAK's"
 	line "phone number."
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
+	text "OAK goes"
 	line "everywhere and"
 	cont "finds rarities."
 
@@ -961,7 +845,7 @@ ElmDescribesMrPokemonText:
 ElmPokeBallText:
 	text "It contains a"
 	line "#MON caught by"
-	cont "PROF.ELM."
+	cont "PROF.TEAK."
 	done
 
 ElmsLabHealingMachineText1:
@@ -984,9 +868,9 @@ ElmAfterTheftText1:
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
+	text "<PLAYER> shows"
 	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "PROF.TEAK."
 	done
 
 ElmAfterTheftText3:
@@ -1328,8 +1212,8 @@ ElmsLabTravelTip1Text:
 
 	para "Travel Tip 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Keep an eye out"
+	line "for rare #MON."
 	done
 
 ElmsLabTravelTip2Text:
@@ -1338,8 +1222,8 @@ ElmsLabTravelTip2Text:
 
 	para "Travel Tip 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Catch all 26 UNOWN"
+	line "...if you can!"
 	done
 
 ElmsLabTravelTip3Text:
@@ -1348,9 +1232,9 @@ ElmsLabTravelTip3Text:
 
 	para "Travel Tip 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Be sure to check"
+	line "your fourth"
+	cont "stats page."
 	done
 
 ElmsLabTravelTip4Text:
@@ -1359,22 +1243,22 @@ ElmsLabTravelTip4Text:
 
 	para "Travel Tip 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
+	para "Check the README"
+	line "on github for more"
 
-	para "A Button to switch"
-	line "moves."
+	para "info and FAQ."
+	line "Thank you!"
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	text "An empty bag of"
+	line "Chester's Hot"
+	cont "Fries… Hmm…"
 	done
 
 ElmsLabPCText:
-	text "OBSERVATIONS ON"
-	line "#MON EVOLUTION"
+	text "The Mysterious"
+	line "Amethyst Region"
 
 	para "…It says on the"
 	line "screen…"
@@ -1428,7 +1312,7 @@ ElmsLab_MapEvents:
 	bg_event  3,  5, BGEVENT_DOWN, ElmsLabPC
 
 	def_object_events
-	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
+	object_event  5,  2, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
