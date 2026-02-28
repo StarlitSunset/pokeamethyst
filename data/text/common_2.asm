@@ -1540,7 +1540,7 @@ _TeakText1::
 
 _TeakText2::
 	text "Originally in"
-	line "#MON Crystal,"
+	line "#MON GSC,"
 	cont "Generation 2 was"
 	cont "introduced to"
 	cont "players around"
@@ -1557,7 +1557,7 @@ _TeakText4::
 	text "Since then, we"
 	line "have met new"
 	cont "#MON over the"
-	cont "years. . ."
+	cont "years…"
 
 	para "For better, or"
 	line "for worse."
@@ -1582,4 +1582,24 @@ _TeakText5::
 _CantDepositText::
 	text "Can't deposit"
 	line "this item."
+	prompt
+	
+_AboutText1::
+	text "test"
+	line "test again"
+	
+	para "and another"
+	line "one"
+	cont "too"
+	
+	prompt
+	
+_AboutText2::
+	text "test"
+	line "test again"
+	
+	para "and another"
+	line "one"
+	cont "too"
+	
 	prompt
