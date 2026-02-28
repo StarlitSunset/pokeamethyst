@@ -544,7 +544,7 @@ CopScript:
 	closetext
 	applymovement ELMSLAB_OFFICER, OfficerLeavesMovement
 	disappear ELMSLAB_OFFICER
-	setscene SCENE_ELMSLAB_NOOP
+	setscene SCENE_ELMSLAB_CANT_LEAVE
 	end
 
 ElmsLabWindow:
