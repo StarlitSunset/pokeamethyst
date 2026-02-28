@@ -53,8 +53,26 @@ ElmsLabWalkUpToElmScript:
 	writetext ElmText_Intro
 .MustSayYes:
 	yesorno
+	iftrue .TeakChoose
 	writetext ElmText_Refused
-	sjump .MustSayYes
+	promptbutton
+	closetext
+
+.TeakChoose:
+	writetext ElmText_Accepted
+	promptbutton
+	closetext
+	turnobject ELMSLAB_ELM, RIGHT
+	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement1
+	turnobject PLAYER, UP
+	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement2
+	turnobject PLAYER, RIGHT
+	opentext
+	writetext ElmText_ChooseAPokemon
+	waitbutton
+	setscene SCENE_ELMSLAB_CANT_LEAVE
+	closetext
+	end
 
 ProfElmScript:
 	faceplayer
@@ -293,16 +311,13 @@ ElmAfterTheftDoneScript:
 
 ElmAfterTheftScript:
 	writetext ElmAfterTheftText1
-	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 	iffalse ElmAfterTheftDoneScript
 	promptbutton
 	writetext ElmAfterTheftText2
 	waitbutton
-	takeitem MYSTERY_EGG
-	scall ElmJumpBackScript1
 	writetext ElmAfterTheftText3
 	waitbutton
-	scall ElmJumpBackScript2
 	writetext ElmAfterTheftText4
 	promptbutton
 	writetext ElmAfterTheftText5
@@ -387,24 +402,6 @@ ElmGiveTicketScript:
 	closetext
 	end
 
-ElmJumpBackScript1:
-	closetext
-	readvar VAR_FACING
-	ifequal DOWN, ElmJumpDownScript
-	ifequal UP, ElmJumpUpScript
-	ifequal LEFT, ElmJumpLeftScript
-	ifequal RIGHT, ElmJumpRightScript
-	end
-
-ElmJumpBackScript2:
-	closetext
-	readvar VAR_FACING
-	ifequal DOWN, ElmJumpUpScript
-	ifequal UP, ElmJumpDownScript
-	ifequal LEFT, ElmJumpRightScript
-	ifequal RIGHT, ElmJumpLeftScript
-	end
-
 ElmJumpUpScript:
 	applymovement ELMSLAB_ELM, ElmJumpUpMovement
 	opentext
@@ -454,6 +451,7 @@ AideScript_WalkBalls1:
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksRight1
 	turnobject PLAYER, DOWN
 	scall AideScript_GiveYouBalls
+	scall AideScript_GivePocketPC
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksLeft1
 	end
 
@@ -461,6 +459,7 @@ AideScript_WalkBalls2:
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksRight2
 	turnobject PLAYER, DOWN
 	scall AideScript_GiveYouBalls
+	scall AideScript_GivePocketPC
 	applymovement ELMSLAB_ELMS_AIDE, AideWalksLeft2
 	end
 
@@ -482,6 +481,21 @@ AideScript_ReceiveTheBalls:
 	jumpstd ReceiveItemScript
 	end
 
+AideScript_GivePocketPC:
+	opentext
+	writetext AideText_GetPocketPCText
+	promptbutton
+	giveitem POCKET_PC
+	opentext
+	writetext GotPocketPCText
+	playsound SFX_REGISTER_PHONE_NUMBER
+	waitsfx
+	promptbutton
+	writetext AideText_PocketPCInfoText
+	waitbutton
+	closetext
+	setscene SCENE_ELMSLAB_NOOP
+	end
 ElmsAideScript:
 	faceplayer
 	opentext
@@ -718,16 +732,16 @@ ElmText_Intro:
 ElmText_Accepted:
 	text "Thanks, <PLAY_G>!"
 
-	para ". . ."
+	para "…"
 	line "Not like you"
-	cont "have a choice,"
+	cont "had a choice,"
 	cont "Heh."
 	done
 
 ElmText_Refused:
 	text "Well… You"
 	line "have to."
-	cont "So……"
+	cont "So…"
 	done
 
 ElmText_ChooseAPokemon:
@@ -747,13 +761,15 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "BRO."
+	text "TEAK: And"
+	line "where"
 	
-	para "CHOOSE."
+	para "do you"
 	
-	para "A."
+	para "think"
 	
-	para "#MON."
+	para "you're"
+	line "going?"
 	
 	done
 
@@ -823,7 +839,7 @@ ElmDirectionsText2:
 	done
 
 ElmDirectionsText3:
-	text "<PLAY_G>, I'm"
+	text "Go on! I'm"
 	line "counting on you!"
 	done
 
@@ -833,7 +849,7 @@ GotElmsNumberText:
 	done
 
 ElmDescribesMrPokemonText:
-	text "OAK goes"
+	text "ELM goes"
 	line "everywhere and"
 	cont "finds rarities."
 
@@ -859,12 +875,12 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
+	text "TEAK: <PLAY_G>, this"
 	line "is terrible…"
 
 	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	line "ELM's big"
+	cont "news?"
 	done
 
 ElmAfterTheftText2:
@@ -878,37 +894,25 @@ ElmAfterTheftText3:
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "A #MON EGG?"
+	line "That's all?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "That hasn't"
+	line "been news"
+	cont "since '98!"
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "Oh, whatever."
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "Now that you"
+	line "have a"
+	cont "#DEX,"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
-
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
-
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
-
-	para "takes to become"
-	line "the CHAMPION."
-
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "maybe you"
+	line "can help me"
+	cont "while I keep"
+	cont "researching."
 
 	para "You should take"
 	line "the #MON GYM"
@@ -956,8 +960,9 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "TEAK: Hey, has"
+	line "that EGG changed"
+	cont "any?"
 	done
 
 ElmThoughtEggHatchedText:
@@ -1152,7 +1157,7 @@ AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
 	para "Use these on your"
-	line "#DEX quest!"
+	line "quest!"
 	done
 
 AideText_ExplainBalls:
@@ -1171,7 +1176,7 @@ ElmsLabOfficerText1:
 
 	para "I was just getting"
 	line "some information"
-	cont "from PROF.ELM."
+	cont "from PROF.TEAK."
 
 	para "Apparently, it was"
 	line "a young male with"
@@ -1269,6 +1274,11 @@ AideText_GetPocketPCText:
 	line "for you too."
 
 	para "It's a Pocket PC!"
+	done
+	
+GotPocketPCText:
+	text "<PLAYER> received"
+	line "Pocket PC."
 	done
 	
 AideText_PocketPCInfoText:
