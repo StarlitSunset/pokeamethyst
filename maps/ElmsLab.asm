@@ -1145,20 +1145,27 @@ ElmsLabOfficerText1:
 	text "I heard a #MON"
 	line "was stolen here…"
 
-	para "I am here to"
-	line "investigate."
+	para "I was just getting"
+	line "some information"
+	cont "from PROF.TEAK."
 
-	para "Do you know"
-	line "anything about"
-	cont "this?"
+	para "Apparently, it was"
+	line "a young male with"
+	cont "long, red hair…"
+
+	para "What?"
+
+	para "You battled a"
+	line "trainer like that?"
+
+	para "Did you happen to"
+	line "get his name?"
+	done
 
 ElmsLabOfficerText2:
-	text "OK. . ."
-	line "So <RIVAL>"
-	cont "was his name."
-
-	para "Thanks for helping"
-	line "my investigation!"
+	text "OK! So <RIVAL>"
+	line "was his name."
+	cont "Thank you."
 	done
 
 ElmsLabWindowText1:
