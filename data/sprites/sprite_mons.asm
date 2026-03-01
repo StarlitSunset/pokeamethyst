@@ -10,7 +10,7 @@ SpriteMons:
 	db GENGAR
 	db ZUBAT
 	db MAGIKARP
-	db SQUIRTLE
+	db MEW
 	db TOGEPI
 	db BUTTERFREE
 	db DIGLETT
