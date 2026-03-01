@@ -1420,7 +1420,7 @@ _ItemsTooImportantText::
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "TEAK: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	done

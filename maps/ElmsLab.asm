@@ -121,8 +121,6 @@ ElmCheckTogepiEgg:
 ElmCheckGotEggAgain:
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
 	iftrue ElmWaitingEggHatchScript
-	checkflag ENGINE_ZEPHYRBADGE
-	iftrue ElmAideHasEggScript
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue ElmStudyingEggScript
 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
@@ -335,12 +333,6 @@ ElmAfterTheftScript:
 
 ElmStudyingEggScript:
 	writetext ElmStudyingEggText
-	waitbutton
-	closetext
-	end
-
-ElmAideHasEggScript:
-	writetext ElmAideHasEggText
 	waitbutton
 	closetext
 	end
@@ -906,8 +898,7 @@ ElmAfterTheftText5:
 	text "Oh, whatever."
 
 	para "Now that you"
-	line "have a"
-	cont "#DEX,"
+	line "have a #DEX"
 
 	para "maybe you"
 	line "can help me"
@@ -931,32 +922,17 @@ ElmAfterTheftText6:
 	line "be a long one."
 
 	para "Before you leave,"
-	line "make sure that you"
+	line "you may want to"
 	cont "talk to your mom."
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "TEAK: Hatch that"
+	line "EGG if you get"
+	cont "time, I guess."
 
-	para "I learn anything"
-	line "about that EGG!"
-	done
-
-ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
-	line "Didn't you meet my"
-	cont "assistant?"
-
-	para "He should have met"
-	line "you with the EGG"
-
-	para "at VIOLET CITY's"
-	line "#MON CENTER."
-
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "It's a free"
+	line "#MON afterall."
 	done
 
 ElmWaitingEggHatchText:
@@ -974,8 +950,8 @@ ElmThoughtEggHatchedText:
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
-	line "look great!"
+	text "TEAK: <PLAY_G>,"
+	line "what's up?"
 	done
 
 ShowElmTogepiText2:
@@ -985,11 +961,12 @@ ShowElmTogepiText2:
 
 ShowElmTogepiText3:
 	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS…"
+	line "What in the"
+	cont "world is that?!"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "I have never"
+	line "seen a #MON"
+	cont "like this before!"
 
 	para "Wow, there's still"
 	line "a lot of research"
@@ -1028,7 +1005,7 @@ ElmGiveEverstoneText2:
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>, I'll"
+	text "TEAK: <PLAY_G>, I'll"
 	line "call you if any-"
 	cont "thing comes up."
 	done
@@ -1048,7 +1025,7 @@ AideText_AfterTheft:
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAY_G>!"
+	text "TEAK: Hi, <PLAY_G>!"
 	line "Thanks to you, my"
 
 	para "research is going"
@@ -1081,7 +1058,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAY_G>!"
+	text "TEAK: <PLAY_G>!"
 	line "There you are!"
 
 	para "I called because I"
@@ -1110,12 +1087,6 @@ ElmGiveTicketText2:
 	line "PROF.OAK in KANTO!"
 	done
 
-ElmsLabMonEggText: ; unreferenced
-	text "It's the #MON"
-	line "EGG being studied"
-	cont "by PROF.ELM."
-	done
-
 AideText_GiveYouPotion:
 	text "<PLAY_G>, I want"
 	line "you to have this"
@@ -1129,16 +1100,16 @@ AideText_AlwaysBusy:
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "That kid busted"
+	line "right through"
+	cont "the window!"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
-
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "He clearly"
+	line "stole a #MON,"
+	cont "but he may"
+	cont "have seen"
+	cont "some of our"
+	cont "secret research!"
 
 	para "…sigh… That"
 	line "stolen #MON."
@@ -1174,26 +1145,17 @@ ElmsLabOfficerText1:
 	text "I heard a #MON"
 	line "was stolen here…"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.TEAK."
+	para "I am here to"
+	line "investigate."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
-
-	para "What?"
-
-	para "You battled a"
-	line "trainer like that?"
-
-	para "Did you happen to"
-	line "get his name?"
-	done
+	para "Do you know"
+	line "anything about"
+	cont "this?"
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "OK. . ."
+	line "So <RIVAL>"
+	cont "was his name."
 
 	para "Thanks for helping"
 	line "my investigation!"
