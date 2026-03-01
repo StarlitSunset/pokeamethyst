@@ -327,6 +327,12 @@ GoldenrodGameCornerCardFlipMachineScript:
 	special CardFlip
 	closetext
 	end
+	
+GoldenrodGameCornerMemoryGameScript:
+	reanchormap
+	special UnusedMemoryGame
+	closetext
+	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Welcome!"
@@ -500,6 +506,7 @@ GoldenrodGameCorner_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event  0, 11, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
 	bg_event  6,  6, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  7, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  8, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
