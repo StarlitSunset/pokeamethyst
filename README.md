@@ -42,6 +42,8 @@ get a taste of something new and different in the Amethyst Islands region.
 -Status conditions effect catch rate
 -Evening has been added as the fourth time of day, and it includes `NITE` Pokémon in wild encounters.
 -Individual colored (including shinies, of course) icons for each Pokémon
+-Removed badge boosts
+-Restored unused memory game (must test and move to machines)
 
 # Additions and Subtractions
 
@@ -104,14 +106,25 @@ get a taste of something new and different in the Amethyst Islands region.
  KABUTO
  KABUTOPS
  -One additional Pokémon has been added that will be important for encountering Celebi...
- -Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
+*****-Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
 	keep them in the game in some regard.
--All three legendary birds, legendary beasts, and Mew and Mewtwo have been given special events and/or encounter requirements
+****-All three legendary birds, legendary beasts, and Mew and Mewtwo have been given special events and/or encounter requirements
 	Additionally, this means there are no roaming Pokémon, and there is no Suicune storyline
 -Added ! and ? as the 27th and 28th Unown forms. I HIGHLY recommend catching all of the Unown.
 
 
 # TODO
+
+fix spichu
+Mewtwo
+ZAPDOS
+MOLTRES
+ARTICUNO
+RAIKOU
+Suicune
+ENTEI
+Electrode
+Butterfree
 
 Make Snorlax wild >1%
 Turn Kanto Badges into island challenge rewards
@@ -122,6 +135,6 @@ Butterfree and Electrode as 'faux legends' with no wild or evos
 Add/Edit items, then edit marts, and fleemon (mist stone availability)
 Move hidden items from Kanto/around in Amethyst *silver wing
 EDIT ALL CASES OF 'KANTO' TO 'AMETHYST' *badges, event flags
-Daycare only useable after beating Red for the first time
+Daycare only useable after beating E4 for the first time
 
 # Storyline (Avoid this one for spoilers)
