@@ -12,14 +12,14 @@ best, like no one ever was.
 While experiencing the nostolgia of the original GSC games in the Johto region (with some changes), you will also
 get a taste of something new and different in the Amethyst Islands region. 
 
-# Quality of Life - implemented features either improving functionality of the original game or something aesthetically
+# Quality of Life - implemented features either improving functionality of the original game, difficulty, or something aesthetically
 >These changes mostly come from the pret/pokecrystal wiki and tutorials, so thank you to this community that is devoted
 >to working on making life easier for creators like me.
 
 -No save delay
 -Running shoes
 -Shiny dex toggle
--The GS Ball event has been restored with a little bonus nod to HG/SS
+-The GS Ball event has been restored with a little bonus event (make sure to look around the National Park!)
 -Shiny chance increased to Pokémon with all DVs (except HP) equal or greater than 12 = 1/256
 -DVs and Happiness are directly displayed on the stats screen
 -Added a fourth stats page with caught data
@@ -38,14 +38,16 @@ get a taste of something new and different in the Amethyst Islands region.
 -Infinitely useable TMs
 -Unique colors for Pokéballs
 -Pokémon that previously had to be traded to evolve now evolve by holding either the item they had to hold to evolve, 
-	or maybe another item...
+	or maybe by using another item...
 -Status conditions effect catch rate
 -Evening has been added as the fourth time of day, and it includes `NITE` Pokémon in wild encounters.
 -Individual colored (including shinies, of course) icons for each Pokémon
 -Removed badge boosts
 -Restored unused memory game (must test and move to machines)
+-Replaced BICYCLE with SKATEBOARD
+-Added third trainer card page
 
-# Additions and Subtractions
+# Pokemon
 
 -57 Kanto Pokémon have been removed to make space for the Spaceworld 1997 Pokémon:
  BULBASAUR
