@@ -707,8 +707,8 @@ RageCandyBarDesc:
 	next "HP by 20.@"
 
 GSBallDesc:
-	db   "The mysterious"
-	next "BALL.@"
+	db   "Kurt may know"
+	next "what this is.@"
 
 BlueCardDesc:
 	db   "Card to save"
