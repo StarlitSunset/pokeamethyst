@@ -39,62 +39,50 @@ GoldenrodBikeShopClerkScript:
 	closetext
 	end
 
-GoldenrodBikeShopJustReleasedCompactBike: ; unreferenced
-	jumptext GoldenrodBikeShopJustReleasedCompactBikeText
-
 GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
 GoldenrodBikeShopClerkIntroText:
-	text "…sigh… I moved"
-	line "here, but I can't"
+	text "Another customer?"
+	line "Jeez…"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
+	para "I just sold"
+	line "my last bike…"
 
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "I've got an"
+	line "old skateboard"
+	cont "back here… Hm…"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "Really? You'll"
+	line "take it?"
 
-	para "Give me your name"
-	line "and phone number,"
-
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "Wow! Thanks!"
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> accepted a"
+	line "SKATEBOARD."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
 	text "My BICYCLES are"
-	line "first-rate! You"
+	line "all sold out."
 
-	para "can ride them"
-	line "anywhere."
+	para "I guess that"
+	line "means I'm out"
+	cont "of business."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
-	done
-
-GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
-
-	para "First-rate compact"
-	line "BICYCLES!"
+	text "Whelp… I don't"
+	line "really have"
+	cont "anything else…"
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
+	text "It's a display"
 	line "BICYCLE!"
 	done
 

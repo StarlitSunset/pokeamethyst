@@ -20,7 +20,7 @@ ItemEffects:
 	dw PokeBallEffect      ; GREAT_BALL
 	dw PokeBallEffect      ; POKE_BALL
 	dw TownMapEffect       ; TOWN_MAP
-	dw BicycleEffect       ; BICYCLE
+	dw SkateboardEffect    ; BICYCLE
 	dw EvoStoneEffect      ; MOON_STONE
 	dw StatusHealingEffect ; ANTIDOTE
 	dw StatusHealingEffect ; BURN_HEAL
@@ -1156,7 +1156,7 @@ TownMapEffect:
 	farcall PokegearMap
 	ret
 
-BicycleEffect:
+SkateboardEffect:
 	farcall BikeFunction
 	ret
 

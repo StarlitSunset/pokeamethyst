@@ -7,7 +7,7 @@ ItemDescriptions:
 	dw GreatBallDesc
 	dw PokeBallDesc
 	dw TeruSama1Desc
-	dw BicycleDesc
+	dw SkateboardDesc
 	dw MoonStoneDesc
 	dw AntidoteDesc
 	dw BurnHealDesc
@@ -282,8 +282,8 @@ PokeBallDesc:
 TeruSama1Desc:
 	db   "?@"
 
-BicycleDesc:
-	db   "A collapsible bike"
+SkateboardDesc:
+	db   "A cool board"
 	next "for fast movement.@"
 
 MoonStoneDesc:
