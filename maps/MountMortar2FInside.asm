@@ -6,11 +6,24 @@
 	const MOUNTMORTAR2FINSIDE_POKE_BALL5
 	const MOUNTMORTAR2FINSIDE_POKE_BALL6
 	const MOUNTMORTAR2FINSIDE_SUPER_NERD
+	const MOUNTMORTAR2FINSIDE_RAIKOU
 
 MountMortar2FInside_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+	
+Raikou:
+	applymovement MOUNTMORTAR2FINSIDE_RAIKOU, MountMortarRaikouMovement
+	cry RAIKOU
+    pause 15
+    loadwildmon RAIKOU, 40
+    loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
+    startbattle
+    disappear MOUNTMORTAR2FINSIDE_RAIKOU
+	clearevent EVENT_MOUNT_MORTAR_2F_INSIDE_RAIKOU
+    reloadmapafterbattle
+    end
 
 TrainerSupernerdHugh:
 	trainer SUPER_NERD, HUGH, EVENT_BEAT_SUPER_NERD_HUGH, SupernerdHughSeenText, SupernerdHughBeatenText, 0, .Script
@@ -22,6 +35,18 @@ TrainerSupernerdHugh:
 	waitbutton
 	closetext
 	end
+	
+MountMortarRaikouMovement:
+	set_sliding
+	fast_jump_step UP
+	fast_jump_step RIGHT
+	fast_jump_step LEFT
+	fast_jump_step LEFT
+	fast_jump_step RIGHT
+	fast_jump_step DOWN
+	remove_sliding
+	step_end
+
 
 MountMortar2FInsideMaxPotion:
 	itemball MAX_POTION
@@ -84,3 +109,4 @@ MountMortar2FInside_MapEvents:
 	object_event  9, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar2FInsideElixer, EVENT_MOUNT_MORTAR_2F_INSIDE_ELIXER
 	object_event 28,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar2FInsideEscapeRope, EVENT_MOUNT_MORTAR_2F_INSIDE_ESCAPE_ROPE
 	object_event 13, 26, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerSupernerdHugh, -1
+	object_event 35, 13, SPRITE_RAIKOU, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Raikou, EVENT_MOUNT_MORTAR_2F_INSIDE_RAIKOU

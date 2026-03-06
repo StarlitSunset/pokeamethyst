@@ -17,7 +17,7 @@ SpriteMons:
 	db POLIWAG
 	db S_PICHU
 	db CLEFAIRY
-	db CHARMANDER
+	db MEWTWO
 	db JYNX
 	db STARMIE
 	db BULBASAUR
@@ -25,7 +25,7 @@ SpriteMons:
 	db GRIMER
 	db EKANS
 	db PARAS
-	db TENTACOOL
+	db ARTICUNO
 	db TAUROS
 	db MACHOP
 	db VOLTORB

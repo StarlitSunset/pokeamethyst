@@ -4,6 +4,7 @@
 	const ICEPATHB1F_BOULDER3
 	const ICEPATHB1F_BOULDER4
 	const ICEPATHB1F_POKE_BALL
+	const ICEPATHB1F_ARTICUNO
 
 IcePathB1F_MapScripts:
 	def_scene_scripts
@@ -58,6 +59,16 @@ IcePathB1FSetUpStoneTableCallback:
 	playsound SFX_STRENGTH
 	earthquake 80
 	end
+	
+Articuno:
+    cry ARTICUNO
+    pause 15
+    loadwildmon ARTICUNO, 30
+    loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
+    startbattle
+    disappear ICEPATHB1F_ARTICUNO
+    reloadmapafterbattle
+    end
 
 IcePathB1FBoulder:
 	jumpstd StrengthBoulderScript
@@ -96,4 +107,4 @@ IcePathB1F_MapEvents:
 	object_event  7,  8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_2
 	object_event  8,  9, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_3
 	object_event 17,  7, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_4
-	object_event  5, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB1FIron, EVENT_ICE_PATH_B1F_IRON
+	object_event  4, 35, SPRITE_ARTICUNO, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_OW_BLUE, OBJECTTYPE_SCRIPT, 0, Articuno, EVENT_ARTICUNO

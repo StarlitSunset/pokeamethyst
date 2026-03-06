@@ -340,17 +340,15 @@ NationalParkPokefanFText:
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
+	text "...huh?"
+	line "Sorry."
 
-	para "…Oops, I have to"
-	line "quit thinking like"
+	para "I thought I saw"
+	line "a weird looking"
 
-	para "a teacher all the"
-	line "time."
-
-	para "You must be a"
-	line "#MON trainer."
+	para "#MON near here,"
+	line "and I got"
+	cont "distracted."
 
 	para "Since you're work-"
 	line "ing so hard, I"

@@ -2,11 +2,22 @@
 	const DARKCAVEBLACKTHORNENTRANCE_PHARMACIST
 	const DARKCAVEBLACKTHORNENTRANCE_POKE_BALL1
 	const DARKCAVEBLACKTHORNENTRANCE_POKE_BALL2
+	const DARKCAVEBLACKTHORNENTRANCE_MOLTRES
 
 DarkCaveBlackthornEntrance_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+Moltres:
+    cry MOLTRES
+    pause 15
+    loadwildmon MOLTRES, 30
+    loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
+    startbattle
+    disappear DARKCAVEBLACKTHORNENTRANCE_MOLTRES
+    reloadmapafterbattle
+    end
 
 DarkCaveBlackthornEntrancePharmacistScript:
 	faceplayer
@@ -72,5 +83,6 @@ DarkCaveBlackthornEntrance_MapEvents:
 
 	def_object_events
 	object_event  7,  3, SPRITE_PHARMACIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveBlackthornEntrancePharmacistScript, -1
-	object_event 21, 24, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceRevive, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_REVIVE
+	object_event 18,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceRevive, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_REVIVE
 	object_event  7, 22, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceTMSnore, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_TM_SNORE
+	object_event 21, 20, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Moltres, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_MOLTRES

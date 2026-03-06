@@ -11,6 +11,7 @@
 	const LAKEOFRAGE_WESLEY
 	const LAKEOFRAGE_POKE_BALL1
 	const LAKEOFRAGE_POKE_BALL2
+	const LAKEOFRAGE_BUTTERFREE
 
 LakeOfRage_MapScripts:
 	def_scene_scripts
@@ -102,6 +103,16 @@ RedGyarados:
 	setscene 0 ; Lake of Rage does not have a scene variable
 	appear LAKEOFRAGE_LANCE
 	end
+	
+PinkButterfree:
+    cry BUTTERFREE
+    pause 15
+    loadwildmon BUTTERFREE, 15
+    loadvar VAR_BATTLETYPE, BATTLETYPE_FORCESHINY
+    startbattle
+    disappear LAKEOFRAGE_BUTTERFREE
+    reloadmapafterbattle
+    end
 
 LakeOfRageGrampsScript:
 	faceplayer
@@ -520,3 +531,4 @@ LakeOfRage_MapEvents:
 	object_event  4,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event  7, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageElixer, EVENT_LAKE_OF_RAGE_ELIXER
 	object_event 35,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageTMDetect, EVENT_LAKE_OF_RAGE_TM_DETECT
+	object_event 35,  1, SPRITE_BUTTERFREE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_OW_PINK, OBJECTTYPE_SCRIPT, 0, PinkButterfree, EVENT_LAKE_OF_RAGE_BUTTERFREE
