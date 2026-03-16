@@ -30,7 +30,6 @@ INCLUDE "audio/music/trainervictory.asm"
 SECTION "Songs 2", ROMX
 
 INCLUDE "audio/music/route1.asm"
-INCLUDE "audio/music/route3.asm"
 INCLUDE "audio/music/route12.asm"
 INCLUDE "audio/music/kantogymbattle.asm"
 INCLUDE "audio/music/kantotrainerbattle.asm"
@@ -148,6 +147,11 @@ INCLUDE "audio/music/mobileadapter.asm"
 SECTION "Extra Songs 2", ROMX
 
 INCLUDE "audio/music/postcredits.asm"
+
+
+SECTION "NEW SONGS", ROMX
+
+INCLUDE "audio/music/route3.asm"
 
 
 SECTION "Sound Effects", ROMX
