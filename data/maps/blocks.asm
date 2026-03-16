@@ -483,6 +483,9 @@ BetaRuinsOfAlphUnsolvedPuzzleRoom_Blocks: ; unreferenced
 
 RuinsOfAlphInnerChamber_Blocks:
 	INCBIN "maps/RuinsOfAlphInnerChamber.blk"
+	
+RuinsOfAlphInnerChamberB1F_Blocks:
+	INCBIN "maps/RuinsOfAlphInnerChamberB1F.blk"
 
 RuinsOfAlphHoOhChamber_Blocks:
 RuinsOfAlphKabutoChamber_Blocks:
