@@ -79,8 +79,6 @@ RuinsOfAlphInnerChamberStatue:
 RuinsOfAlphInnerChamberWall:
 	checkflag ENGINE_UNLOCKED_UNOWNS_ENTEI
 	iftrue .already_unlocked
-	readvar VAR_UNOWNCOUNT
-	ifless 28, .dont_unlock
 	opentext
 	writetext RuinsOfAlphInnerChamberWallText
 	waitbutton
