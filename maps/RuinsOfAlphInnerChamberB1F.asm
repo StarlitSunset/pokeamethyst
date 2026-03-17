@@ -29,7 +29,10 @@ Entei:
 	applymovement RUINS_UNOWN_1, RuinsUnown1Movement
 	cry UNOWN
 	pause 15
+	playsound SFX_RUN
 	disappear RUINS_UNOWN_1
+	disappear RUINS_UNOWN_2
+	disappear RUINS_UNOWN_3
 	pause 15
 	
 	applymovement RUINS_ENTEI, RuinsEnteiMovement
@@ -43,8 +46,6 @@ Entei:
     reloadmapafterbattle
 	changeblock 2, 8, $1A ; ladder
 	reloadmappart
-	disappear RUINS_UNOWN_2
-	disappear RUINS_UNOWN_3
     disappear RUINS_ENTEI
     end
 	

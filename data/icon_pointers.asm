@@ -202,7 +202,7 @@ IconPointers:
 	dw MurkrowIcon
 	dw SlowkingIcon
 	dw MisdreavusIcon
-	dw UnownAIcon
+	dw UnownIcon
 	dw WobbuffetIcon
 	dw GirafarigIcon
 	dw PinecoIcon
