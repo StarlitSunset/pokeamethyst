@@ -32,6 +32,7 @@ AMEHealingMachine_HealParty:
 	setval HEALMACHINE_ELMS_LAB
 	pause 30
 	writetext AMEHealingMachineText2
+	waitbutton
 	closetext
 	end
 
@@ -60,7 +61,7 @@ Route22_MapEvents:
 
 	def_bg_events
 	bg_event 15,  7, BGEVENT_READ, VictoryRoadEntranceSign
-	bg_event 22, 13, BGEVENT_READ, AMEHealingMachine
-	bg_event 23, 13, BGEVENT_READ, AMEHealingMachine
+	bg_event 22, 11, BGEVENT_READ, AMEHealingMachine
+	bg_event 23, 11, BGEVENT_READ, AMEHealingMachine
 
 	def_object_events

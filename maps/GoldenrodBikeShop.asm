@@ -52,6 +52,9 @@ GoldenrodBikeShopClerkIntroText:
 	para "I've got an"
 	line "old skateboard"
 	cont "back here… Hm…"
+	
+	para "Take it off my"
+	line "hands?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:

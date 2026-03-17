@@ -46,6 +46,7 @@ get a taste of something new and different in the Amethyst Islands region.
 -Restored unused memory game (must test and move to machines)
 -Replaced BICYCLE with SKATEBOARD
 -Added third trainer card page
+-Expanded tilemaps
 
 # Pokemon
 
@@ -108,35 +109,28 @@ get a taste of something new and different in the Amethyst Islands region.
  KABUTO
  KABUTOPS
  -One additional Pokémon has been added that will be important for encountering Celebi...
-*****-Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
+ -Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
 	keep them in the game in some regard.
-****-All three legendary birds, legendary beasts, and Mew and Mewtwo have been given special events and/or encounter requirements
+-All three legendary birds, legendary beasts, and Mew and Mewtwo have been given special events and/or encounter requirements
 	Additionally, this means there are no roaming Pokémon, and there is no Suicune storyline
--Added ! and ? as the 27th and 28th Unown forms. I HIGHLY recommend catching all of the Unown.
+ -Added ! and ? as the 27th and 28th Unown forms. I HIGHLY recommend catching all of the Unown.
 
 
 # TODO
 
-fix spichu
-Mewtwo
-ZAPDOS
-MOLTRES
-ARTICUNO
-RAIKOU
-Suicune
-ENTEI
-Electrode
-Butterfree
+-fix entei event unown glitch
+data/text/common_2.asm
+edit wise trio event
 
-Make Snorlax wild >1%
+make sure to edit headbutt tree code to work in 'kanto' data/collision/field_move_blocks.asm
+
 Turn Kanto Badges into island challenge rewards
-SS Ticket flag to open Mt. Silver
+SS Ticket flag to open Amethyst Islands
 Remove/Edit items Normal + Gorgeous Box
 Add movesets to wild legends
-Butterfree and Electrode as 'faux legends' with no wild or evos
 Add/Edit items, then edit marts, and fleemon (mist stone availability)
 Move hidden items from Kanto/around in Amethyst *silver wing
-EDIT ALL CASES OF 'KANTO' TO 'AMETHYST' *badges, event flags
 Daycare only useable after beating E4 for the first time
+ -route34 map edit (reference entei event)
 
 # Storyline (Avoid this one for spoilers)
