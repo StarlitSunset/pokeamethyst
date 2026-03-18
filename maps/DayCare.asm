@@ -21,6 +21,10 @@ DayCareEggCheckCallback:
 	endcallback
 
 DayCareManScript_Inside:
+	opentext
+	writetext DayCareManInside
+	waitbutton
+	closetext
 	end
 
 .PartyFull:
@@ -56,6 +60,12 @@ DayCareLadyScript:
 
 DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
+
+DayCareManInside:
+	text "Zzzzz. . ."
+	line "There is drool"
+	cont "on his chin."
+	done
 
 ComeBackLaterText:
 	text "WHOA!"

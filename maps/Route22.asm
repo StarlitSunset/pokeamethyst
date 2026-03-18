@@ -1,3 +1,6 @@
+	object_const_def
+	const ROUTE22_BOULDER
+
 Route22_MapScripts:
 	def_scene_scripts
 
@@ -36,6 +39,9 @@ AMEHealingMachine_HealParty:
 	closetext
 	end
 
+Route22Boulder:
+	jumpstd StrengthBoulderScript
+
 AMEHealingMachineText1:
 	text "A spring is"
 	line "rising from these"
@@ -61,7 +67,8 @@ Route22_MapEvents:
 
 	def_bg_events
 	bg_event 15,  7, BGEVENT_READ, VictoryRoadEntranceSign
-	bg_event 22, 11, BGEVENT_READ, AMEHealingMachine
-	bg_event 23, 11, BGEVENT_READ, AMEHealingMachine
+	bg_event 22,  7, BGEVENT_READ, AMEHealingMachine
+	bg_event 23,  7, BGEVENT_READ, AMEHealingMachine
 
 	def_object_events
+	object_event 27,  8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route22Boulder, -1

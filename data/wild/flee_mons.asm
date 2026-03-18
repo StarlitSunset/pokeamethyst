@@ -19,9 +19,6 @@ SometimesFleeMons:
 
 OftenFleeMons:
 	db CUBONE
-	db ARTICUNO
-	db ZAPDOS
-	db MOLTRES
 	db QUAGSIRE
 	db DELIBIRD
 	db PHANPY
@@ -29,6 +26,4 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db RAIKOU
-	db ENTEI
 	db -1
