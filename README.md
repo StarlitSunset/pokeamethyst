@@ -47,67 +47,68 @@ get a taste of something new and different in the Amethyst Islands region.
 -Replaced BICYCLE with SKATEBOARD
 -Added third trainer card page
 -Expanded tilemaps
+-Daycare only accessible after beating Elite Four for the first time
 
 # Pokemon
 
 -57 Kanto Pokémon have been removed to make space for the Spaceworld 1997 Pokémon:
- BULBASAUR
- IVYSAUR
- VENUSAUR
- CHARMANDER
- CHARMELEON
- CHARIZARD
- SQUIRTLE
- WARTORTLE
- BLASTOISE
- SPEAROW
- FEAROW
- RATTATA
- RATICATE
- CATERPIE
- METAPOD
- WEEDLE
- KAKUNA
- BEEDRILL
- EKANS
- ARBOK
- DROWZEE
- HYPNO
- NIDORAN_F
- NIDORINA
- NIDOQUEEN
- NIDORAN_M
- NIDORINO
- NIDOKING
- VENONAT
- VENOMOTH
- KOFFING
- WEEZING
- MAGNEMITE
- MAGNETON
- VOLTORB
- DIGLETT
- DUGTRIO
- MANKEY
- PRIMEAPE
- PSYDUCK
- GOLDUCK
- MACHOP
- MACHOKE
- MACHAMP
- KRABBY
- KINGLER
- STARYU
- STARMIE
- SHELLDER
- CLOYSTER
- SEEL
- DEWGONG
- KANGASKHAN
- OMANYTE
- OMASTAR
- KABUTO
- KABUTOPS
+ BULBASAUR > HANAGOMURA (bayleef)
+ IVYSAUR > HONOOGUMA (cyndaquil)
+ VENUSAUR > BORUBEAA (quil)
+ CHARMANDER > DAINABEA (typh)
+ CHARMELEON > KURUSU (toto)
+ CHARIZARD > AKUA (croc)
+ SQUIRTLE > AKUERIA (dragonair)
+ WARTORTLE > MIKON (VULPIX)
+ BLASTOISE > MONJA (TANGELA)
+ SPEAROW > JARANRA (TANGELA)
+ FEAROW > HANEEI (GYRA)
+ RATTATA > SHIBIREFUGU (QWUIL)
+ RATICATE > GYOPIN (GOLDEEN)
+ CATERPIE > MANBOO (MAGNEMITE/SKARMORY)
+ METAPOD > IKARI (MAGNETON/SKAR)
+ WEEDLE > GURUTESU (?)
+ KAKUNA > PARA (PARAS)
+ BEEDRILL > ANIMON (STEEL DITTO)
+ EKANS > HINAAZU (DODUO)
+ ARBOK > TSUINZU (GIRA)
+ DROWZEE > KIRINRIKI (GIRA) 
+ HYPNO > KOONYA (MEOWTH)
+ NIDORAN_F > RINRIN (UMBREON) 
+ NIDORINA > BERURUN (ESPEON BUT ALSO VARIED)
+ NIDOQUEEN > NYORUTONO (POLITOED)
+ NIDORAN_M > MITSUBOSHI (LEDIAN)0
+ NIDORINO > PUCHIKOON (PONYTA)
+ NIDOKING > TAABAN (SLOWBRO/GRIMER)
+ VENONAT > BETOBEBII (GRIMER)
+ VENOMOTH > TEPPOUO (REMORAID EXPLOSIVE)
+ KOFFING > OCTUTANK (OCTILLERY EXPLOSIVE)
+ WEEZING > GONGU (TYROGUE)
+ MAGNEMITE > PUDI (GROWLITHE)
+ MAGNETON > HANEKO 
+ VOLTORB > POPONEKO
+ DIGLETT > WATANEKO
+ DUGTRIO > BARIRIINA (MIME JR)
+ MANKEY > TSUBONITTO (WEEPINBELL)
+ PRIMEAPE > BOMUSHIKAA (VOLCANIAN/LAPRAS + MAGMAR)
+ PSYDUCK > KOTORA (BLITZLE/PIKA)
+ GOLDUCK > RAITORA
+ MACHOP > MADAAMU (FARFETCHD)
+ MACHOKE > NOROWARA (VOODOO GHOST)
+ MACHAMP > KYYONPAN (SHUPPET)
+ KRABBY > HAPPII (BLISSEY)
+ KINGLER > PURAKKUSU (PINSIR)
+ STARYU > URUFUMAN (SWINUB)
+ STARMIE > WAAURUFU (PILOSWINE)
+ SHELLDER > PORYGON CLONE BUT WEIRD
+ CLOYSTER > NAMEERU (LICK)
+ SEEL > RAI
+ DEWGONG > EN
+ KANGASKHAN > SUI
+ OMANYTE > NYUURA (SNEASEL)
+ OMASTAR > TEIRU (AIPOM)
+ KABUTO > RIIFI (LEAFEON)
+ KABUTOPS > KOKOPE (CELEBI)
  -One additional Pokémon has been added that will be important for encountering Celebi...
  -Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
 	keep them in the game in some regard.
@@ -118,19 +119,20 @@ get a taste of something new and different in the Amethyst Islands region.
 
 # TODO
 
--fix entei event unown glitch
 data/text/common_2.asm
 edit wise trio event
 
-make sure to edit headbutt tree code to work in 'kanto' data/collision/field_move_blocks.asm
+add water current tiles and data/collision/collision_permissions.asm {tilecoll CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN ; 81}
+-use rock climb guide
+
+make sure to edit headbutt tree code to work in 'kanto' wildmon headbutt trees
 
 Turn Kanto Badges into island challenge rewards
 SS Ticket flag to open Amethyst Islands
 Remove/Edit items Normal + Gorgeous Box
 Add movesets to wild legends
-Add/Edit items, then edit marts, and fleemon (mist stone availability)
+Add/Edit items, then edit marts (mist stone availability)
+Edit fleemon, treemon (and maps)
 Move hidden items from Kanto/around in Amethyst *silver wing
-Daycare only useable after beating E4 for the first time
- -route34 map edit (reference entei event)
 
 # Storyline (Avoid this one for spoilers)
