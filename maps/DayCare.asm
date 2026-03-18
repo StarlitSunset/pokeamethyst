@@ -33,9 +33,17 @@ DayCareManScript_Inside:
 DayCareLadyScript:
 	faceplayer
 	opentext
+	checkevent EVENT_BEAT_ELITE_FOUR
+	iffalse .BeatEliteFourFirst
 	checkflag ENGINE_DAY_CARE_MAN_HAS_EGG
 	iftrue .HusbandWasLookingForYou
 	special DayCareLady
+	waitbutton
+	closetext
+	end
+
+.BeatEliteFourFirst:
+	writetext ComeBackLaterText
 	waitbutton
 	closetext
 	end
@@ -48,6 +56,16 @@ DayCareLadyScript:
 
 DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
+
+ComeBackLaterText:
+	text "WHOA!"
+	line "When did you get"
+	cont "in here?"
+	
+	para "Come back later."
+	line ". . ."
+	cont "Like, way later."
+	done
 
 Text_GrampsLookingForYou:
 	text "Gramps was looking"
