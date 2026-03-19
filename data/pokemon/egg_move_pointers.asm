@@ -1,7 +1,7 @@
 EggMovePointers::
 	table_width 2, EggMovePointers
 	dw HanagomuraEggMoves
-	dw NoEggMoves
+	dw HonoogumaEggMoves
 	dw NoEggMoves
 	dw CharmanderEggMoves
 	dw NoEggMoves

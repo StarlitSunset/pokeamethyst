@@ -7,7 +7,7 @@ PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
 	mon_cry CRY_HANAGOMURA,  128,  129 ; HANAGOMURA
-	mon_cry CRY_HANAGOMURA,   32,  256 ; IVYSAUR
+	mon_cry CRY_HANAGOMURA,   32,  256 ; HONOOGUMA
 	mon_cry CRY_HANAGOMURA,    0,  320 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON

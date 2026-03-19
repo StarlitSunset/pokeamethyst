@@ -3,7 +3,7 @@
 EvosAttacksPointers::
 	table_width 2, EvosAttacksPointers
 	dw HanagomuraEvosAttacks
-	dw IvysaurEvosAttacks
+	dw HonoogumaEvosAttacks
 	dw VenusaurEvosAttacks
 	dw CharmanderEvosAttacks
 	dw CharmeleonEvosAttacks

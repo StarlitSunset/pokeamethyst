@@ -17,6 +17,15 @@ HanagomuraEggMoves:
 	db RAZOR_WIND
 	db PETAL_DANCE
 	db -1 ; end
+	
+HonoogumaEggMoves:
+	db BELLY_DRUM
+	db ANCIENTPOWER
+	db ROCK_SLIDE
+	db BITE
+	db OUTRAGE
+	db BEAT_UP
+	db -1 ; end
 
 CharmanderEggMoves:
 	db BELLY_DRUM

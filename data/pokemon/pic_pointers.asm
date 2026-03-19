@@ -5,8 +5,8 @@ PokemonPicPointers::
 	table_width 3 * 2, PokemonPicPointers
 	dba_pic HanagomuraFrontpic
 	dba_pic HanagomuraBackpic
-	dba_pic IvysaurFrontpic
-	dba_pic IvysaurBackpic
+	dba_pic HonoogumaFrontpic
+	dba_pic HonoogumaBackpic
 	dba_pic VenusaurFrontpic
 	dba_pic VenusaurBackpic
 	dba_pic CharmanderFrontpic

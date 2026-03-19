@@ -3,7 +3,7 @@ IconPointers:
 	table_width 2, IconPointers
 	dw NullIcon
 	dw HanagomuraIcon
-	dw IvysaurIcon
+	dw HonoogumaIcon
 	dw VenusaurIcon
 	dw CharmanderIcon
 	dw CharmeleonIcon
