@@ -846,7 +846,7 @@ LoadOrangePage:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 4, 11
+	hlcoord 2, 11
 	call PlaceString
 	ret
 
