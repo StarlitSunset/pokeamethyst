@@ -3,7 +3,7 @@ PokedexDataPointerTable:
 	table_width 2, PokedexDataPointerTable
 	dw HanagomuraPokedexEntry
 	dw HonoogumaPokedexEntry
-	dw VenusaurPokedexEntry
+	dw BorubeaaPokedexEntry
 	dw CharmanderPokedexEntry
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry

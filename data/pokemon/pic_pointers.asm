@@ -7,8 +7,8 @@ PokemonPicPointers::
 	dba_pic HanagomuraBackpic
 	dba_pic HonoogumaFrontpic
 	dba_pic HonoogumaBackpic
-	dba_pic VenusaurFrontpic
-	dba_pic VenusaurBackpic
+	dba_pic BorubeaaFrontpic
+	dba_pic BorubeaaBackpic
 	dba_pic CharmanderFrontpic
 	dba_pic CharmanderBackpic
 	dba_pic CharmeleonFrontpic

@@ -21,7 +21,7 @@
 	const_def 1
 	const HANAGOMURA ; 01
 	const HONOOGUMA  ; 02
-	const VENUSAUR   ; 03
+	const BORUBEAA   ; 03
 	const CHARMANDER ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06

@@ -2,7 +2,7 @@ PokemonNames::
 	table_width NAME_LENGTH - 1, PokemonNames
 	db "HANAGOMURA"
 	db "HONOOGUMA@"
-	db "VENUSAUR@@"
+	db "BORUBEAA@@"
 	db "CHARMANDER"
 	db "CHARMELEON"
 	db "CHARIZARD@"

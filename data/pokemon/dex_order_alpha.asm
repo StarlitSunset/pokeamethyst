@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
+	db BORUBEAA
 	db BUTTERFREE
 	db CATERPIE
 	db CELEBI
@@ -238,7 +239,6 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VENOMOTH
 	db VENONAT
-	db VENUSAUR
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB

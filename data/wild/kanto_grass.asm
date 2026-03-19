@@ -799,8 +799,8 @@ KantoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 10, HANAGOMURA, 		 2,  5
-	db 20, HANAGOMURA, 	 	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 20, HONOOGUMA, 	 	 2,  5
+	db 10, BORUBEAA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
@@ -809,8 +809,8 @@ KantoGrassWildMons:
 	; day
 	;  %, species,		min, max
 	db 10, HANAGOMURA, 		 2,  5
-	db 20, HANAGOMURA, 	 	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 20, HONOOGUMA, 	 	 2,  5
+	db 10, BORUBEAA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
@@ -819,8 +819,8 @@ KantoGrassWildMons:
 	; nite
 	;  %, species,		min, max
 	db 10, HANAGOMURA, 		 2,  5
-	db 20, HANAGOMURA, 	 	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 20, HONOOGUMA, 	 	 2,  5
+	db 10, BORUBEAA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5

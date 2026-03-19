@@ -30,7 +30,7 @@ HanagomuraEvosAttacks:
 	db 0 ; no more level-up moves
 
 HonoogumaEvosAttacks:
-	db EVOLVE_LEVEL, 32, VENUSAUR
+	db EVOLVE_LEVEL, 16, BORUBEAA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -47,7 +47,7 @@ HonoogumaEvosAttacks:
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+BorubeaaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

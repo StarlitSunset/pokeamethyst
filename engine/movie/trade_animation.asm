@@ -1455,7 +1455,7 @@ MACRO debugtrade
 ENDM
 
 .DebugTradeData:
-	debugtrade VENUSAUR,  "ゲーフり@@", $0123 ; GAME FREAK
+	debugtrade BORUBEAA,  "ゲーフり@@", $0123 ; GAME FREAK
 	debugtrade CHARIZARD, "クりーチャ@", $0456 ; Creatures Inc.
 
 TradeGameBoyTilemap:  INCBIN "gfx/trade/game_boy.tilemap" ; 6x8

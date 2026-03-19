@@ -4,7 +4,7 @@ IconPointers:
 	dw NullIcon
 	dw HanagomuraIcon
 	dw HonoogumaIcon
-	dw VenusaurIcon
+	dw BorubeaaIcon
 	dw CharmanderIcon
 	dw CharmeleonIcon
 	dw CharizardIcon
