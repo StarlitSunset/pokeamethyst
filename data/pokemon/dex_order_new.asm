@@ -104,7 +104,7 @@ NewPokedexOrder:
 	db HO_OH
 	db CELEBI
 
-	db BULBASAUR
+	db HANAGOMURA
 	db IVYSAUR
 	db VENUSAUR
 	db CHARMANDER

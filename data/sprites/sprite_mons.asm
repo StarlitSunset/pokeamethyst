@@ -20,7 +20,7 @@ SpriteMons:
 	db MEWTWO
 	db JYNX
 	db STARMIE
-	db BULBASAUR
+	db HANAGOMURA
 	db JIGGLYPUFF
 	db ZAPDOS
 	db EKANS

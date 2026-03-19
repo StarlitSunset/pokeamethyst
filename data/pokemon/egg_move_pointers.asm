@@ -1,6 +1,6 @@
 EggMovePointers::
 	table_width 2, EggMovePointers
-	dw BulbasaurEggMoves
+	dw HanagomuraEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw CharmanderEggMoves

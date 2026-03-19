@@ -18,7 +18,6 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
 	db BUTTERFREE
 	db CATERPIE
 	db CELEBI
@@ -81,6 +80,7 @@ AlphabeticalPokedexOrder:
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS
+	db HANAGOMURA
 	db HAUNTER
 	db HERACROSS
 	db HITMONCHAN

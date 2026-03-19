@@ -1,7 +1,7 @@
 ; IconPointers indexes (see data/icon_pointers.asm)
 	const_def
 	const ICON_NULL
-	const ICON_BULBASAUR   ; BULBASAUR*
+	const ICON_HANAGOMURA  ; HANAGOMURA
 	const ICON_IVYSAUR	   ; IVYSAUR*
 	const ICON_VENUSAUR    ; VENUSAUR*
 	const ICON_CHARMANDER  ; CHARMANDER*

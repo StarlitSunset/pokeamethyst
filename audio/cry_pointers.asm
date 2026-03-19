@@ -16,7 +16,7 @@ Cries:
 	dba Cry_Seel
 	dba Cry_Drowzee
 	dba Cry_Pidgey
-	dba Cry_Bulbasaur
+	dba Cry_Hanagomura
 	dba Cry_Spearow
 	dba Cry_Rhydon
 	dba Cry_Golem

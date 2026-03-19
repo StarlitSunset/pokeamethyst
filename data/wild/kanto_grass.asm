@@ -798,33 +798,33 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, PIDGEY, 		 2,  5
-	db 20, PIDGEY, 	 	 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 30, PIDGEY, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 20, HANAGOMURA, 	 	 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 30, HANAGOMURA, 		 2,  5
 
 	; day
 	;  %, species,		min, max
-	db 10, PIDGEY, 		 2,  5
-	db 20, PIDGEY, 	 	 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 30, PIDGEY, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 20, HANAGOMURA, 	 	 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 30, HANAGOMURA, 		 2,  5
 
 	; nite
 	;  %, species,		min, max
-	db 10, PIDGEY, 		 2,  5
-	db 20, PIDGEY, 	 	 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 10, PIDGEY, 		 2,  5
-	db 30, PIDGEY, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 20, HANAGOMURA, 	 	 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 10, HANAGOMURA, 		 2,  5
+	db 30, HANAGOMURA, 		 2,  5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_24

@@ -1,7 +1,7 @@
 SECTION "Mon Icons 1", ROMX
 
 NullIcon:
-BulbasaurIcon:    INCBIN "gfx/icons/bulbasaur.2bpp"
+HanagomuraIcon:   INCBIN "gfx/icons/hanagomura.2bpp"
 IvysaurIcon:      INCBIN "gfx/icons/ivysaur.2bpp"
 VenusaurIcon:     INCBIN "gfx/icons/venusaur.2bpp"
 CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
