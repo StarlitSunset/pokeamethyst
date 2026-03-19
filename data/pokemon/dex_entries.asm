@@ -3,7 +3,7 @@ SECTION "Pokedex Entries 001-064", ROMX
 HanagomuraPokedexEntry:: INCLUDE "data/pokemon/dex_entries/hanagomura.asm"
 HonoogumaPokedexEntry::  INCLUDE "data/pokemon/dex_entries/honooguma.asm"
 BorubeaaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/borubeaa.asm"
-CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
+DainabeaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/dainabea.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"
 SquirtlePokedexEntry::   INCLUDE "data/pokemon/dex_entries/squirtle.asm"

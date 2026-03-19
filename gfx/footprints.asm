@@ -15,7 +15,7 @@ Footprints:
 INCBIN "gfx/footprints/hanagomura.1bpp", footprint_top
 INCBIN "gfx/footprints/honooguma.1bpp",  footprint_top
 INCBIN "gfx/footprints/borubeaa.1bpp",   footprint_top
-INCBIN "gfx/footprints/charmander.1bpp", footprint_top
+INCBIN "gfx/footprints/dainabea.1bpp",   footprint_top
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
@@ -24,7 +24,7 @@ INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 INCBIN "gfx/footprints/hanagomura.1bpp", footprint_bottom
 INCBIN "gfx/footprints/honooguma.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/borubeaa.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
+INCBIN "gfx/footprints/dainabea.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom

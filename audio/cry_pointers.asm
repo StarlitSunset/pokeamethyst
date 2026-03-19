@@ -5,7 +5,7 @@ Cries:
 	dba Cry_Nidoran_F
 	dba Cry_Slowpoke
 	dba Cry_Kangaskhan
-	dba Cry_Charmander
+	dba Cry_Dainabea
 	dba Cry_Grimer
 	dba Cry_Voltorb
 	dba Cry_Muk

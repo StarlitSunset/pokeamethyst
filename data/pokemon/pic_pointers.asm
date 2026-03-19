@@ -9,8 +9,8 @@ PokemonPicPointers::
 	dba_pic HonoogumaBackpic
 	dba_pic BorubeaaFrontpic
 	dba_pic BorubeaaBackpic
-	dba_pic CharmanderFrontpic
-	dba_pic CharmanderBackpic
+	dba_pic DainabeaFrontpic
+	dba_pic DainabeaBackpic
 	dba_pic CharmeleonFrontpic
 	dba_pic CharmeleonBackpic
 	dba_pic CharizardFrontpic

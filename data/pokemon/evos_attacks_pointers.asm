@@ -5,7 +5,7 @@ EvosAttacksPointers::
 	dw HanagomuraEvosAttacks
 	dw HonoogumaEvosAttacks
 	dw BorubeaaEvosAttacks
-	dw CharmanderEvosAttacks
+	dw DainabeaEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks

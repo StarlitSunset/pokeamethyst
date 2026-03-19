@@ -48,7 +48,7 @@ HonoogumaEvosAttacks:
 	db 0 ; no more level-up moves
 
 BorubeaaEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 32, DAINABEA
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, LEECH_SEED
@@ -65,8 +65,7 @@ BorubeaaEvosAttacks:
 	db 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
-CharmanderEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON
+DainabeaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL

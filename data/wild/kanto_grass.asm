@@ -801,7 +801,7 @@ KantoGrassWildMons:
 	db 10, HANAGOMURA, 		 2,  5
 	db 20, HONOOGUMA, 	 	 2,  5
 	db 10, BORUBEAA, 		 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, DAINABEA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 30, HANAGOMURA, 		 2,  5
@@ -811,7 +811,7 @@ KantoGrassWildMons:
 	db 10, HANAGOMURA, 		 2,  5
 	db 20, HONOOGUMA, 	 	 2,  5
 	db 10, BORUBEAA, 		 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, DAINABEA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 30, HANAGOMURA, 		 2,  5
@@ -821,7 +821,7 @@ KantoGrassWildMons:
 	db 10, HANAGOMURA, 		 2,  5
 	db 20, HONOOGUMA, 	 	 2,  5
 	db 10, BORUBEAA, 		 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, DAINABEA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 10, HANAGOMURA, 		 2,  5
 	db 30, HANAGOMURA, 		 2,  5

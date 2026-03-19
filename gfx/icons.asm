@@ -4,7 +4,7 @@ NullIcon:
 HanagomuraIcon:   INCBIN "gfx/icons/hanagomura.2bpp"
 HonoogumaIcon:    INCBIN "gfx/icons/honooguma.2bpp"
 BorubeaaIcon:     INCBIN "gfx/icons/borubeaa.2bpp"
-CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
+DainabeaIcon:     INCBIN "gfx/icons/dainabea.2bpp"
 CharmeleonIcon:   INCBIN "gfx/icons/charmeleon.2bpp"
 CharizardIcon:    INCBIN "gfx/icons/charizard.2bpp"
 SquirtleIcon:     INCBIN "gfx/icons/squirtle.2bpp"

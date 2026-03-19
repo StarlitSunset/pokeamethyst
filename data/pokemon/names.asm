@@ -3,7 +3,7 @@ PokemonNames::
 	db "HANAGOMURA"
 	db "HONOOGUMA@"
 	db "BORUBEAA@@"
-	db "CHARMANDER"
+	db "DAINABEA@@"
 	db "CHARMELEON"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"

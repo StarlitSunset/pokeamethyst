@@ -22,7 +22,7 @@
 	const HANAGOMURA ; 01
 	const HONOOGUMA  ; 02
 	const BORUBEAA   ; 03
-	const CHARMANDER ; 04
+	const DAINABEA   ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07

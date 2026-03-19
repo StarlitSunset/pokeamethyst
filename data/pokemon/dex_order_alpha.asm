@@ -24,7 +24,6 @@ AlphabeticalPokedexOrder:
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
-	db CHARMANDER
 	db CHARMELEON
 	db CHIKORITA
 	db CHINCHOU
@@ -37,6 +36,7 @@ AlphabeticalPokedexOrder:
 	db CROCONAW
 	db CUBONE
 	db CYNDAQUIL
+	db DAINABEA
 	db DELIBIRD
 	db DEWGONG
 	db DIGLETT

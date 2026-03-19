@@ -3,7 +3,7 @@ EggMovePointers::
 	dw HanagomuraEggMoves
 	dw HonoogumaEggMoves
 	dw NoEggMoves
-	dw CharmanderEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SquirtleEggMoves

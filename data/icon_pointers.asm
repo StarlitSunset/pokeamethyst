@@ -5,7 +5,7 @@ IconPointers:
 	dw HanagomuraIcon
 	dw HonoogumaIcon
 	dw BorubeaaIcon
-	dw CharmanderIcon
+	dw DainabeaIcon
 	dw CharmeleonIcon
 	dw CharizardIcon
 	dw SquirtleIcon
