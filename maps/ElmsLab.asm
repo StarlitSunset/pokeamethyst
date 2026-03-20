@@ -915,13 +915,7 @@ ElmAfterTheftText5:
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAY_G>. The"
-	line "road to the"
-
-	para "championship will"
-	line "be a long one."
-
-	para "Before you leave,"
+	text "Before you leave,"
 	line "you may want to"
 	cont "talk to your mom."
 	done
