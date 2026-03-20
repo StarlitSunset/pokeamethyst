@@ -5,6 +5,7 @@ AlphabeticalPokedexOrder:
 	db ABRA
 	db AERODACTYL
 	db AIPOM
+	db AKUA
 	db ALAKAZAM
 	db AMPHAROS
 	db ARBOK
@@ -23,7 +24,6 @@ AlphabeticalPokedexOrder:
 	db CATERPIE
 	db CELEBI
 	db CHANSEY
-	db CHARIZARD
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE

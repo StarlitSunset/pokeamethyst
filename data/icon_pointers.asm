@@ -7,7 +7,7 @@ IconPointers:
 	dw BorubeaaIcon
 	dw DainabeaIcon
 	dw KurusuIcon
-	dw CharizardIcon
+	dw AkuaIcon
 	dw SquirtleIcon
 	dw WartortleIcon
 	dw BlastoiseIcon

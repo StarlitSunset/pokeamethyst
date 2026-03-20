@@ -17,7 +17,7 @@ INCBIN "gfx/footprints/honooguma.1bpp",  footprint_top
 INCBIN "gfx/footprints/borubeaa.1bpp",   footprint_top
 INCBIN "gfx/footprints/dainabea.1bpp",   footprint_top
 INCBIN "gfx/footprints/kurusu.1bpp",     footprint_top
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
+INCBIN "gfx/footprints/akua.1bpp",  	 footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
@@ -26,7 +26,7 @@ INCBIN "gfx/footprints/honooguma.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/borubeaa.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/dainabea.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kurusu.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/akua.1bpp",  	 footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves

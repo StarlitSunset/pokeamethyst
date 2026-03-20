@@ -31,20 +31,19 @@ HanagomuraEvosAttacks:
 
 HonoogumaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BORUBEAA
-	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, GROWL
-	db 1, LEECH_SEED
-	db 4, GROWL
-	db 7, LEECH_SEED
-	db 10, VINE_WHIP
-	db 15, POISONPOWDER
-	db 15, SLEEP_POWDER
-	db 22, RAZOR_LEAF
-	db 29, SWEET_SCENT
-	db 38, GROWTH
-	db 47, SYNTHESIS
-	db 56, SOLARBEAM
+	db 1, EMBER
+	db 1, SMOKESCREEN
+	db 7, EMBER
+	db 13, SMOKESCREEN
+	db 20, RAGE
+	db 27, SCARY_FACE
+	db 34, FLAMETHROWER
+	db 36, WING_ATTACK
+	db 44, SLASH
+	db 54, DRAGON_RAGE
+	db 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
 BorubeaaEvosAttacks:
@@ -80,22 +79,22 @@ DainabeaEvosAttacks:
 	db 0 ; no more level-up moves
 
 KurusuEvosAttacks:
-	db EVOLVE_LEVEL, 36, CHARIZARD
+	db EVOLVE_LEVEL, 16, AKUA
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, GROWL
-	db 1, EMBER
-	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 20, RAGE
-	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
-	db 41, SLASH
-	db 48, DRAGON_RAGE
-	db 55, FIRE_SPIN
+	db 1, TACKLE
+	db 4, TAIL_WHIP
+	db 7, BUBBLE
+	db 10, WITHDRAW
+	db 13, WATER_GUN
+	db 18, BITE
+	db 23, RAPID_SPIN
+	db 28, PROTECT
+	db 33, RAIN_DANCE
+	db 40, SKULL_BASH
+	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CharizardEvosAttacks:
+AkuaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL

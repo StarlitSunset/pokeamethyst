@@ -5,7 +5,7 @@ PokemonNames::
 	db "BORUBEAA@@"
 	db "DAINABEA@@"
 	db "KURUSU@@@@"
-	db "CHARIZARD@"
+	db "AKUA@@@@@@"
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"

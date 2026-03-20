@@ -24,7 +24,7 @@
 	const BORUBEAA   ; 03
 	const DAINABEA   ; 04
 	const KURUSU	 ; 05
-	const CHARIZARD  ; 06
+	const AKUA	     ; 06
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09

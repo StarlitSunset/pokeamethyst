@@ -803,7 +803,7 @@ KantoGrassWildMons:
 	db 10, BORUBEAA, 		 2,  5
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, AKUA, 			 2,  5
 	db 30, HANAGOMURA, 		 2,  5
 
 	; day
@@ -813,7 +813,7 @@ KantoGrassWildMons:
 	db 10, BORUBEAA, 		 2,  5
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, AKUA, 			 2,  5
 	db 30, HANAGOMURA, 		 2,  5
 
 	; nite
@@ -823,7 +823,7 @@ KantoGrassWildMons:
 	db 10, BORUBEAA, 		 2,  5
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
-	db 10, HANAGOMURA, 		 2,  5
+	db 10, AKUA, 			 2,  5
 	db 30, HANAGOMURA, 		 2,  5
 	end_grass_wildmons
 

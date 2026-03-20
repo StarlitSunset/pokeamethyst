@@ -6,7 +6,7 @@ PokedexDataPointerTable:
 	dw BorubeaaPokedexEntry
 	dw DainabeaPokedexEntry
 	dw KurusuPokedexEntry
-	dw CharizardPokedexEntry
+	dw AkuaPokedexEntry
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry

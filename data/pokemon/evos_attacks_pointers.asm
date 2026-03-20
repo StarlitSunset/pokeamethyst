@@ -7,7 +7,7 @@ EvosAttacksPointers::
 	dw BorubeaaEvosAttacks
 	dw DainabeaEvosAttacks
 	dw KurusuEvosAttacks
-	dw CharizardEvosAttacks
+	dw AkuaEvosAttacks
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks

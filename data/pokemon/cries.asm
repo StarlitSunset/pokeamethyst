@@ -11,7 +11,7 @@ PokemonCries::
 	mon_cry CRY_HANAGOMURA,    0,  320 ; BORUBEAA
 	mon_cry CRY_DAINABEA,     96,  192 ; DAINABEA
 	mon_cry CRY_DAINABEA,     32,  192 ; KURUSU
-	mon_cry CRY_DAINABEA,      0,  256 ; CHARIZARD
+	mon_cry CRY_DAINABEA,      0,  256 ; AKUA
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
