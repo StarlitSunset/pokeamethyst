@@ -59,7 +59,6 @@ AlphabeticalPokedexOrder:
 	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
-	db FEAROW
 	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
@@ -81,6 +80,7 @@ AlphabeticalPokedexOrder:
 	db GROWLITHE
 	db GYARADOS
 	db HANAGOMURA
+	db HANEEI
 	db HAUNTER
 	db HERACROSS
 	db HITMONCHAN

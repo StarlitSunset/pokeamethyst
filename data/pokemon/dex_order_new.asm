@@ -114,7 +114,7 @@ NewPokedexOrder:
 	db MIKON
 	db MONJA
 	db JARANRA
-	db FEAROW
+	db HANEEI
 	db RATTATA
 	db RATICATE
 	db CATERPIE

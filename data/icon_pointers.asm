@@ -23,7 +23,7 @@ IconPointers:
 	dw RattataIcon
 	dw RaticateIcon
 	dw JaranraIcon
-	dw FearowIcon
+	dw HaneeiIcon
 	dw EkansIcon
 	dw ArbokIcon
 	dw PikachuIcon

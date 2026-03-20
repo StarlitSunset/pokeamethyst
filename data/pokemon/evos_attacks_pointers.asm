@@ -23,7 +23,7 @@ EvosAttacksPointers::
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks
 	dw JaranraEvosAttacks
-	dw FearowEvosAttacks
+	dw HaneeiEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks

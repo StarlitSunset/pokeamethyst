@@ -34,7 +34,7 @@ Pokered_MonIndices:
 	db SHUCKLE ; MISSINGNO.
 	db GROWLITHE
 	db ONIX
-	db FEAROW
+	db HANEEI
 	db PIDGEY
 	db SLOWPOKE
 	db KADABRA

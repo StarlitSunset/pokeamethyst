@@ -287,18 +287,16 @@ JaranraEvosAttacks:
 	db 46, GROWTH
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+HaneeiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, GROWL
-	db 1, LEER
-	db 1, FURY_ATTACK
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 26, PURSUIT
-	db 32, MIRROR_MOVE
-	db 40, DRILL_PECK
-	db 47, AGILITY
+	db 1, TACKLE
+	db 1, BUBBLE
+	db 10, SUPERSONIC
+	db 18, BUBBLEBEAM
+	db 25, TAKE_DOWN
+	db 32, AGILITY
+	db 40, WING_ATTACK
+	db 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -2998,7 +2996,7 @@ DelibirdEvosAttacks:
 	db 0 ; no more level-up moves
 
 MantineEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 40, HANEEI
 	db 1, TACKLE
 	db 1, BUBBLE
 	db 10, SUPERSONIC

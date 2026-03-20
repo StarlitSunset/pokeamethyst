@@ -22,7 +22,7 @@ PokedexDataPointerTable:
 	dw RattataPokedexEntry
 	dw RaticatePokedexEntry
 	dw JaranraPokedexEntry
-	dw FearowPokedexEntry
+	dw HaneeiPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry

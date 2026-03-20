@@ -22,7 +22,7 @@
 	const ICON_RATTATA     ; RATTATA*
 	const ICON_RATICATE    ; RATICATE*
 	const ICON_JARANRA     ; JARANRA
-	const ICON_FEAROW      ; FEAROW*
+	const ICON_HANEEI      ; HANEEI
 	const ICON_EKANS       ; EKANS*
 	const ICON_ARBOK       ; ARBOK*
 	const ICON_PIKACHU     ; PIKACHU

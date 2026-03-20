@@ -23,7 +23,7 @@ MonMenuIcons:
 	db ICON_RATTATA     ; RATTATA*
 	db ICON_RATICATE    ; RATICATE*
 	db ICON_JARANRA     ; JARANRA
-	db ICON_FEAROW      ; FEAROW*
+	db ICON_HANEEI      ; HANEEI
 	db ICON_EKANS       ; EKANS*
 	db ICON_ARBOK       ; ARBOK*
 	db ICON_PIKACHU     ; PIKACHU

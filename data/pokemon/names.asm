@@ -21,7 +21,7 @@ PokemonNames::
 	db "RATTATA@@@"
 	db "RATICATE@@"
 	db "JARANRA@@@"
-	db "FEAROW@@@@"
+	db "HANEEI@@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"
