@@ -4,7 +4,7 @@ EggMovePointers::
 	dw HonoogumaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw KurusuEggMoves
 	dw NoEggMoves
 	dw SquirtleEggMoves
 	dw NoEggMoves

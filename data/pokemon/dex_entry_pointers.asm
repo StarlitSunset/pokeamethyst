@@ -5,7 +5,7 @@ PokedexDataPointerTable:
 	dw HonoogumaPokedexEntry
 	dw BorubeaaPokedexEntry
 	dw DainabeaPokedexEntry
-	dw CharmeleonPokedexEntry
+	dw KurusuPokedexEntry
 	dw CharizardPokedexEntry
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry

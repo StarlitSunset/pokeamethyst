@@ -23,7 +23,7 @@
 	const HONOOGUMA  ; 02
 	const BORUBEAA   ; 03
 	const DAINABEA   ; 04
-	const CHARMELEON ; 05
+	const KURUSU	 ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08

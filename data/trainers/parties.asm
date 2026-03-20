@@ -807,7 +807,6 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
-	db 24, CHARMELEON
 	db 24, WARTORTLE
 	db -1 ; end
 
@@ -899,7 +898,6 @@ CooltrainerMGroup:
 	; COOLTRAINERM (17)
 	db "KEVIN@", TRAINERTYPE_NORMAL
 	db 38, RHYHORN
-	db 35, CHARMELEON
 	db 35, WARTORTLE
 	db -1 ; end
 
@@ -910,7 +908,6 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (19)
 	db "ALLEN@", TRAINERTYPE_MOVES
-	db 27, CHARMELEON, EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	db -1 ; end
 
 	; COOLTRAINERM (20)
@@ -2433,7 +2430,6 @@ BikerGroup:
 	; BIKER (6)
 	db "CHARLES@", TRAINERTYPE_NORMAL
 	db 30, KOFFING
-	db 30, CHARMELEON
 	db 30, WEEZING
 	db -1 ; end
 
@@ -2495,7 +2491,6 @@ FirebreatherGroup:
 
 	; FIREBREATHER (2)
 	db "DICK@", TRAINERTYPE_NORMAL
-	db 17, CHARMELEON
 	db -1 ; end
 
 	; FIREBREATHER (3)

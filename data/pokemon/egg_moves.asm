@@ -27,6 +27,15 @@ HonoogumaEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
+KurusuEggMoves:
+	db MIRROR_COAT
+	db HAZE
+	db MIST
+	db CONFUSION
+	db FORESIGHT
+	db FLAIL
+	db -1 ; end
+
 SquirtleEggMoves:
 	db MIRROR_COAT
 	db HAZE

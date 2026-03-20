@@ -4,7 +4,7 @@ PokemonNames::
 	db "HONOOGUMA@"
 	db "BORUBEAA@@"
 	db "DAINABEA@@"
-	db "CHARMELEON"
+	db "KURUSU@@@@"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"

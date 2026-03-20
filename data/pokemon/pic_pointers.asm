@@ -11,8 +11,8 @@ PokemonPicPointers::
 	dba_pic BorubeaaBackpic
 	dba_pic DainabeaFrontpic
 	dba_pic DainabeaBackpic
-	dba_pic CharmeleonFrontpic
-	dba_pic CharmeleonBackpic
+	dba_pic KurusuFrontpic
+	dba_pic KurusuBackpic
 	dba_pic CharizardFrontpic
 	dba_pic CharizardBackpic
 	dba_pic SquirtleFrontpic
