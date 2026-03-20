@@ -95,6 +95,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
+	db JARANRA
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF
@@ -211,7 +212,6 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SNUBBULL
-	db SPEAROW
 	db SPINARAK
 	db STANTLER
 	db STARMIE

@@ -273,17 +273,18 @@ RaticateEvosAttacks:
 	db 40, SUPER_FANG
 	db 0 ; no more level-up moves
 
-SpearowEvosAttacks:
-	db EVOLVE_LEVEL, 20, FEAROW
+JaranraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, GROWL
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 25, PURSUIT
-	db 31, MIRROR_MOVE
-	db 37, DRILL_PECK
-	db 43, AGILITY
+	db 1, CONSTRICT
+	db 4, SLEEP_POWDER
+	db 10, ABSORB
+	db 13, POISONPOWDER
+	db 19, VINE_WHIP
+	db 25, BIND
+	db 31, MEGA_DRAIN
+	db 34, STUN_SPORE
+	db 40, SLAM
+	db 46, GROWTH
 	db 0 ; no more level-up moves
 
 FearowEvosAttacks:
@@ -1531,7 +1532,7 @@ ChanseyEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 43, JARANRA
 	db 1, CONSTRICT
 	db 4, SLEEP_POWDER
 	db 10, ABSORB

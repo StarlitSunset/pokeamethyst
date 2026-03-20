@@ -113,7 +113,7 @@ NewPokedexOrder:
 	db AKUERIA
 	db MIKON
 	db MONJA
-	db SPEAROW
+	db JARANRA
 	db FEAROW
 	db RATTATA
 	db RATICATE

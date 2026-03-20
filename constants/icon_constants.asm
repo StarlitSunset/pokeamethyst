@@ -21,7 +21,7 @@
 	const ICON_PIDGEOT     ; PIDGEOT
 	const ICON_RATTATA     ; RATTATA*
 	const ICON_RATICATE    ; RATICATE*
-	const ICON_SPEAROW     ; SPEAROW*
+	const ICON_JARANRA     ; JARANRA
 	const ICON_FEAROW      ; FEAROW*
 	const ICON_EKANS       ; EKANS*
 	const ICON_ARBOK       ; ARBOK*

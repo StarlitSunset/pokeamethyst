@@ -17,7 +17,7 @@ Cries:
 	dba Cry_Drowzee
 	dba Cry_Pidgey
 	dba Cry_Hanagomura
-	dba Cry_Spearow
+	dba Cry_Jaranra
 	dba Cry_Rhydon
 	dba Cry_Golem
 	dba Cry_Monja

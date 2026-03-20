@@ -361,8 +361,6 @@ YoungsterGroup:
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db  7, RATTATA
 	db 10, SANDSHREW
-	db  8, SPEAROW
-	db  8, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (6)
@@ -578,7 +576,6 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (2)
 	db "ABE@", TRAINERTYPE_NORMAL
-	db  9, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
@@ -605,9 +602,6 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (6)
 	db "DENIS@", TRAINERTYPE_NORMAL
-	db 18, SPEAROW
-	db 20, FEAROW
-	db 18, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (7)
@@ -649,7 +643,6 @@ BirdKeeperGroup:
 	db "PETER@", TRAINERTYPE_NORMAL
 	db  6, PIDGEY
 	db  6, PIDGEY
-	db  8, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)

@@ -22,7 +22,7 @@ MonMenuIcons:
 	db ICON_PIDGEOT     ; PIDGEOT
 	db ICON_RATTATA     ; RATTATA*
 	db ICON_RATICATE    ; RATICATE*
-	db ICON_SPEAROW     ; SPEAROW*
+	db ICON_JARANRA     ; JARANRA
 	db ICON_FEAROW      ; FEAROW*
 	db ICON_EKANS       ; EKANS*
 	db ICON_ARBOK       ; ARBOK*

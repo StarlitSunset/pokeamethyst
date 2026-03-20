@@ -22,7 +22,7 @@ IconPointers:
 	dw PidgeotIcon
 	dw RattataIcon
 	dw RaticateIcon
-	dw SpearowIcon
+	dw JaranraIcon
 	dw FearowIcon
 	dw EkansIcon
 	dw ArbokIcon

@@ -21,7 +21,7 @@ PokedexDataPointerTable:
 	dw PidgeotPokedexEntry
 	dw RattataPokedexEntry
 	dw RaticatePokedexEntry
-	dw SpearowPokedexEntry
+	dw JaranraPokedexEntry
 	dw FearowPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry

@@ -4,7 +4,7 @@ Pokered_MonIndices:
 	db KANGASKHAN
 	db NIDORAN_M
 	db CLEFAIRY
-	db SPEAROW
+	db JARANRA
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO

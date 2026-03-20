@@ -20,7 +20,7 @@ PokemonNames::
 	db "PIDGEOT@@@"
 	db "RATTATA@@@"
 	db "RATICATE@@"
-	db "SPEAROW@@@"
+	db "JARANRA@@@"
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"

@@ -18,7 +18,7 @@
 	const CRY_DROWZEE
 	const CRY_PIDGEY
 	const CRY_HANAGOMURA
-	const CRY_SPEAROW
+	const CRY_JARANRA
 	const CRY_RHYDON
 	const CRY_GOLEM
 	const CRY_MONJA
