@@ -51,7 +51,7 @@ get a taste of something new and different in the Amethyst Islands region.
 
 # Pokemon
 
--57 Kanto Pokémon have been removed to make space for the Spaceworld 1997 Pokémon:
+-57 Kanto Pokémon have been removed to make space for the Spaceworld 1997 Pokémon: left to edit: icons, maybe sprites, dex, stats, cries, moves
  BULBASAUR > HANAGOMURA (bayleef)
  IVYSAUR > HONOOGUMA (cyndaquil)
  VENUSAUR > BORUBEAA (quil)
@@ -77,7 +77,7 @@ get a taste of something new and different in the Amethyst Islands region.
  NIDORAN_F > RINRIN (UMBREON) 
  NIDORINA > BERURUN (ESPEON BUT ALSO VARIED)
  NIDOQUEEN > NYORUTONO (POLITOED)
- NIDORAN_M > MITSUBOSHI (LEDIAN)0
+ NIDORAN_M > MITSUBOSHI (LEDIAN)
  NIDORINO > PUCHIKOON (PONYTA)
  NIDOKING > TAABAN (SLOWBRO/GRIMER)
  VENONAT > BETOBEBII (GRIMER)
