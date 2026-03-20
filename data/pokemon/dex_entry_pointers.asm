@@ -9,7 +9,7 @@ PokedexDataPointerTable:
 	dw AkuaPokedexEntry
 	dw AkueriaPokedexEntry
 	dw MikonPokedexEntry
-	dw BlastoisePokedexEntry
+	dw MonjaPokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry

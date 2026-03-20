@@ -8,7 +8,7 @@ PokemonNames::
 	db "AKUA@@@@@@"
 	db "AKUERIA@@@"
 	db "MIKON@@@@@"
-	db "BLASTOISE@"
+	db "MONJA@@@@@"
 	db "CATERPIE@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"

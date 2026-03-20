@@ -14,7 +14,7 @@ PokemonCries::
 	mon_cry CRY_AKUERIA,       0,  256 ; AKUA
 	mon_cry CRY_AKUERIA,      96,  192 ; AKUERIA
 	mon_cry CRY_VULPIX,       32,  192 ; MIKON
-	mon_cry CRY_AKUERIA,       0,  256 ; BLASTOISE
+	mon_cry CRY_GOLEM,         0,  256 ; MONJA
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE

@@ -18,7 +18,6 @@ AlphabeticalPokedexOrder:
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
-	db BLASTOISE
 	db BLISSEY
 	db BORUBEAA
 	db BUTTERFREE
@@ -140,6 +139,7 @@ AlphabeticalPokedexOrder:
 	db MILTANK
 	db MISDREAVUS
 	db MOLTRES
+	db MONJA
 	db MR__MIME
 	db MUK
 	db MURKROW

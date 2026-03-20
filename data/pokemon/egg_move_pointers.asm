@@ -8,7 +8,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MikonEggMoves
-	dw NoEggMoves
+	dw MonjaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -113,7 +113,7 @@ EggMovePointers::
 	dw RhyhornEggMoves
 	dw NoEggMoves
 	dw ChanseyEggMoves
-	dw TangelaEggMoves
+	dw NoEggMoves
 	dw KangaskhanEggMoves
 	dw HorseaEggMoves
 	dw NoEggMoves

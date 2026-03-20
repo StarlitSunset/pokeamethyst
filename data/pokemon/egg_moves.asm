@@ -58,6 +58,14 @@ MikonEggMoves:
 	db SPITE
 	db DISABLE
 	db -1 ; end
+	
+MonjaEggMoves:
+	db FLAIL
+	db CONFUSION
+	db MEGA_DRAIN
+	db REFLECT
+	db AMNESIA
+	db -1 ; end
 
 EkansEggMoves:
 	db PURSUIT
@@ -344,14 +352,6 @@ ChanseyEggMoves:
 	db PRESENT
 	db METRONOME
 	db HEAL_BELL
-	db -1 ; end
-
-TangelaEggMoves:
-	db FLAIL
-	db CONFUSION
-	db MEGA_DRAIN
-	db REFLECT
-	db AMNESIA
 	db -1 ; end
 
 KangaskhanEggMoves:

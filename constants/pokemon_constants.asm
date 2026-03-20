@@ -27,7 +27,7 @@
 	const AKUA	     ; 06
 	const AKUERIA    ; 07
 	const MIKON	     ; 08
-	const BLASTOISE  ; 09
+	const MONJA	     ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c

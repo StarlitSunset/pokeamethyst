@@ -10,7 +10,7 @@ EvosAttacksPointers::
 	dw AkuaEvosAttacks
 	dw AkueriaEvosAttacks
 	dw MikonEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw MonjaEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks

@@ -112,7 +112,7 @@ NewPokedexOrder:
 	db AKUA
 	db AKUERIA
 	db MIKON
-	db BLASTOISE
+	db MONJA
 	db SPEAROW
 	db FEAROW
 	db RATTATA

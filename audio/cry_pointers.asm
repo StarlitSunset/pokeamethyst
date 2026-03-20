@@ -20,7 +20,7 @@ Cries:
 	dba Cry_Spearow
 	dba Cry_Rhydon
 	dba Cry_Golem
-	dba Cry_Blastoise
+	dba Cry_Monja
 	dba Cry_Pidgeotto
 	dba Cry_Weedle
 	dba Cry_Caterpie

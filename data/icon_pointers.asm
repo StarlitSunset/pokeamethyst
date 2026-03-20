@@ -10,7 +10,7 @@ IconPointers:
 	dw AkuaIcon
 	dw AkueriaIcon
 	dw MikonIcon
-	dw BlastoiseIcon
+	dw MonjaIcon
 	dw CaterpieIcon
 	dw MetapodIcon
 	dw ButterfreeIcon
