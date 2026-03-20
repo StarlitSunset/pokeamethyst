@@ -110,8 +110,8 @@ NewPokedexOrder:
 	db DAINABEA
 	db KURUSU
 	db AKUA
-	db SQUIRTLE
-	db WARTORTLE
+	db AKUERIA
+	db MIKON
 	db BLASTOISE
 	db SPEAROW
 	db FEAROW

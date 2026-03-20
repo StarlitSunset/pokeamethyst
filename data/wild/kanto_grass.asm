@@ -804,7 +804,7 @@ KantoGrassWildMons:
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
 	db 10, AKUA, 			 2,  5
-	db 30, HANAGOMURA, 		 2,  5
+	db 30, AKUERIA, 		 2,  5
 
 	; day
 	;  %, species,		min, max
@@ -814,7 +814,7 @@ KantoGrassWildMons:
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
 	db 10, AKUA, 			 2,  5
-	db 30, HANAGOMURA, 		 2,  5
+	db 30, AKUERIA, 		 2,  5
 
 	; nite
 	;  %, species,		min, max
@@ -824,7 +824,7 @@ KantoGrassWildMons:
 	db 10, DAINABEA, 		 2,  5
 	db 10, KURUSU, 	    	 2,  5
 	db 10, AKUA, 			 2,  5
-	db 30, HANAGOMURA, 		 2,  5
+	db 30, AKUERIA, 		 2,  5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_24

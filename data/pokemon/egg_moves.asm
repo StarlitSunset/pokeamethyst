@@ -36,15 +36,6 @@ KurusuEggMoves:
 	db FLAIL
 	db -1 ; end
 
-SquirtleEggMoves:
-	db MIRROR_COAT
-	db HAZE
-	db MIST
-	db CONFUSION
-	db FORESIGHT
-	db FLAIL
-	db -1 ; end
-
 PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
@@ -60,12 +51,12 @@ RattataEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-SpearowEggMoves:
+MikonEggMoves:
 	db FAINT_ATTACK
-	db FALSE_SWIPE
-	db SCARY_FACE
-	db QUICK_ATTACK
-	db TRI_ATTACK
+	db HYPNOSIS
+	db FLAIL
+	db SPITE
+	db DISABLE
 	db -1 ; end
 
 EkansEggMoves:

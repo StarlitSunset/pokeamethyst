@@ -25,8 +25,8 @@
 	const DAINABEA   ; 04
 	const KURUSU	 ; 05
 	const AKUA	     ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
+	const AKUERIA    ; 07
+	const MIKON	     ; 08
 	const BLASTOISE  ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b

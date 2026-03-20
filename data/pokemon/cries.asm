@@ -7,20 +7,20 @@ PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
 	mon_cry CRY_HANAGOMURA,  128,  129 ; HANAGOMURA
-	mon_cry CRY_HANAGOMURA,   32,  256 ; HONOOGUMA
-	mon_cry CRY_HANAGOMURA,    0,  320 ; BORUBEAA
+	mon_cry CRY_DAINABEA,     32,  256 ; HONOOGUMA
+	mon_cry CRY_DAINABEA,      0,  320 ; BORUBEAA
 	mon_cry CRY_DAINABEA,     96,  192 ; DAINABEA
-	mon_cry CRY_DAINABEA,     32,  192 ; KURUSU
-	mon_cry CRY_DAINABEA,      0,  256 ; AKUA
-	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_AKUERIA,      32,  192 ; KURUSU
+	mon_cry CRY_AKUERIA,       0,  256 ; AKUA
+	mon_cry CRY_AKUERIA,      96,  192 ; AKUERIA
+	mon_cry CRY_VULPIX,       32,  192 ; MIKON
+	mon_cry CRY_AKUERIA,       0,  256 ; BLASTOISE
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
+	mon_cry CRY_DAINABEA,    255,  129 ; KAKUNA
+	mon_cry CRY_DAINABEA,     96,  256 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
@@ -46,8 +46,8 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
 	mon_cry CRY_PIDGEY,      255,  181 ; JIGGLYPUFF
 	mon_cry CRY_PIDGEY,      104,  224 ; WIGGLYTUFF
-	mon_cry CRY_SQUIRTLE,    224,  256 ; ZUBAT
-	mon_cry CRY_SQUIRTLE,    250,  256 ; GOLBAT
+	mon_cry CRY_AKUERIA,     224,  256 ; ZUBAT
+	mon_cry CRY_AKUERIA,     250,  256 ; GOLBAT
 	mon_cry CRY_ODDISH,      221,  129 ; ODDISH
 	mon_cry CRY_ODDISH,      170,  192 ; GLOOM
 	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
@@ -133,7 +133,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_DAINABEA,    255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
-	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
+	mon_cry CRY_AKUERIA,      17,  192 ; TAUROS
 	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
 	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
@@ -174,7 +174,7 @@ PokemonCries::
 	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
 	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
-	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
+	mon_cry CRY_AKUERIA,     -16,  320 ; CROBAT
 	mon_cry CRY_CYNDAQUIL,   969,  320 ; CHINCHOU
 	mon_cry CRY_CYNDAQUIL,   720,  272 ; LANTURN
 	mon_cry CRY_PICHU,         0,  320 ; PICHU

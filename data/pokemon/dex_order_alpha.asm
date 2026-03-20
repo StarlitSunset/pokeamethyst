@@ -6,6 +6,7 @@ AlphabeticalPokedexOrder:
 	db AERODACTYL
 	db AIPOM
 	db AKUA
+	db AKUERIA
 	db ALAKAZAM
 	db AMPHAROS
 	db ARBOK
@@ -135,6 +136,7 @@ AlphabeticalPokedexOrder:
 	db METAPOD
 	db MEW
 	db MEWTWO
+	db MIKON
 	db MILTANK
 	db MISDREAVUS
 	db MOLTRES
@@ -211,7 +213,6 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
-	db SQUIRTLE
 	db STANTLER
 	db STARMIE
 	db STARYU
@@ -243,7 +244,6 @@ AlphabeticalPokedexOrder:
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WARTORTLE
 	db WEEDLE
 	db WEEPINBELL
 	db WEEZING

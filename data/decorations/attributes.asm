@@ -44,7 +44,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    JIGGLYPUFF,      SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,         SPRITE_JIGGLYPUFF
 	decoration DECO_DOLL,    HANAGOMURA,      SET_UP_DOLL,       EVENT_DECO_HANAGOMURA_DOLL,         SPRITE_SPICHU
 	decoration DECO_DOLL,    MEWTWO,      	  SET_UP_DOLL,       EVENT_DECO_DAINABEA_DOLL,       	 SPRITE_MEWTWO
-	decoration DECO_DOLL,    MEW,  		      SET_UP_DOLL,       EVENT_DECO_SQUIRTLE_DOLL,           SPRITE_MEW
+	decoration DECO_DOLL,    MEW,  		      SET_UP_DOLL,       EVENT_DECO_AKUERIA_DOLL,            SPRITE_MEW
 	decoration DECO_DOLL,    POLIWAG,         SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
 	decoration DECO_DOLL,    DIGLETT,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARYU_DOLL,             SPRITE_STARMIE

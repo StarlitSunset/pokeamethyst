@@ -8,8 +8,8 @@ IconPointers:
 	dw DainabeaIcon
 	dw KurusuIcon
 	dw AkuaIcon
-	dw SquirtleIcon
-	dw WartortleIcon
+	dw AkueriaIcon
+	dw MikonIcon
 	dw BlastoiseIcon
 	dw CaterpieIcon
 	dw MetapodIcon

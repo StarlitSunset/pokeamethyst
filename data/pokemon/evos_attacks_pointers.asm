@@ -8,8 +8,8 @@ EvosAttacksPointers::
 	dw DainabeaEvosAttacks
 	dw KurusuEvosAttacks
 	dw AkuaEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
+	dw AkueriaEvosAttacks
+	dw MikonEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks

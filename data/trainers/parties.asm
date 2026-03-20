@@ -801,12 +801,10 @@ JanineGroup:
 CooltrainerMGroup:
 	; COOLTRAINERM (1)
 	db "NICK@", TRAINERTYPE_MOVES
-	db 26, SQUIRTLE,   WITHDRAW, WATER_GUN, BITE, CURSE
 	db -1 ; end
 
 	; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
-	db 24, WARTORTLE
 	db -1 ; end
 
 	; COOLTRAINERM (3)
@@ -874,17 +872,14 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (13)
 	db "ERICK@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (14)
 	db "ANDY@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (15)
 	db "TYLER@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (16)
@@ -897,12 +892,10 @@ CooltrainerMGroup:
 	; COOLTRAINERM (17)
 	db "KEVIN@", TRAINERTYPE_NORMAL
 	db 38, RHYHORN
-	db 35, WARTORTLE
 	db -1 ; end
 
 	; COOLTRAINERM (18)
 	db "STEVE@", TRAINERTYPE_NORMAL
-	db 14, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (19)
@@ -955,8 +948,6 @@ CooltrainerFGroup:
 	; COOLTRAINERF (7)
 	db "KELLY@", TRAINERTYPE_NORMAL
 	db 27, MARILL
-	db 24, WARTORTLE
-	db 24, WARTORTLE
 	db -1 ; end
 
 	; COOLTRAINERF (8)
@@ -1772,7 +1763,6 @@ SwimmerMGroup:
 	; SWIMMERM (3)
 	db "RANDALL@", TRAINERTYPE_NORMAL
 	db 18, SHELLDER
-	db 20, WARTORTLE
 	db 18, SHELLDER
 	db -1 ; end
 
@@ -3212,7 +3202,6 @@ PokefanMGroup:
 
 	; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
-	db 29, SQUIRTLE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (6)

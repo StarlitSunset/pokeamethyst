@@ -7,8 +7,8 @@ PokedexDataPointerTable:
 	dw DainabeaPokedexEntry
 	dw KurusuPokedexEntry
 	dw AkuaPokedexEntry
-	dw SquirtlePokedexEntry
-	dw WartortlePokedexEntry
+	dw AkueriaPokedexEntry
+	dw MikonPokedexEntry
 	dw BlastoisePokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
