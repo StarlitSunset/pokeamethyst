@@ -95,6 +95,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
+	db IKARI
 	db JARANRA
 	db JIGGLYPUFF
 	db JOLTEON
@@ -134,7 +135,6 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MEGANIUM
 	db MEOWTH
-	db METAPOD
 	db MEW
 	db MEWTWO
 	db MIKON

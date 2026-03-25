@@ -11,7 +11,7 @@
 	const ICON_MIKON	   ; MIKON
 	const ICON_MONJA  	   ; MONJA
 	const ICON_MANBOO      ; MANBOO
-	const ICON_METAPOD     ; METAPOD*
+	const ICON_IKARI       ; IKARI
 	const ICON_BUTTERFREE  ; BUTTERFREE
 	const ICON_WEEDLE      ; WEEDLE*
 	const ICON_KAKUNA      ; KAKUNA*

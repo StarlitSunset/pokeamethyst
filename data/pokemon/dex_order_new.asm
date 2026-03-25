@@ -118,7 +118,7 @@ NewPokedexOrder:
 	db SHIBIFUGU
 	db GYOPIN
 	db MANBOO
-	db METAPOD
+	db IKARI
 	db WEEDLE
 	db KAKUNA
 	db BEEDRILL

@@ -23,8 +23,8 @@ PokemonPicPointers::
 	dba_pic MonjaBackpic
 	dba_pic ManbooFrontpic
 	dba_pic ManbooBackpic
-	dba_pic MetapodFrontpic
-	dba_pic MetapodBackpic
+	dba_pic IkariFrontpic
+	dba_pic IkariBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
 	dba_pic WeedleFrontpic

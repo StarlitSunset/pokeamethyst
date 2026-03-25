@@ -121,7 +121,7 @@ TreeMonSet_Forest:
 	db 15, BUTTERFREE, 10
 	db 15, WEEDLE,     10
 	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
+	db  5, PINECO,     10
 	db  5, KAKUNA,     10
 	db -1
 

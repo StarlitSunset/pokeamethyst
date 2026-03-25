@@ -10,7 +10,7 @@ PokemonNames::
 	db "MIKON@@@@@"
 	db "MONJA@@@@@"
 	db "MANBOO@@@@"
-	db "METAPOD@@@"
+	db "IKARI@@@@@"
 	db "BUTTERFREE"
 	db "WEEDLE@@@@"
 	db "KAKUNA@@@@"

@@ -12,7 +12,7 @@ EvosAttacksPointers::
 	dw MikonEvosAttacks
 	dw MonjaEvosAttacks
 	dw ManbooEvosAttacks
-	dw MetapodEvosAttacks
+	dw IkariEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks

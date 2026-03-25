@@ -12,7 +12,7 @@ IconPointers:
 	dw MikonIcon
 	dw MonjaIcon
 	dw ManbooIcon
-	dw MetapodIcon
+	dw IkariIcon
 	dw ButterfreeIcon
 	dw WeedleIcon
 	dw KakunaIcon

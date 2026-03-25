@@ -11,7 +11,7 @@ PokedexDataPointerTable:
 	dw MikonPokedexEntry
 	dw MonjaPokedexEntry
 	dw ManbooPokedexEntry
-	dw MetapodPokedexEntry
+	dw IkariPokedexEntry
 	dw ButterfreePokedexEntry
 	dw WeedlePokedexEntry
 	dw KakunaPokedexEntry

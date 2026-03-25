@@ -29,7 +29,6 @@
 	const CRY_CLEFAIRY
 	const CRY_VENONAT
 	const CRY_LAPRAS
-	const CRY_METAPOD
 	const CRY_AKUERIA
 	const CRY_PARAS
 	const CRY_GROWLITHE

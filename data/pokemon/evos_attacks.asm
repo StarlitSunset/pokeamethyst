@@ -155,12 +155,12 @@ MonjaEvosAttacks:
 	db 0 ; no more level-up moves
 
 ManbooEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 28, IKARI
 	db 1, TACKLE
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
+IkariEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 7, HARDEN

@@ -29,7 +29,7 @@
 	const MIKON	     ; 08
 	const MONJA	     ; 09
 	const MANBOO     ; 0a
-	const METAPOD    ; 0b
+	const IKARI      ; 0b
 	const BUTTERFREE ; 0c
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
