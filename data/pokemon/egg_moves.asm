@@ -69,6 +69,17 @@ ManbooEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
+GurutesuEggMoves:
+	db ICE_BEAM
+	db HYPNOSIS
+	db PSYBEAM
+	db FORESIGHT
+	db LIGHT_SCREEN
+	db FUTURE_SIGHT
+	db PSYCHIC_M
+	db CROSS_CHOP
+	db -1 ; end
+
 EkansEggMoves:
 	db PURSUIT
 	db SLAM

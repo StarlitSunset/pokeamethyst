@@ -119,7 +119,7 @@ NewPokedexOrder:
 	db GYOPIN
 	db MANBOO
 	db IKARI
-	db WEEDLE
+	db GURUTESU
 	db KAKUNA
 	db BEEDRILL
 	db EKANS

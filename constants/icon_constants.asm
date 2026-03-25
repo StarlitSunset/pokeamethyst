@@ -13,7 +13,7 @@
 	const ICON_MANBOO      ; MANBOO
 	const ICON_IKARI       ; IKARI
 	const ICON_BUTTERFREE  ; BUTTERFREE
-	const ICON_WEEDLE      ; WEEDLE*
+	const ICON_GURUTESU    ; GURUTESU
 	const ICON_KAKUNA      ; KAKUNA*
 	const ICON_BEEDRILL    ; BEEDRILL*
 	const ICON_PIDGEY      ; PIDGEY

@@ -54,7 +54,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
 	decoration DECO_DOLL,    ZAPDOS,          SET_UP_DOLL,       EVENT_DECO_GRIMER_DOLL,             SPRITE_ZAPDOS
 	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
-	decoration DECO_DOLL,    MOLTRES,         SET_UP_DOLL,       EVENT_DECO_WEEDLE_DOLL,             SPRITE_MOLTRES
+	decoration DECO_DOLL,    MOLTRES,         SET_UP_DOLL,       EVENT_DECO_MOLTRES_DOLL,            SPRITE_MOLTRES
 	decoration DECO_DOLL,    UNOWN,           SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,              SPRITE_UNOWN
 	decoration DECO_DOLL,    GEODUDE,         SET_UP_DOLL,       EVENT_DECO_GEODUDE_DOLL,            SPRITE_GEODUDE
 	decoration DECO_DOLL,    MACHOP,          SET_UP_DOLL,       EVENT_DECO_MACHOP_DOLL,             SPRITE_MACHOP

@@ -14,7 +14,7 @@ EvosAttacksPointers::
 	dw ManbooEvosAttacks
 	dw IkariEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
+	dw GurutesuEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
 	dw PidgeyEvosAttacks

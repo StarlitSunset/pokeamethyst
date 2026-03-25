@@ -14,7 +14,7 @@ IconPointers:
 	dw ManbooIcon
 	dw IkariIcon
 	dw ButterfreeIcon
-	dw WeedleIcon
+	dw GurutesuIcon
 	dw KakunaIcon
 	dw BeedrillIcon
 	dw PidgeyIcon

@@ -12,7 +12,7 @@ PokemonNames::
 	db "MANBOO@@@@"
 	db "IKARI@@@@@"
 	db "BUTTERFREE"
-	db "WEEDLE@@@@"
+	db "GURUTESU@@"
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
 	db "PIDGEY@@@@"

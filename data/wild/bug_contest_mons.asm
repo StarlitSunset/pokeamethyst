@@ -1,6 +1,5 @@
 ContestMons:
 	;   %, species,   min, max
-	db 20, WEEDLE,      7, 18
 	db 10, KAKUNA,      9, 18
 	db  5, BUTTERFREE, 12, 15
 	db  5, BEEDRILL,   12, 15

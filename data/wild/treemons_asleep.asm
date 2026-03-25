@@ -2,7 +2,6 @@
 
 AsleepTreeMonsNite:
 	db BUTTERFREE
-	db WEEDLE
 	db KAKUNA
 	db BEEDRILL
 	db PIDGEY

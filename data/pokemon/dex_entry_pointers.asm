@@ -13,7 +13,7 @@ PokedexDataPointerTable:
 	dw ManbooPokedexEntry
 	dw IkariPokedexEntry
 	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
+	dw GurutesuPokedexEntry
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry

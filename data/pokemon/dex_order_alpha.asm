@@ -77,6 +77,7 @@ AlphabeticalPokedexOrder:
 	db GRAVELER
 	db GRIMER
 	db GROWLITHE
+	db GURUTESU
 	db GYARADOS
 	db GYOPIN
 	db HANAGOMURA
@@ -244,7 +245,6 @@ AlphabeticalPokedexOrder:
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

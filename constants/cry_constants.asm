@@ -23,7 +23,6 @@
 	const CRY_GOLEM
 	const CRY_MONJA
 	const CRY_PIDGEOTTO
-	const CRY_WEEDLE
 	const CRY_EKANS
 	const CRY_FEAROW
 	const CRY_CLEFAIRY
