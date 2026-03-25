@@ -20,7 +20,7 @@ IconPointers:
 	dw PidgeyIcon
 	dw PidgeottoIcon
 	dw PidgeotIcon
-	dw RattataIcon
+	dw ShibifuguIcon
 	dw RaticateIcon
 	dw JaranraIcon
 	dw HaneeiIcon

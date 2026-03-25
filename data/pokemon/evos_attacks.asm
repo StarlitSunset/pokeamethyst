@@ -249,16 +249,17 @@ PidgeotEvosAttacks:
 	db 61, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-RattataEvosAttacks:
-	db EVOLVE_LEVEL, 20, RATICATE
+ShibifuguEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SPIKES
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 20, FOCUS_ENERGY
-	db 27, PURSUIT
-	db 34, SUPER_FANG
+	db 1, POISON_STING
+	db 10, HARDEN
+	db 10, MINIMIZE
+	db 19, WATER_GUN
+	db 28, PIN_MISSILE
+	db 37, TAKE_DOWN
+	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 RaticateEvosAttacks:
@@ -2806,7 +2807,7 @@ GranbullEvosAttacks:
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 34, SHIBIFUGU
 	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING

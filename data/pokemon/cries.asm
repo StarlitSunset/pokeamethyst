@@ -24,8 +24,8 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
-	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
-	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
+	mon_cry CRY_SHIBIFUGU,     0,  256 ; SHIBIFUGU
+	mon_cry CRY_SHIBIFUGU,    32,  383 ; RATICATE
 	mon_cry CRY_JARANRA,       0,  256 ; JARANRA
 	mon_cry CRY_MANTINE,      64,  288 ; HANEEI
 	mon_cry CRY_EKANS,        18,  192 ; EKANS

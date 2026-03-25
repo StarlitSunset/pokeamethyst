@@ -115,7 +115,7 @@ NewPokedexOrder:
 	db MONJA
 	db JARANRA
 	db HANEEI
-	db RATTATA
+	db SHIBIFUGU
 	db RATICATE
 	db CATERPIE
 	db METAPOD

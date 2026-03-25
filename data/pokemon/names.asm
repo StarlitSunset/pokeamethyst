@@ -18,7 +18,7 @@ PokemonNames::
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
-	db "RATTATA@@@"
+	db "SHIBIFUGU@"
 	db "RATICATE@@"
 	db "JARANRA@@@"
 	db "HANEEI@@@@"

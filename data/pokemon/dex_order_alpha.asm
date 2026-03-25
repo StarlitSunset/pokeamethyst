@@ -187,7 +187,6 @@ AlphabeticalPokedexOrder:
 	db RAIKOU
 	db RAPIDASH
 	db RATICATE
-	db RATTATA
 	db REMORAID
 	db RHYDON
 	db RHYHORN
@@ -200,6 +199,7 @@ AlphabeticalPokedexOrder:
 	db SEEL
 	db SENTRET
 	db SHELLDER
+	db SHIBIFUGU
 	db SHUCKLE
 	db SKARMORY
 	db SKIPLOOM
