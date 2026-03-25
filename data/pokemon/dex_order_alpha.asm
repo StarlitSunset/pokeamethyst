@@ -79,6 +79,7 @@ AlphabeticalPokedexOrder:
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS
+	db GYOPIN
 	db HANAGOMURA
 	db HANEEI
 	db HAUNTER
@@ -186,7 +187,6 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH
-	db RATICATE
 	db REMORAID
 	db RHYDON
 	db RHYHORN

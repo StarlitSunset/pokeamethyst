@@ -21,7 +21,7 @@ EvosAttacksPointers::
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
 	dw ShibifuguEvosAttacks
-	dw RaticateEvosAttacks
+	dw GyopinEvosAttacks
 	dw JaranraEvosAttacks
 	dw HaneeiEvosAttacks
 	dw EkansEvosAttacks

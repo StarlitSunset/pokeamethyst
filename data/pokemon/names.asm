@@ -19,7 +19,7 @@ PokemonNames::
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
 	db "SHIBIFUGU@"
-	db "RATICATE@@"
+	db "GYOPIN@@@@"
 	db "JARANRA@@@"
 	db "HANEEI@@@@"
 	db "EKANS@@@@@"

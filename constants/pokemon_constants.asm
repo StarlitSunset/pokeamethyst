@@ -38,7 +38,7 @@
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const SHIBIFUGU  ; 13
-	const RATICATE   ; 14
+	const GYOPIN     ; 14
 	const JARANRA    ; 15
 	const HANEEI     ; 16
 	const EKANS      ; 17

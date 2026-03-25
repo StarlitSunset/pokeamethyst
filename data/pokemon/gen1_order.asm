@@ -165,7 +165,7 @@ Pokered_MonIndices:
 	db PONYTA
 	db RAPIDASH
 	db SHIBIFUGU
-	db RATICATE
+	db GYOPIN
 	db NIDORINO
 	db NIDORINA
 	db GEODUDE

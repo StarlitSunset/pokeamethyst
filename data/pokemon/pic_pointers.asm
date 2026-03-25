@@ -41,8 +41,8 @@ PokemonPicPointers::
 	dba_pic PidgeotBackpic
 	dba_pic ShibifuguFrontpic
 	dba_pic ShibifuguBackpic
-	dba_pic RaticateFrontpic
-	dba_pic RaticateBackpic
+	dba_pic GyopinFrontpic
+	dba_pic GyopinBackpic
 	dba_pic JaranraFrontpic
 	dba_pic JaranraBackpic
 	dba_pic HaneeiFrontpic

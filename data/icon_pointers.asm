@@ -21,7 +21,7 @@ IconPointers:
 	dw PidgeottoIcon
 	dw PidgeotIcon
 	dw ShibifuguIcon
-	dw RaticateIcon
+	dw GyopinIcon
 	dw JaranraIcon
 	dw HaneeiIcon
 	dw EkansIcon

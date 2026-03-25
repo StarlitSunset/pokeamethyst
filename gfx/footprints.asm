@@ -51,7 +51,7 @@ INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_top
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_top
 INCBIN "gfx/footprints/shibifugu.1bpp",  footprint_top
-INCBIN "gfx/footprints/raticate.1bpp",   footprint_top
+INCBIN "gfx/footprints/gyopin.1bpp",     footprint_top
 INCBIN "gfx/footprints/jaranra.1bpp",    footprint_top
 INCBIN "gfx/footprints/haneei.1bpp",     footprint_top
 INCBIN "gfx/footprints/ekans.1bpp",      footprint_top
@@ -60,7 +60,7 @@ INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/shibifugu.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/raticate.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/gyopin.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/jaranra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/haneei.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/ekans.1bpp",      footprint_bottom

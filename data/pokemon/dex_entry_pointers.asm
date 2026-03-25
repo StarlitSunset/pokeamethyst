@@ -20,7 +20,7 @@ PokedexDataPointerTable:
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
 	dw ShibifuguPokedexEntry
-	dw RaticatePokedexEntry
+	dw GyopinPokedexEntry
 	dw JaranraPokedexEntry
 	dw HaneeiPokedexEntry
 	dw EkansPokedexEntry

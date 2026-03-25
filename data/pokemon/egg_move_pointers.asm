@@ -18,8 +18,8 @@ EggMovePointers::
 	dw PidgeyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw RattataEggMoves
 	dw NoEggMoves
+	dw GyopinEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw EkansEggMoves
@@ -117,7 +117,7 @@ EggMovePointers::
 	dw KangaskhanEggMoves
 	dw HorseaEggMoves
 	dw NoEggMoves
-	dw GoldeenEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

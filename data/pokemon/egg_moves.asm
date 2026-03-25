@@ -42,15 +42,6 @@ PidgeyEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
-RattataEggMoves:
-	db SCREECH
-	db FLAME_WHEEL
-	db FURY_SWIPES
-	db BITE
-	db COUNTER
-	db REVERSAL
-	db -1 ; end
-
 MikonEggMoves:
 	db FAINT_ATTACK
 	db HYPNOSIS
@@ -371,7 +362,7 @@ HorseaEggMoves:
 	db DRAGON_RAGE
 	db -1 ; end
 
-GoldeenEggMoves:
+GyopinEggMoves:
 	db PSYBEAM
 	db HAZE
 	db HYDRO_PUMP

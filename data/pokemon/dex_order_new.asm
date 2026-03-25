@@ -116,7 +116,7 @@ NewPokedexOrder:
 	db JARANRA
 	db HANEEI
 	db SHIBIFUGU
-	db RATICATE
+	db GYOPIN
 	db CATERPIE
 	db METAPOD
 	db WEEDLE

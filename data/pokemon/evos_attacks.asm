@@ -262,16 +262,18 @@ ShibifuguEvosAttacks:
 	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+GyopinEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, GOLDEEN
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, PECK
 	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 20, SCARY_FACE
-	db 30, PURSUIT
-	db 40, SUPER_FANG
+	db 10, SUPERSONIC
+	db 15, HORN_ATTACK
+	db 24, FLAIL
+	db 29, FURY_ATTACK
+	db 38, WATERFALL
+	db 43, HORN_DRILL
+	db 52, AGILITY
 	db 0 ; no more level-up moves
 
 JaranraEvosAttacks:

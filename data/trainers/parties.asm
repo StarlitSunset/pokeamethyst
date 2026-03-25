@@ -371,7 +371,6 @@ YoungsterGroup:
 
 	; YOUNGSTER (8)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 21, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	db -1 ; end
 
 	; YOUNGSTER (9)
@@ -380,7 +379,6 @@ YoungsterGroup:
 
 	; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
-	db 33, RATICATE
 	db 33, ARBOK
 	db -1 ; end
 
@@ -397,12 +395,10 @@ YoungsterGroup:
 
 	; YOUNGSTER (13)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 30, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
 	; YOUNGSTER (14)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 37, RATICATE,   HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
 SchoolboyGroup:
@@ -1206,8 +1202,6 @@ GruntMGroup:
 
 	; GRUNTM (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 24, RATICATE
 	db -1 ; end
 
 	; GRUNTM (4)
@@ -1241,7 +1235,6 @@ GruntMGroup:
 
 	; GRUNTM (9)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
 	db 26, KOFFING
 	db -1 ; end
 
@@ -1269,7 +1262,6 @@ GruntMGroup:
 
 	; GRUNTM (14)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
 	db 24, GOLBAT
 	db -1 ; end
 
@@ -1344,7 +1336,6 @@ GruntMGroup:
 
 	; GRUNTM (28)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 19, RATICATE
 	db -1 ; end
 
 	; GRUNTM (29)
@@ -1963,7 +1954,6 @@ SailorGroup:
 	; SAILOR (1)
 	db "EUGENE@", TRAINERTYPE_NORMAL
 	db 17, POLIWHIRL
-	db 17, RATICATE
 	db 19, KRABBY
 	db -1 ; end
 
@@ -1993,8 +1983,6 @@ SailorGroup:
 
 	; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
-	db 32, RATICATE
-	db 32, RATICATE
 	db -1 ; end
 
 	; SAILOR (7)
@@ -2614,7 +2602,6 @@ ExecutiveMGroup:
 	; EXECUTIVEM (4)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
-	db 24, RATICATE
 	db 22, KOFFING
 	db -1 ; end
 
