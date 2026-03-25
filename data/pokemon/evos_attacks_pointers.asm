@@ -11,7 +11,7 @@ EvosAttacksPointers::
 	dw AkueriaEvosAttacks
 	dw MikonEvosAttacks
 	dw MonjaEvosAttacks
-	dw CaterpieEvosAttacks
+	dw ManbooEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks

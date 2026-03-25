@@ -154,7 +154,7 @@ MonjaEvosAttacks:
 	db 46, GROWTH
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
+ManbooEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT

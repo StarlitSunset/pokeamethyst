@@ -23,7 +23,6 @@ Cries:
 	dba Cry_Monja
 	dba Cry_Pidgeotto
 	dba Cry_Weedle
-	dba Cry_Caterpie
 	dba Cry_Ekans
 	dba Cry_Fearow
 	dba Cry_Clefairy

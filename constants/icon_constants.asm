@@ -10,7 +10,7 @@
 	const ICON_AKUERIA     ; AKUERIA
 	const ICON_MIKON	   ; MIKON
 	const ICON_MONJA  	   ; MONJA
-	const ICON_CATERPIE    ; CATERPIE*
+	const ICON_MANBOO      ; MANBOO
 	const ICON_METAPOD     ; METAPOD*
 	const ICON_BUTTERFREE  ; BUTTERFREE
 	const ICON_WEEDLE      ; WEEDLE*

@@ -11,7 +11,7 @@ IconPointers:
 	dw AkueriaIcon
 	dw MikonIcon
 	dw MonjaIcon
-	dw CaterpieIcon
+	dw ManbooIcon
 	dw MetapodIcon
 	dw ButterfreeIcon
 	dw WeedleIcon

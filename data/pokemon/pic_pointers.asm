@@ -21,8 +21,8 @@ PokemonPicPointers::
 	dba_pic MikonBackpic
 	dba_pic MonjaFrontpic
 	dba_pic MonjaBackpic
-	dba_pic CaterpieFrontpic
-	dba_pic CaterpieBackpic
+	dba_pic ManbooFrontpic
+	dba_pic ManbooBackpic
 	dba_pic MetapodFrontpic
 	dba_pic MetapodBackpic
 	dba_pic ButterfreeFrontpic

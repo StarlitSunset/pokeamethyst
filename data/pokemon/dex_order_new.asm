@@ -117,7 +117,7 @@ NewPokedexOrder:
 	db HANEEI
 	db SHIBIFUGU
 	db GYOPIN
-	db CATERPIE
+	db MANBOO
 	db METAPOD
 	db WEEDLE
 	db KAKUNA

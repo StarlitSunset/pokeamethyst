@@ -30,8 +30,8 @@ INCBIN "gfx/footprints/akua.1bpp",  	 footprint_bottom
 INCBIN "gfx/footprints/akueria.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mikon.1bpp", 	 footprint_bottom
 ; 009-016 top halves
-INCBIN "gfx/footprints/monja.1bpp",		 footprint_top
-INCBIN "gfx/footprints/caterpie.1bpp",   footprint_top
+INCBIN "gfx/footprints/monja.1bpp",	  	 footprint_top
+INCBIN "gfx/footprints/manboo.1bpp",     footprint_top
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
 INCBIN "gfx/footprints/weedle.1bpp",     footprint_top
@@ -40,7 +40,7 @@ INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
 ; 009-016 bottom halves
 INCBIN "gfx/footprints/monja.1bpp", 	 footprint_bottom
-INCBIN "gfx/footprints/caterpie.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/manboo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
 INCBIN "gfx/footprints/weedle.1bpp",     footprint_bottom

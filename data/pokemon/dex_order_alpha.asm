@@ -21,7 +21,6 @@ AlphabeticalPokedexOrder:
 	db BLISSEY
 	db BORUBEAA
 	db BUTTERFREE
-	db CATERPIE
 	db CELEBI
 	db CHANSEY
 	db CHIKORITA
@@ -127,6 +126,7 @@ AlphabeticalPokedexOrder:
 	db MAGMAR
 	db MAGNEMITE
 	db MAGNETON
+	db MANBOO
 	db MANKEY
 	db MANTINE
 	db MAREEP
