@@ -17,8 +17,8 @@ get a taste of something new and different in the Amethyst Islands region.
 These changes mostly come from the pret/pokecrystal wiki and tutorials, so thank you to this community that is devoted
 to working on making life easier for creators like me.
 
-No save delay
-Running shoes
+*No save delay
+*Running shoes
 Shiny dex toggle
 The GS Ball event has been restored with a little bonus event (make sure to look around the National Park!)
 Shiny chance increased to Pokémon with all DVs (except HP) equal or greater than 12 = 1/256
