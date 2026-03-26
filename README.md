@@ -27,8 +27,8 @@ The GS Ball event has been restored with a little bonus event (make sure to look
 Shiny chance increased to Pokémon with all DVs (except HP) equal or greater than 12 = 1/256
 
 DVs and Happiness are directly displayed on the stats screen
->Added a fourth stats page with caught data
->Auto-use repel option
+Added a fourth stats page with caught data
+Auto-use repel option
 >Unused Safari Ball has been replaced with Dusk Ball (it's my favorite!)
 >Loveball glitch has been fixed and edited.  The Ball now works on any Pokémon of a different sex than your current Pokémon
 >Fastball glitch has been fixed and properly works on all fleemon
