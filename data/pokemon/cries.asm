@@ -19,7 +19,7 @@ PokemonCries::
 	mon_cry CRY_SHIBIFUGU,   204,  129 ; IKARI
 	mon_cry CRY_SHIBIFUGU,   119,  192 ; BUTTERFREE
 	mon_cry CRY_DAINABEA,    238,  129 ; GURUTESU
-	mon_cry CRY_DAINABEA,    255,  129 ; KAKUNA
+	mon_cry CRY_DAINABEA,    255,  129 ; PARA
 	mon_cry CRY_DAINABEA,     96,  256 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO

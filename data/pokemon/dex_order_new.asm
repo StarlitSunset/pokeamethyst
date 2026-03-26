@@ -120,7 +120,7 @@ NewPokedexOrder:
 	db MANBOO
 	db IKARI
 	db GURUTESU
-	db KAKUNA
+	db PARA
 	db BEEDRILL
 	db EKANS
 	db ARBOK

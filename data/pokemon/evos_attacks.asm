@@ -186,11 +186,17 @@ GurutesuEvosAttacks:
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+ParaEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, PARAS
 	db 0 ; no more evolutions
-	db 1, HARDEN
-	db 7, HARDEN
+	db 1, SCRATCH
+	db 7, STUN_SPORE
+	db 13, POISONPOWDER
+	db 19, LEECH_LIFE
+	db 25, SPORE
+	db 31, SLASH
+	db 37, GROWTH
+	db 43, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 BeedrillEvosAttacks:

@@ -13,7 +13,7 @@ PokemonNames::
 	db "IKARI@@@@@"
 	db "BUTTERFREE"
 	db "GURUTESU@@"
-	db "KAKUNA@@@@"
+	db "PARA@@@@@@"
 	db "BEEDRILL@@"
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"

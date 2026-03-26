@@ -14,7 +14,7 @@
 	const ICON_IKARI       ; IKARI
 	const ICON_BUTTERFREE  ; BUTTERFREE
 	const ICON_GURUTESU    ; GURUTESU
-	const ICON_KAKUNA      ; KAKUNA*
+	const ICON_PARA        ; PARA 
 	const ICON_BEEDRILL    ; BEEDRILL*
 	const ICON_PIDGEY      ; PIDGEY
 	const ICON_PIDGEOTTO   ; PIDGEOTTO

@@ -29,8 +29,8 @@ PokemonPicPointers::
 	dba_pic ButterfreeBackpic
 	dba_pic GurutesuFrontpic
 	dba_pic GurutesuBackpic
-	dba_pic KakunaFrontpic
-	dba_pic KakunaBackpic
+	dba_pic ParaFrontpic
+	dba_pic ParaBackpic
 	dba_pic BeedrillFrontpic
 	dba_pic BeedrillBackpic
 	dba_pic PidgeyFrontpic

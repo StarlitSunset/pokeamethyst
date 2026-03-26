@@ -112,7 +112,7 @@ Pokered_MonIndices:
 	db POLIWHIRL
 	db POLIWRATH
 	db GURUTESU
-	db KAKUNA
+	db PARA
 	db BEEDRILL
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO

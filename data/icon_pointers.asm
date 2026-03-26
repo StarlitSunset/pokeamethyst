@@ -15,7 +15,7 @@ IconPointers:
 	dw IkariIcon
 	dw ButterfreeIcon
 	dw GurutesuIcon
-	dw KakunaIcon
+	dw ParaIcon
 	dw BeedrillIcon
 	dw PidgeyIcon
 	dw PidgeottoIcon

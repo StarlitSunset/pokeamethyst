@@ -14,7 +14,7 @@ PokedexDataPointerTable:
 	dw IkariPokedexEntry
 	dw ButterfreePokedexEntry
 	dw GurutesuPokedexEntry
-	dw KakunaPokedexEntry
+	dw ParaPokedexEntry
 	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
