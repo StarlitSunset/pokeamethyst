@@ -9,13 +9,13 @@ AlphabeticalPokedexOrder:
 	db AKUERIA
 	db ALAKAZAM
 	db AMPHAROS
+	db ANIMON
 	db ARBOK
 	db ARCANINE
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
-	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
 	db BLISSEY

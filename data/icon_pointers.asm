@@ -16,7 +16,7 @@ IconPointers:
 	dw ButterfreeIcon
 	dw GurutesuIcon
 	dw ParaIcon
-	dw BeedrillIcon
+	dw AnimonIcon
 	dw PidgeyIcon
 	dw PidgeottoIcon
 	dw PidgeotIcon

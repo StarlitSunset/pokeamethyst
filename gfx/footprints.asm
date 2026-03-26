@@ -36,7 +36,7 @@ INCBIN "gfx/footprints/ikari.1bpp",      footprint_top
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
 INCBIN "gfx/footprints/gurutesu.1bpp",   footprint_top
 INCBIN "gfx/footprints/para.1bpp",       footprint_top
-INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
+INCBIN "gfx/footprints/animon.1bpp",     footprint_top
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
 ; 009-016 bottom halves
 INCBIN "gfx/footprints/monja.1bpp", 	 footprint_bottom
@@ -45,7 +45,7 @@ INCBIN "gfx/footprints/ikari.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gurutesu.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/para.1bpp",       footprint_bottom
-INCBIN "gfx/footprints/beedrill.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/animon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom
 ; 017-024 top halves
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_top

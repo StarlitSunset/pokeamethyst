@@ -31,8 +31,8 @@ PokemonPicPointers::
 	dba_pic GurutesuBackpic
 	dba_pic ParaFrontpic
 	dba_pic ParaBackpic
-	dba_pic BeedrillFrontpic
-	dba_pic BeedrillBackpic
+	dba_pic AnimonFrontpic
+	dba_pic AnimonBackpic
 	dba_pic PidgeyFrontpic
 	dba_pic PidgeyBackpic
 	dba_pic PidgeottoFrontpic

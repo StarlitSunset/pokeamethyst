@@ -16,7 +16,7 @@ EvosAttacksPointers::
 	dw ButterfreeEvosAttacks
 	dw GurutesuEvosAttacks
 	dw ParaEvosAttacks
-	dw BeedrillEvosAttacks
+	dw AnimonEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks

@@ -113,7 +113,7 @@ Pokered_MonIndices:
 	db POLIWRATH
 	db GURUTESU
 	db PARA
-	db BEEDRILL
+	db ANIMON
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
 	db PRIMEAPE

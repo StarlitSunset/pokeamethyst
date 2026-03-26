@@ -33,7 +33,7 @@
 	const BUTTERFREE ; 0c
 	const GURUTESU   ; 0d
 	const PARA       ; 0e
-	const BEEDRILL   ; 0f
+	const ANIMON     ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12

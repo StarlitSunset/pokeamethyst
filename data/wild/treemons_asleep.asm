@@ -2,7 +2,6 @@
 
 AsleepTreeMonsNite:
 	db BUTTERFREE
-	db BEEDRILL
 	db PIDGEY
 	db EKANS
 	db EXEGGCUTE

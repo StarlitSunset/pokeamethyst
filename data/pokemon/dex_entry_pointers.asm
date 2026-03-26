@@ -15,7 +15,7 @@ PokedexDataPointerTable:
 	dw ButterfreePokedexEntry
 	dw GurutesuPokedexEntry
 	dw ParaPokedexEntry
-	dw BeedrillPokedexEntry
+	dw AnimonPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry

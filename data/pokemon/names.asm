@@ -14,7 +14,7 @@ PokemonNames::
 	db "BUTTERFREE"
 	db "GURUTESU@@"
 	db "PARA@@@@@@"
-	db "BEEDRILL@@"
+	db "ANIMON@@@@"
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"

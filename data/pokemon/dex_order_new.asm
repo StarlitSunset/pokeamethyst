@@ -121,7 +121,7 @@ NewPokedexOrder:
 	db IKARI
 	db GURUTESU
 	db PARA
-	db BEEDRILL
+	db ANIMON
 	db EKANS
 	db ARBOK
 	db DROWZEE

@@ -199,16 +199,9 @@ ParaEvosAttacks:
 	db 43, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 10, FURY_ATTACK
-	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PURSUIT
-	db 35, PIN_MISSILE
-	db 40, AGILITY
+AnimonEvosAttacks:
+	db EVOLVE_LEVEL, 99, DITTO
+	db 1, TRANSFORM
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
