@@ -25,7 +25,7 @@ EvosAttacksPointers::
 	dw JaranraEvosAttacks
 	dw HaneeiEvosAttacks
 	dw HinaazuEvosAttacks
-	dw ArbokEvosAttacks
+	dw TsuinzuEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks

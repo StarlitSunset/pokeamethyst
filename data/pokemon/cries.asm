@@ -29,7 +29,7 @@ PokemonCries::
 	mon_cry CRY_JARANRA,       0,  256 ; JARANRA
 	mon_cry CRY_MANTINE,      64,  288 ; HANEEI
 	mon_cry CRY_DIGLETT,      18,  192 ; HINAAZU
-	mon_cry CRY_EKANS,       224,  144 ; ARBOK
+	mon_cry CRY_GIRAFARIG,   224,  144 ; TSUINZU
 	mon_cry CRY_HANAGOMURA,  238,  129 ; PIKACHU
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW

@@ -24,7 +24,7 @@ PokedexDataPointerTable:
 	dw JaranraPokedexEntry
 	dw HaneeiPokedexEntry
 	dw HinaazuPokedexEntry
-	dw ArbokPokedexEntry
+	dw TsuinzuPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandshrewPokedexEntry

@@ -44,7 +44,7 @@ Pokered_MonIndices:
 	db MR__MIME
 	db HITMONLEE
 	db HITMONCHAN
-	db ARBOK
+	db TSUINZU
 	db PARASECT
 	db PSYDUCK
 	db DROWZEE

@@ -80,12 +80,10 @@ GurutesuEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
-EkansEggMoves:
-	db PURSUIT
-	db SLAM
-	db SPITE
-	db BEAT_UP
-	db CRUNCH
+TsuinzuEggMoves:
+	db PSYWAVE
+	db PERISH_SONG
+	db HAZE
 	db -1 ; end
 
 SandshrewEggMoves:

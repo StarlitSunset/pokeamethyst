@@ -25,7 +25,7 @@ IconPointers:
 	dw JaranraIcon
 	dw HaneeiIcon
 	dw HinaazuIcon
-	dw ArbokIcon
+	dw TsuinzuIcon
 	dw PikachuIcon
 	dw RaichuIcon
 	dw SandshrewIcon

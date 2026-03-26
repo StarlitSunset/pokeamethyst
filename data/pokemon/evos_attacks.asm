@@ -313,18 +313,17 @@ HinaazuEvosAttacks:
 	db 37, AGILITY
 	db 0 ; no more level-up moves
 
-ArbokEvosAttacks:
+TsuinzuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 1, POISON_STING
-	db 1, BITE
-	db 9, POISON_STING
-	db 15, BITE
-	db 25, GLARE
-	db 33, SCREECH
-	db 43, ACID
-	db 51, HAZE
+	db 1, HYPNOSIS
+	db 1, LICK
+	db 8, SPITE
+	db 13, MEAN_LOOK
+	db 16, CURSE
+	db 21, NIGHT_SHADE
+	db 28, CONFUSE_RAY
+	db 33, DREAM_EATER
+	db 36, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:

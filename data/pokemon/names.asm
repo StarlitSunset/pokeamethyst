@@ -23,7 +23,7 @@ PokemonNames::
 	db "JARANRA@@@"
 	db "HANEEI@@@@"
 	db "HINAAZU@@@"
-	db "ARBOK@@@@@"
+	db "TSUINZU@@@"
 	db "PIKACHU@@@"
 	db "RAICHU@@@@"
 	db "SANDSHREW@"

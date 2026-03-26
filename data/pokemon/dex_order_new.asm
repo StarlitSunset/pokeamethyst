@@ -123,7 +123,7 @@ NewPokedexOrder:
 	db PARA
 	db ANIMON
 	db HINAAZU
-	db ARBOK
+	db TSUINZU
 	db DROWZEE
 	db HYPNO
 	db NIDORAN_F

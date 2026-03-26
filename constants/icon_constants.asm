@@ -24,7 +24,7 @@
 	const ICON_JARANRA     ; JARANRA
 	const ICON_HANEEI      ; HANEEI
 	const ICON_HINAAZU     ; HINAAZU
-	const ICON_ARBOK       ; ARBOK*
+	const ICON_TSUINZU    ; TSUINZU
 	const ICON_PIKACHU     ; PIKACHU
 	const ICON_RAICHU      ; RAICHU
 	const ICON_SANDSHREW   ; SANDSHREW

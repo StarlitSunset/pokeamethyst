@@ -10,7 +10,6 @@ AlphabeticalPokedexOrder:
 	db ALAKAZAM
 	db AMPHAROS
 	db ANIMON
-	db ARBOK
 	db ARCANINE
 	db ARIADOS
 	db ARTICUNO
@@ -232,6 +231,7 @@ AlphabeticalPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
+	db TSUINZU
 	db TYPHLOSION
 	db TYRANITAR
 	db TYROGUE

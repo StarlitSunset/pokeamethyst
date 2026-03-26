@@ -377,7 +377,6 @@ YoungsterGroup:
 
 	; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
-	db 33, ARBOK
 	db -1 ; end
 
 	; YOUNGSTER (11)
@@ -679,7 +678,6 @@ LassGroup:
 	; LASS (3)
 	db "ALICE@", TRAINERTYPE_NORMAL
 	db 30, GLOOM
-	db 34, ARBOK
 	db 30, GLOOM
 	db -1 ; end
 
@@ -1344,7 +1342,6 @@ GruntMGroup:
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 25, GOLBAT
 	db 25, GOLBAT
-	db 30, ARBOK
 	db -1 ; end
 
 	; GRUNTM (31)
@@ -2948,14 +2945,12 @@ CamperGroup:
 ExecutiveFGroup:
 	; EXECUTIVEF (1)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 32, ARBOK,      WRAP, POISON_STING, BITE, GLARE
 	db 32, VILEPLUME,  ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
 	db 32, MURKROW,    PECK, PURSUIT, HAZE, NIGHT_SHADE
 	db -1 ; end
 
 	; EXECUTIVEF (2)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 23, ARBOK,      WRAP, LEER, POISON_STING, BITE
 	db 23, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
 	db 25, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE
 	db -1 ; end
@@ -3346,7 +3341,6 @@ GruntFGroup:
 
 	; GRUNTF (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, ARBOK
 	db -1 ; end
 
 	; GRUNTF (3)

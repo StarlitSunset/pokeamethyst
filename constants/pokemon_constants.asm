@@ -42,7 +42,7 @@
 	const JARANRA    ; 15
 	const HANEEI     ; 16
 	const HINAAZU    ; 17
-	const ARBOK      ; 18
+	const TSUINZU    ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b

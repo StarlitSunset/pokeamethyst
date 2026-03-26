@@ -22,8 +22,8 @@ EggMovePointers::
 	dw GyopinEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw EkansEggMoves
-	dw NoEggMoves
+	dw HinaazuEggMoves
+	dw TsuinzuEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SandshrewEggMoves
@@ -83,7 +83,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw FarfetchDEggMoves
-	dw HinaazuEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw SeelEggMoves
 	dw NoEggMoves
