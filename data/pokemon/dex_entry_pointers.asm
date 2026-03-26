@@ -23,7 +23,7 @@ PokedexDataPointerTable:
 	dw GyopinPokedexEntry
 	dw JaranraPokedexEntry
 	dw HaneeiPokedexEntry
-	dw EkansPokedexEntry
+	dw HinaazuPokedexEntry
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry

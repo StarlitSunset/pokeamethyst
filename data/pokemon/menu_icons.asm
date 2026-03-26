@@ -24,7 +24,7 @@ MonMenuIcons:
 	db ICON_GYOPIN      ; GYOPIN
 	db ICON_JARANRA     ; JARANRA
 	db ICON_HANEEI      ; HANEEI
-	db ICON_EKANS       ; EKANS*
+	db ICON_HINAAZU     ; HINAAZU
 	db ICON_ARBOK       ; ARBOK*
 	db ICON_PIKACHU     ; PIKACHU
 	db ICON_RAICHU      ; RAICHU

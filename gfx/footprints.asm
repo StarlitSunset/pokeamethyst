@@ -54,7 +54,7 @@ INCBIN "gfx/footprints/shibifugu.1bpp",  footprint_top
 INCBIN "gfx/footprints/gyopin.1bpp",     footprint_top
 INCBIN "gfx/footprints/jaranra.1bpp",    footprint_top
 INCBIN "gfx/footprints/haneei.1bpp",     footprint_top
-INCBIN "gfx/footprints/ekans.1bpp",      footprint_top
+INCBIN "gfx/footprints/hinaazu.1bpp",    footprint_top
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 ; 017-024 bottom halves
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
@@ -63,7 +63,7 @@ INCBIN "gfx/footprints/shibifugu.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/gyopin.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/jaranra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/haneei.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/ekans.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/hinaazu.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_bottom
 ; 025-032 top halves
 INCBIN "gfx/footprints/pikachu.1bpp",    footprint_top

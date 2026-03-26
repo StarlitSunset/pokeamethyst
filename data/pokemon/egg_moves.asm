@@ -264,7 +264,7 @@ FarfetchDEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DoduoEggMoves:
+HinaazuEggMoves:
 	db QUICK_ATTACK
 	db SUPERSONIC
 	db HAZE

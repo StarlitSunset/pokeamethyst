@@ -3,7 +3,6 @@
 AsleepTreeMonsNite:
 	db BUTTERFREE
 	db PIDGEY
-	db EKANS
 	db EXEGGCUTE
 	db LEDYBA
 	db AIPOM

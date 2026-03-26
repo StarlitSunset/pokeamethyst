@@ -49,7 +49,6 @@ AlphabeticalPokedexOrder:
 	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE
-	db EKANS
 	db ELECTABUZZ
 	db ELECTRODE
 	db ELEKID
@@ -84,6 +83,7 @@ AlphabeticalPokedexOrder:
 	db HANEEI
 	db HAUNTER
 	db HERACROSS
+	db HINAAZU
 	db HITMONCHAN
 	db HITMONLEE
 	db HITMONTOP

@@ -23,7 +23,7 @@ SpriteMons:
 	db HANAGOMURA
 	db JIGGLYPUFF
 	db ZAPDOS
-	db EKANS
+	db CELEBI
 	db PARAS
 	db ARTICUNO
 	db TAUROS

@@ -47,8 +47,8 @@ PokemonPicPointers::
 	dba_pic JaranraBackpic
 	dba_pic HaneeiFrontpic
 	dba_pic HaneeiBackpic
-	dba_pic EkansFrontpic
-	dba_pic EkansBackpic
+	dba_pic HinaazuFrontpic
+	dba_pic HinaazuBackpic
 	dba_pic ArbokFrontpic
 	dba_pic ArbokBackpic
 	dba_pic PikachuFrontpic

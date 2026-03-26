@@ -23,7 +23,7 @@
 	const ICON_GYOPIN      ; GYOPIN
 	const ICON_JARANRA     ; JARANRA
 	const ICON_HANEEI      ; HANEEI
-	const ICON_EKANS       ; EKANS*
+	const ICON_HINAAZU     ; HINAAZU
 	const ICON_ARBOK       ; ARBOK*
 	const ICON_PIKACHU     ; PIKACHU
 	const ICON_RAICHU      ; RAICHU

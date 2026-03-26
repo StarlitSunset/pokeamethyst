@@ -24,7 +24,7 @@ IconPointers:
 	dw GyopinIcon
 	dw JaranraIcon
 	dw HaneeiIcon
-	dw EkansIcon
+	dw HinaazuIcon
 	dw ArbokIcon
 	dw PikachuIcon
 	dw RaichuIcon

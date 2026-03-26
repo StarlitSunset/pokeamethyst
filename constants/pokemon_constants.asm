@@ -41,7 +41,7 @@
 	const GYOPIN     ; 14
 	const JARANRA    ; 15
 	const HANEEI     ; 16
-	const EKANS      ; 17
+	const HINAAZU    ; 17
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a

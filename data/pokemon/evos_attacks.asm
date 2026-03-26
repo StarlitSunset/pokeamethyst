@@ -300,17 +300,17 @@ HaneeiEvosAttacks:
 	db 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
-EkansEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARBOK
+HinaazuEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, DODUO
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 9, POISON_STING
-	db 15, BITE
-	db 23, GLARE
-	db 29, SCREECH
-	db 37, ACID
-	db 43, HAZE
+	db 1, PECK
+	db 1, GROWL
+	db 9, PURSUIT
+	db 13, FURY_ATTACK
+	db 21, TRI_ATTACK
+	db 25, RAGE
+	db 33, DRILL_PECK
+	db 37, AGILITY
 	db 0 ; no more level-up moves
 
 ArbokEvosAttacks:

@@ -122,7 +122,7 @@ NewPokedexOrder:
 	db GURUTESU
 	db PARA
 	db ANIMON
-	db EKANS
+	db HINAAZU
 	db ARBOK
 	db DROWZEE
 	db HYPNO

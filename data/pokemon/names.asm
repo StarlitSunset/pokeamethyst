@@ -22,7 +22,7 @@ PokemonNames::
 	db "GYOPIN@@@@"
 	db "JARANRA@@@"
 	db "HANEEI@@@@"
-	db "EKANS@@@@@"
+	db "HINAAZU@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"
 	db "RAICHU@@@@"
