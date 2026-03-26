@@ -13,10 +13,11 @@ While experiencing the nostolgia of the original GSC games in the Johto region (
 get a taste of something new and different in the Amethyst Islands region. 
 
 # Quality of Life - implemented features either improving functionality of the original game, difficulty, or something aesthetically
->These changes mostly come from the pret/pokecrystal wiki and tutorials, so thank you to this community that is devoted
->to working on making life easier for creators like me.
+-These changes mostly come from the pret/pokecrystal wiki and tutorials, so thank you to this community that is devoted
+-to working on making life easier for creators like me.
 
->No save delay
+No save delay
+
 >Running shoes
 >Shiny dex toggle
 >The GS Ball event has been restored with a little bonus event (make sure to look around the National Park!)
