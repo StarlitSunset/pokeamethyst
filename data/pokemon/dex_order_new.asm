@@ -124,7 +124,7 @@ NewPokedexOrder:
 	db ANIMON
 	db HINAAZU
 	db TSUINZU
-	db DROWZEE
+	db KIRINRIKI
 	db HYPNO
 	db NIDORAN_F
 	db NIDORINA

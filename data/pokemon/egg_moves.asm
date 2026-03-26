@@ -304,11 +304,6 @@ OnixEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DrowzeeEggMoves:
-	db LIGHT_SCREEN
-	db BARRIER
-	db -1 ; end
-
 KrabbyEggMoves:
 	db DIG
 	db HAZE

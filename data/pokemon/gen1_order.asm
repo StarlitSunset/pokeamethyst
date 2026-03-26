@@ -47,7 +47,7 @@ Pokered_MonIndices:
 	db TSUINZU
 	db PARASECT
 	db PSYDUCK
-	db DROWZEE
+	db KIRINRIKI
 	db GOLEM
 	db HERACROSS ; MISSINGNO.
 	db MAGMAR

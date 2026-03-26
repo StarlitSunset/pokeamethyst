@@ -97,7 +97,7 @@ MonMenuIcons:
 	db ICON_HAUNTER     ; HAUNTER
 	db ICON_GENGAR      ; GENGAR
 	db ICON_ONIX        ; ONIX
-	db ICON_DROWZEE     ; DROWZEE*
+	db ICON_KIRINRIKI   ; KIRINRIKI
 	db ICON_HYPNO       ; HYPNO*
 	db ICON_KRABBY      ; KRABBY*
 	db ICON_KINGLER     ; KINGLER*

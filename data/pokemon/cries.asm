@@ -101,7 +101,7 @@ PokemonCries::
 	mon_cry CRY_SHIBIFUGU,    48,  192 ; HAUNTER
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
 	mon_cry CRY_EKANS,       255,  320 ; ONIX
-	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE
+	mon_cry CRY_GIRAFARIG,   136,  160 ; KIRINRIKI
 	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
 	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
 	mon_cry CRY_KRABBY,      238,  352 ; KINGLER

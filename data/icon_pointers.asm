@@ -97,7 +97,7 @@ IconPointers:
 	dw HaunterIcon
 	dw GengarIcon
 	dw OnixIcon
-	dw DrowzeeIcon
+	dw KirinrikiIcon
 	dw HypnoIcon
 	dw KrabbyIcon
 	dw KinglerIcon

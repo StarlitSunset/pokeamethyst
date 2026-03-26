@@ -1647,9 +1647,9 @@ JohtoGrassWildMons:
 	db 30, ABRA, 		 13,  16
 	db 10, CLEFAIRY, 	 13,  16
 	db 10, DITTO, 	 	 13,  16
-	db 10, DROWZEE, 	 13,  16
-	db 10, DROWZEE, 	 13,  16
-	db 10, DROWZEE, 	 13,  16
+	db 10, MEOWTH, 		 13,  16
+	db 10, MEOWTH, 	 	 13,  16
+	db 10, MEOWTH, 		 13,  16
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35

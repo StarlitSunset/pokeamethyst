@@ -1289,7 +1289,6 @@ GruntMGroup:
 
 	; GRUNTM (20)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, DROWZEE
 	db 19, ZUBAT
 	db -1 ; end
 
@@ -2603,7 +2602,6 @@ PsychicGroup:
 
 	; PSYCHIC_T (5)
 	db "GREG@", TRAINERTYPE_MOVES
-	db 17, DROWZEE,    HYPNOSIS, DISABLE, DREAM_EATER, NO_MOVE
 	db -1 ; end
 
 	; PSYCHIC_T (6)
@@ -2646,8 +2644,6 @@ PsychicGroup:
 
 	; PSYCHIC_T (12)
 	db "RODNEY@", TRAINERTYPE_NORMAL
-	db 29, DROWZEE
-	db 33, HYPNO
 	db -1 ; end
 
 PicnickerGroup:
@@ -3063,8 +3059,6 @@ MediumGroup:
 
 	; MEDIUM (6)
 	db "REBECCA@", TRAINERTYPE_NORMAL
-	db 35, DROWZEE
-	db 35, HYPNO
 	db -1 ; end
 
 	; MEDIUM (7)
@@ -3363,7 +3357,6 @@ GruntFGroup:
 MysticalmanGroup:
 	; MYSTICALMAN (1)
 	db "EUSINE@", TRAINERTYPE_MOVES
-	db 23, DROWZEE,    DREAM_EATER, HYPNOSIS, DISABLE, CONFUSION
 	db 23, HAUNTER,    LICK, HYPNOSIS, MEAN_LOOK, CURSE
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
 	db -1 ; end

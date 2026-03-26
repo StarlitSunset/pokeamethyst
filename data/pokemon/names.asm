@@ -95,7 +95,7 @@ PokemonNames::
 	db "HAUNTER@@@"
 	db "GENGAR@@@@"
 	db "ONIX@@@@@@"
-	db "DROWZEE@@@"
+	db "KIRINRIKI@"
 	db "HYPNO@@@@@"
 	db "KRABBY@@@@"
 	db "KINGLER@@@"

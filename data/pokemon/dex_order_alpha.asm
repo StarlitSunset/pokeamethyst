@@ -44,7 +44,6 @@ AlphabeticalPokedexOrder:
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
-	db DROWZEE
 	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE
@@ -107,6 +106,7 @@ AlphabeticalPokedexOrder:
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
+	db KIRINRIKI
 	db KOFFING
 	db KRABBY
 	db KURUSU

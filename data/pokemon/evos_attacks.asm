@@ -314,6 +314,7 @@ HinaazuEvosAttacks:
 	db 0 ; no more level-up moves
 
 TsuinzuEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, KIRINRIKI
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
@@ -1272,8 +1273,7 @@ OnixEvosAttacks:
 	db 40, SLAM
 	db 0 ; no more level-up moves
 
-DrowzeeEvosAttacks:
-	db EVOLVE_LEVEL, 26, HYPNO
+KirinrikiEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
