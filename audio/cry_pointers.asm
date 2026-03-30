@@ -5,7 +5,7 @@ Cries:
 	dba Cry_Nidoran_F
 	dba Cry_Slowpoke
 	dba Cry_Kangaskhan
-	dba Cry_Dainabea
+	dba Cry_Charmander
 	dba Cry_Grimer
 	dba Cry_Voltorb
 	dba Cry_Muk
@@ -16,23 +16,26 @@ Cries:
 	dba Cry_Seel
 	dba Cry_Drowzee
 	dba Cry_Pidgey
-	dba Cry_Hanagomura
-	dba Cry_Jaranra
+	dba Cry_Bulbasaur
+	dba Cry_Spearow
 	dba Cry_Rhydon
 	dba Cry_Golem
-	dba Cry_Monja
+	dba Cry_Blastoise
 	dba Cry_Pidgeotto
+	dba Cry_Weedle
+	dba Cry_Caterpie
 	dba Cry_Ekans
 	dba Cry_Fearow
 	dba Cry_Clefairy
 	dba Cry_Venonat
 	dba Cry_Lapras
-	dba Cry_Akueria
+	dba Cry_Metapod
+	dba Cry_Squirtle
 	dba Cry_Paras
 	dba Cry_Growlithe
 	dba Cry_Krabby
 	dba Cry_Psyduck
-	dba Cry_Shibifugu
+	dba Cry_Rattata
 	dba Cry_Vileplume
 	dba Cry_Vulpix
 	dba Cry_Weepinbell

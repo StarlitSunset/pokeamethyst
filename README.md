@@ -132,7 +132,8 @@ add water current tiles and data/collision/collision_permissions.asm {tilecoll C
 make sure to edit headbutt tree code to work in 'kanto' wildmon headbutt trees
 
 Turn Kanto Badges into island challenge rewards
-SS Ticket flag to open Amethyst Islands
+replace murkrow sprite and other sprites that are better from gold and silver:
+SS Ticket flag to open Amethyst Islands: create event where RED runs into you before entering Amethyst and check at mt silver for island challenge badges
 Remove/Edit items Normal + Gorgeous Box
 Add movesets to wild legends
 Add/Edit items, then edit marts (mist stone availability)
