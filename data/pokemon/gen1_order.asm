@@ -14,7 +14,7 @@ Pokered_MonIndices:
 	db EXEGGCUTE
 	db GRIMER
 	db GENGAR
-	db NIDORAN_F
+	db RINRIN
 	db NIDOQUEEN
 	db CUBONE
 	db RHYHORN

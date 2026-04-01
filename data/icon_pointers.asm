@@ -30,7 +30,7 @@ IconPointers:
 	dw RaichuIcon
 	dw SandshrewIcon
 	dw SandslashIcon
-	dw NidoranFIcon
+	dw RinrinIcon
 	dw NidorinaIcon
 	dw NidoqueenIcon
 	dw NidoranMIcon

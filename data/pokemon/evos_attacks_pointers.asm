@@ -30,7 +30,7 @@ EvosAttacksPointers::
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
-	dw NidoranFEvosAttacks
+	dw RinrinEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks
 	dw NidoranMEvosAttacks

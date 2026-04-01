@@ -147,7 +147,6 @@ AlphabeticalPokedexOrder:
 	db NATU
 	db NIDOKING
 	db NIDOQUEEN
-	db NIDORAN_F
 	db NIDORAN_M
 	db NIDORINA
 	db NIDORINO
@@ -190,6 +189,7 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
+	db RINRIN
 	db SANDSHREW
 	db SANDSLASH
 	db SCIZOR

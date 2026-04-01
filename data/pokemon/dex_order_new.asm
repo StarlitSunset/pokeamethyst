@@ -126,7 +126,7 @@ NewPokedexOrder:
 	db TSUINZU
 	db KIRINRIKI
 	db KOONYA
-	db NIDORAN_F
+	db RINRIN
 	db NIDORINA
 	db NIDOQUEEN
 	db NIDORAN_M

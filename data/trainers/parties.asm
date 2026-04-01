@@ -2649,7 +2649,6 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1)
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -2799,7 +2798,6 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1)
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
 	db -1 ; end
 
 	; CAMPER (2)

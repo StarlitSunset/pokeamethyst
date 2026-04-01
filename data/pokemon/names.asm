@@ -28,7 +28,7 @@ PokemonNames::
 	db "RAICHU@@@@"
 	db "SANDSHREW@"
 	db "SANDSLASH@"
-	db "NIDORAN♀@@"
+	db "RINRIN@@@@"
 	db "NIDORINA@@"
 	db "NIDOQUEEN@"
 	db "NIDORAN♂@@"

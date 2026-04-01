@@ -94,7 +94,7 @@ SandshrewEggMoves:
 	db METAL_CLAW
 	db -1 ; end
 
-NidoranFEggMoves:
+RinrinEggMoves:
 	db SUPERSONIC
 	db DISABLE
 	db TAKE_DOWN
