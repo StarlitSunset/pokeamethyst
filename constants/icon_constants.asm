@@ -97,7 +97,7 @@
 	const ICON_GENGAR      ; GENGAR
 	const ICON_ONIX        ; ONIX
 	const ICON_KIRINRIKI   ; KIRINRIKI
-	const ICON_HYPNO       ; HYPNO*
+	const ICON_KOONYA      ; KOONYA
 	const ICON_KRABBY      ; KRABBY*
 	const ICON_KINGLER     ; KINGLER*
 	const ICON_VOLTORB     ; VOLTORB*

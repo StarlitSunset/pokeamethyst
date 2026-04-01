@@ -98,7 +98,7 @@ EvosAttacksPointers::
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
 	dw KirinrikiEvosAttacks
-	dw HypnoEvosAttacks
+	dw KoonyaEvosAttacks
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
 	dw VoltorbEvosAttacks

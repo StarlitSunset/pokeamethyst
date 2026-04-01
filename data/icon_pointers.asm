@@ -98,7 +98,7 @@ IconPointers:
 	dw GengarIcon
 	dw OnixIcon
 	dw KirinrikiIcon
-	dw HypnoIcon
+	dw KoonyaIcon
 	dw KrabbyIcon
 	dw KinglerIcon
 	dw VoltorbIcon

@@ -89,7 +89,7 @@ to working on making life easier for creators like me.
 <li>WEEZING > GONGU (TYROGUE)</li>
 <li>MAGNEMITE > PUDI (GROWLITHE)</li>
 <li>MAGNETON > HANEKO</li>
-<li>VOLTORB > POPONEK</li>
+<li>VOLTORB > POPONEKO</li>
 <li>DIGLETT > WATANEKO</li>
 <li>DUGTRIO > BARIRIINA (MIME JR)</li>
 <li>MANKEY > TSUBONITTO (WEEPINBELL)</li>
@@ -98,7 +98,7 @@ to working on making life easier for creators like me.
 <li>GOLDUCK > RAITORA</li>
 <li>MACHOP > MADAAMU (FARFETCHD)</li>
 <li>MACHOKE > NOROWARA (VOODOO GHOST)</li>
-<li>MACHAMP > KYYONPAN (SHUPPET)</li>
+<li>MACHAMP > KYONPAN (SHUPPET)</li>
 <li>KRABBY > HAPPII (BLISSEY)</li>
 <li>KINGLER > PURAKKUSU (PINSIR)</li>
 <li>STARYU > URUFUMAN (SWINUB)</li>

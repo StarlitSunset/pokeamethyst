@@ -92,7 +92,6 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db HYPNO
 	db IGGLYBUFF
 	db IKARI
 	db JARANRA
@@ -108,6 +107,7 @@ AlphabeticalPokedexOrder:
 	db KINGLER
 	db KIRINRIKI
 	db KOFFING
+	db KOONYA
 	db KRABBY
 	db KURUSU
 	db LANTURN

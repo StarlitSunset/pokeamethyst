@@ -161,7 +161,7 @@ DiglettEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-MeowthEggMoves:
+KoonyaEggMoves:
 	db SPITE
 	db CHARM
 	db HYPNOSIS

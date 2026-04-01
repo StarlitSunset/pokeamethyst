@@ -115,7 +115,7 @@
 	const GENGAR     ; 5e
 	const ONIX       ; 5f
 	const KIRINRIKI  ; 60
-	const HYPNO      ; 61
+	const KOONYA     ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
