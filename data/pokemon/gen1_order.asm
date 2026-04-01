@@ -167,7 +167,7 @@ Pokered_MonIndices:
 	db SHIBIFUGU
 	db GYOPIN
 	db NIDORINO
-	db NIDORINA
+	db BERURUN
 	db GEODUDE
 	db PORYGON
 	db AERODACTYL

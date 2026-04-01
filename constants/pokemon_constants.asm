@@ -48,7 +48,7 @@
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c
 	const RINRIN     ; 1d
-	const NIDORINA   ; 1e
+	const BERURUN    ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21

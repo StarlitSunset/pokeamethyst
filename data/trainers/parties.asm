@@ -1122,8 +1122,6 @@ PokemaniacGroup:
 
 	; POKEMANIAC (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
-	db 16, NIDORINA
-	db 16, NIDORINO
 	db -1 ; end
 
 	; POKEMANIAC (5)
@@ -2703,7 +2701,6 @@ PicnickerGroup:
 	; PICNICKER (11)
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 15, WEEPINBELL
-	db 15, NIDORINA
 	db -1 ; end
 
 	; PICNICKER (12)
@@ -2721,7 +2718,6 @@ PicnickerGroup:
 
 	; PICNICKER (14)
 	db "EDNA@", TRAINERTYPE_NORMAL
-	db 30, NIDORINA
 	db 34, RAICHU
 	db -1 ; end
 

@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	db BAYLEEF
 	db BELLOSSOM
 	db BELLSPROUT
+	db BERURUN
 	db BLISSEY
 	db BORUBEAA
 	db BUTTERFREE
@@ -148,7 +149,6 @@ AlphabeticalPokedexOrder:
 	db NIDOKING
 	db NIDOQUEEN
 	db NIDORAN_M
-	db NIDORINA
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL

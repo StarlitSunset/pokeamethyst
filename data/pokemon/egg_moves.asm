@@ -103,6 +103,16 @@ RinrinEggMoves:
 	db COUNTER
 	db BEAT_UP
 	db -1 ; end
+	
+BerurunEggMoves:
+	db SUPERSONIC
+	db DISABLE
+	db TAKE_DOWN
+	db FOCUS_ENERGY
+	db CHARM
+	db COUNTER
+	db BEAT_UP
+	db -1 ; end
 
 NidoranMEggMoves:
 	db SUPERSONIC

@@ -390,8 +390,7 @@ RinrinEvosAttacks:
 	db 38, FURY_SWIPES
 	db 0 ; no more level-up moves
 
-NidorinaEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+BerurunEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE

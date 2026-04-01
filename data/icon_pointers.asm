@@ -31,7 +31,7 @@ IconPointers:
 	dw SandshrewIcon
 	dw SandslashIcon
 	dw RinrinIcon
-	dw NidorinaIcon
+	dw BerurunIcon
 	dw NidoqueenIcon
 	dw NidoranMIcon
 	dw NidorinoIcon

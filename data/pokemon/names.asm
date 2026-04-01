@@ -29,7 +29,7 @@ PokemonNames::
 	db "SANDSHREW@"
 	db "SANDSLASH@"
 	db "RINRIN@@@@"
-	db "NIDORINA@@"
+	db "BERURUN@@@"
 	db "NIDOQUEEN@"
 	db "NIDORAN♂@@"
 	db "NIDORINO@@"

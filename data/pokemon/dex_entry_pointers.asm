@@ -30,7 +30,7 @@ PokedexDataPointerTable:
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry
 	dw RinrinPokedexEntry
-	dw NidorinaPokedexEntry
+	dw BerurunPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw NidoranMPokedexEntry
 	dw NidorinoPokedexEntry
