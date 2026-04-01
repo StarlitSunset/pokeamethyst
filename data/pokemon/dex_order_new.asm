@@ -129,7 +129,7 @@ NewPokedexOrder:
 	db RINRIN
 	db BERURUN
 	db NYOROTONO
-	db NIDORAN_M
+	db MITSUBOSHI
 	db NIDORINO
 	db NIDOKING
 	db VENONAT

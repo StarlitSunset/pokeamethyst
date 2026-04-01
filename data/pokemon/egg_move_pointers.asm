@@ -31,7 +31,7 @@ EggMovePointers::
 	dw RinrinEggMoves
 	dw BerurunEggMoves
 	dw NoEggMoves
-	dw NidoranMEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

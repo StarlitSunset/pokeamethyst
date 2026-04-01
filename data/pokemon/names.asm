@@ -31,7 +31,7 @@ PokemonNames::
 	db "RINRIN@@@@"
 	db "BERURUN@@@"
 	db "NYOROTONO@"
-	db "NIDORAN♂@@"
+	db "MITSUBOSHI"
 	db "NIDORINO@@"
 	db "NIDOKING@@"
 	db "CLEFAIRY@@"

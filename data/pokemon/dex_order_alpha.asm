@@ -140,6 +140,7 @@ AlphabeticalPokedexOrder:
 	db MIKON
 	db MILTANK
 	db MISDREAVUS
+	db MITSUBOSHI
 	db MOLTRES
 	db MONJA
 	db MR__MIME
@@ -147,7 +148,6 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db NATU
 	db NIDOKING
-	db NIDORAN_M
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL

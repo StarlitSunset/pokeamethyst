@@ -412,17 +412,19 @@ NyorotonoEvosAttacks:
 	db 51, SWAGGER
 	db 0 ; no more level-up moves
 
-NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+MitsuboshiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEER
 	db 1, TACKLE
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 30, FURY_ATTACK
-	db 38, HORN_DRILL
+	db 1, SUPERSONIC
+	db 8, SUPERSONIC
+	db 15, COMET_PUNCH
+	db 24, LIGHT_SCREEN
+	db 24, REFLECT
+	db 24, SAFEGUARD
+	db 33, BATON_PASS
+	db 42, SWIFT
+	db 51, AGILITY
+	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
@@ -2225,6 +2227,7 @@ NoctowlEvosAttacks:
 
 LedybaEvosAttacks:
 	db EVOLVE_LEVEL, 18, LEDIAN
+	db EVOLVE_ITEM, MIST_STONE, MITSUBOSHI
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, SUPERSONIC

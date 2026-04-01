@@ -114,16 +114,6 @@ BerurunEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-NidoranMEggMoves:
-	db SUPERSONIC
-	db DISABLE
-	db TAKE_DOWN
-	db CONFUSION
-	db AMNESIA
-	db COUNTER
-	db BEAT_UP
-	db -1 ; end
-
 VulpixEggMoves:
 	db FAINT_ATTACK
 	db HYPNOSIS

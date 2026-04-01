@@ -33,7 +33,7 @@ IconPointers:
 	dw RinrinIcon
 	dw BerurunIcon
 	dw NyorotonoIcon
-	dw NidoranMIcon
+	dw MitsuboshiIcon
 	dw NidorinoIcon
 	dw NidokingIcon
 	dw ClefairyIcon
