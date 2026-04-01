@@ -79,7 +79,7 @@ to working on making life easier for creators like me.
 <li>HYPNO > KOONYA (MEOWTH)</li>
 <li>NIDORAN_F > RINRIN (UMBREON)</li>
 <li>NIDORINA > BERURUN (ESPEON BUT ALSO VARIED)</li>
-<li>NIDOQUEEN > NYORUTONO (POLITOED)</li>
+<li>NIDOQUEEN > NYOROTONO (POLITOED)</li>
 <li>NIDORAN_M > MITSUBOSHI (LEDIAN)</li>
 <li>NIDORINO > PUCHIKOON (PONYTA)</li>
 <li>NIDOKING > TAABAN (SLOWBRO/GRIMER)</li>

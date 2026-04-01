@@ -128,7 +128,7 @@ NewPokedexOrder:
 	db KOONYA
 	db RINRIN
 	db BERURUN
-	db NIDOQUEEN
+	db NYOROTONO
 	db NIDORAN_M
 	db NIDORINO
 	db NIDOKING

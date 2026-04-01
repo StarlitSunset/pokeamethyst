@@ -15,7 +15,7 @@ Pokered_MonIndices:
 	db GRIMER
 	db GENGAR
 	db RINRIN
-	db NIDOQUEEN
+	db NYOROTONO
 	db CUBONE
 	db RHYHORN
 	db LAPRAS

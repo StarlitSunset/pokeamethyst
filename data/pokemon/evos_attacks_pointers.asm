@@ -32,7 +32,7 @@ EvosAttacksPointers::
 	dw SandslashEvosAttacks
 	dw RinrinEvosAttacks
 	dw BerurunEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw NyorotonoEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks

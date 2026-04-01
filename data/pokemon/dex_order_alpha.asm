@@ -147,11 +147,11 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db NATU
 	db NIDOKING
-	db NIDOQUEEN
 	db NIDORAN_M
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL
+	db NYOROTONO
 	db OCTILLERY
 	db ODDISH
 	db OMANYTE

@@ -31,7 +31,7 @@ PokedexDataPointerTable:
 	dw SandslashPokedexEntry
 	dw RinrinPokedexEntry
 	dw BerurunPokedexEntry
-	dw NidoqueenPokedexEntry
+	dw NyorotonoPokedexEntry
 	dw NidoranMPokedexEntry
 	dw NidorinoPokedexEntry
 	dw NidokingPokedexEntry

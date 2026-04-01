@@ -32,7 +32,7 @@ IconPointers:
 	dw SandslashIcon
 	dw RinrinIcon
 	dw BerurunIcon
-	dw NidoqueenIcon
+	dw NyorotonoIcon
 	dw NidoranMIcon
 	dw NidorinoIcon
 	dw NidokingIcon

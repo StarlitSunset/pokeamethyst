@@ -402,13 +402,14 @@ BerurunEvosAttacks:
 	db 46, FURY_SWIPES
 	db 0 ; no more level-up moves
 
-NidoqueenEvosAttacks:
+NyorotonoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SCRATCH
-	db 1, DOUBLE_KICK
-	db 1, TAIL_WHIP
-	db 23, BODY_SLAM
+	db 1, WATER_GUN
+	db 1, HYPNOSIS
+	db 1, DOUBLESLAP
+	db 1, PERISH_SONG
+	db 35, PERISH_SONG
+	db 51, SWAGGER
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -788,6 +789,7 @@ PoliwagEvosAttacks:
 PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
 	db EVOLVE_ITEM, KINGS_ROCK, POLITOED
+	db EVOLVE_ITEM, MIST_STONE, NYOROTONO
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, HYPNOSIS
