@@ -436,6 +436,7 @@ ENDM
 	map_const BATTLE_TOWER_HALLWAY,                        11,  2 ; 14
 	map_const ROUTE_40_BATTLE_TOWER_GATE,                   5,  4 ; 15
 	map_const BATTLE_TOWER_OUTSIDE,                        10, 14 ; 16
+	map_const BATTLE_TOWER_TRADE_HOUSE,						9,  6 ; 17
 	endgroup
 
 	newgroup VIRIDIAN                                             ; 23

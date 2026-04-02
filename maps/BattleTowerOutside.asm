@@ -15,7 +15,6 @@ BattleTowerOutsideNoopCallback:
 	endcallback
 
 BattleTowerOutsideShowCiviliansCallback:
-	clearevent EVENT_BATTLE_TOWER_OPEN_CIVILIANS
 	endcallback
 
 BattleTowerOutsideYoungsterScript:
@@ -29,28 +28,9 @@ BattleTowerOutsideSailorScript:
 
 BattleTowerOutsideSign:
 	jumptext BattleTowerOutsideSignText
-
-BattleTowerOutsideYoungsterText_NotYetOpen: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge! My"
-
-	para "neck is tired from"
-	line "looking up at it."
-	done
-
-BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
-
-	para "Since there are a"
-	line "whole bunch of"
-
-	para "trainers inside,"
-	line "there must also be"
-
-	para "a wide variety of"
-	line "#MON."
-	done
+	
+BattleTowerTradeHouseSign:
+	jumptext BattleTowerTradeHouseText
 
 BattleTowerOutsideYoungsterText:
 	text "Wow, the BATTLE"
@@ -59,17 +39,6 @@ BattleTowerOutsideYoungsterText:
 	para "There must be many"
 	line "kinds of #MON"
 	cont "in there!"
-	done
-
-BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
-	text "What on earth do"
-	line "they do here?"
-
-	para "If the name says"
-	line "anything, I guess"
-
-	para "it must be for"
-	line "#MON battles."
 	done
 
 BattleTowerOutsideBeautyText:
@@ -83,30 +52,19 @@ BattleTowerOutsideBeautyText:
 	line "battle…"
 	done
 
-BattleTowerOutsideSailorText_Mobile: ; unreferenced
-	text "Ehehehe…"
-	line "I sneaked out of"
-	cont "work to come here."
-
-	para "I'm never giving"
-	line "up until I become"
-	cont "a LEADER!"
-	done
-
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "That cafe over"
+	line "there is"
+	cont "interesting."
+	
+	para "Lots of people"
+	line "from different"
+	cont "places gather"
+	cont "inside."
 
-	para "I can't bail out"
-	line "until I've won!"
-
-	para "I have to win it"
-	line "all. That I must!"
-	done
-
-BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
-; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER"
+	para "Some of them"
+	line "have weird items"
+	cont "and rare #MON!"
 	done
 
 BattleTowerOutsideSignText:
@@ -115,16 +73,13 @@ BattleTowerOutsideSignText:
 	para "Take the Ultimate"
 	line "Trainer Challenge!"
 	done
+	
+BattleTowerTradeHouseText:
+	text "CARLY'S CAFE"
 
-BattleTowerOutsideText_DoorsClosed: ; unreferenced
-; originally shown when the Battle Tower was closed
-	text "The BATTLE TOWER's"
-	line "doors are closed…"
-	done
-
-BattleTowerOutsideText_DoorsOpen: ; unreferenced
-; originally shown after the Battle Tower opened
-	text "It's open!"
+	para "A glass for every"
+	line "hand, and a foot"
+	cont "for every ass."
 	done
 
 BattleTowerOutside_MapEvents:
@@ -135,14 +90,16 @@ BattleTowerOutside_MapEvents:
 	warp_event  9, 21, ROUTE_40_BATTLE_TOWER_GATE, 4
 	warp_event  8,  9, BATTLE_TOWER_1F, 1
 	warp_event  9,  9, BATTLE_TOWER_1F, 2
+	warp_event 14, 15, BATTLE_TOWER_TRADE_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 10, 10, BGEVENT_READ, BattleTowerOutsideSign
+	bg_event 16, 16, BGEVENT_READ, BattleTowerTradeHouseSign
 
 	def_object_events
-	object_event  6, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideYoungsterScript, -1
-	object_event 13, 11, SPRITE_BEAUTY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideBeautyScript, -1
-	object_event 12, 18, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideSailorScript, EVENT_BATTLE_TOWER_OPEN_CIVILIANS
+	object_event  5, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideYoungsterScript, -1
+	object_event  7, 14, SPRITE_BEAUTY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideBeautyScript, -1
+	object_event 10, 13, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BattleTowerOutsideSailorScript, -1
 	object_event 12, 24, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
