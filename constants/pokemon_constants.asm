@@ -52,7 +52,7 @@
 	const NYOROTONO  ; 1f
 	const MITSUBOSHI ; 20
 	const PUCHIKOON  ; 21
-	const NIDOKING   ; 22
+	const TAABAN     ; 22
 	const CLEFAIRY   ; 23
 	const CLEFABLE   ; 24
 	const VULPIX     ; 25

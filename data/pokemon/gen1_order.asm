@@ -6,7 +6,7 @@ Pokered_MonIndices:
 	db CLEFAIRY
 	db JARANRA
 	db VOLTORB
-	db NIDOKING
+	db TAABAN
 	db SLOWBRO
 	db HONOOGUMA
 	db EXEGGUTOR

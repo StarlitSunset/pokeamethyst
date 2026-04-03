@@ -34,7 +34,7 @@ PokedexDataPointerTable:
 	dw NyorotonoPokedexEntry
 	dw MitsuboshiPokedexEntry
 	dw PuchikoonPokedexEntry
-	dw NidokingPokedexEntry
+	dw TaabanPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry
 	dw VulpixPokedexEntry

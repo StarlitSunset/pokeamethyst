@@ -35,7 +35,7 @@ IconPointers:
 	dw NyorotonoIcon
 	dw MitsuboshiIcon
 	dw PuchikoonIcon
-	dw NidokingIcon
+	dw TaabanIcon
 	dw ClefairyIcon
 	dw ClefableIcon
 	dw VulpixIcon

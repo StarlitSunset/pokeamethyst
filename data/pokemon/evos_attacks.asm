@@ -441,7 +441,7 @@ PuchikoonEvosAttacks:
 	db 53, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+TaabanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HORN_ATTACK

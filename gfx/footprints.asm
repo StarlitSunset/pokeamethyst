@@ -85,7 +85,7 @@ INCBIN "gfx/footprints/nyorotono.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mitsuboshi.1bpp", footprint_bottom
 ; 033-040 top halves
 INCBIN "gfx/footprints/puchikoon.1bpp",  footprint_top
-INCBIN "gfx/footprints/nidoking.1bpp",   footprint_top
+INCBIN "gfx/footprints/taaban.1bpp",     footprint_top
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_top
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_top
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_top
@@ -94,7 +94,7 @@ INCBIN "gfx/footprints/jigglypuff.1bpp", footprint_top
 INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_top
 ; 033-040 bottom halves
 INCBIN "gfx/footprints/puchikoon.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/nidoking.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/taaban.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_bottom

@@ -33,7 +33,7 @@ PokemonNames::
 	db "NYOROTONO@"
 	db "MITSUBOSHI"
 	db "PUCHIKOON@"
-	db "NIDOKING@@"
+	db "TAABAN@@@@"
 	db "CLEFAIRY@@"
 	db "CLEFABLE@@"
 	db "VULPIX@@@@"

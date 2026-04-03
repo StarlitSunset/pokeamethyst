@@ -1133,7 +1133,6 @@ PokemaniacGroup:
 
 	; POKEMANIAC (7)
 	db "RON@", TRAINERTYPE_NORMAL
-	db 19, NIDOKING
 	db -1 ; end
 
 	; POKEMANIAC (8)
@@ -2804,12 +2803,10 @@ CamperGroup:
 
 	; CAMPER (5)
 	db "BARRY@", TRAINERTYPE_NORMAL
-	db 36, NIDOKING
 	db -1 ; end
 
 	; CAMPER (6)
 	db "LLOYD@", TRAINERTYPE_NORMAL
-	db 34, NIDOKING
 	db -1 ; end
 
 	; CAMPER (7)
@@ -3132,7 +3129,6 @@ PokefanMGroup:
 
 	; POKEFANM (12)
 	db "ALEX@", TRAINERTYPE_ITEM
-	db 29, NIDOKING,   BERRY
 	db 29, SLOWKING,   BERRY
 	db 29, SEAKING,    BERRY
 	db -1 ; end

@@ -147,7 +147,6 @@ AlphabeticalPokedexOrder:
 	db MUK
 	db MURKROW
 	db NATU
-	db NIDOKING
 	db NINETALES
 	db NOCTOWL
 	db NYOROTONO
@@ -223,6 +222,7 @@ AlphabeticalPokedexOrder:
 	db SUNKERN
 	db SWINUB
 	db S_PICHU
+	db TAABAN
 	db TANGELA
 	db TAUROS
 	db TEDDIURSA

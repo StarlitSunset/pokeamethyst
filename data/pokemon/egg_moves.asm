@@ -113,6 +113,12 @@ BerurunEggMoves:
 	db COUNTER
 	db BEAT_UP
 	db -1 ; end
+	
+TaabanEggMoves:
+	db HAZE
+	db MEAN_LOOK
+	db LICK
+	db -1 ; end
 
 VulpixEggMoves:
 	db FAINT_ATTACK
