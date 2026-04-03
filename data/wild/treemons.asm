@@ -18,16 +18,16 @@ TreeMons:
 
 TreeMonSet_City:
 TreeMonSet_Canyon:
-; common
-	db 50, PIDGEY,    10
-	db 15, PIDGEY,    10
-	db 15, PIDGEY,    10
+; common 
+	db 50, PIDGEY,     10
+	db 15, PIDGEY,     10
+	db 15, PIDGEY,     10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, PIDGEY,    10
+	db 50, PIDGEY,     10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
 	db 10, AIPOM,      10
@@ -36,15 +36,15 @@ TreeMonSet_Canyon:
 	db -1
 
 TreeMonSet_Town:
-; common
-	db 50, PIDGEY,    10
-	db 15, PIDGEY,    10
+; common 
+	db 50, PIDGEY,     10
+	db 15, PIDGEY,     10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, PIDGEY,    10
+	db 50, PIDGEY,     10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
 	db 10, AIPOM,      10
@@ -90,7 +90,6 @@ TreeMonSet_Kanto:
 TreeMonSet_Lake:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, VENONAT,    10
 	db 15, HOOTHOOT,   10
 	db 10, EXEGGCUTE,  10
 	db  5, EXEGGCUTE,  10

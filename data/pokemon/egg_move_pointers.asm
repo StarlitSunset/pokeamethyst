@@ -47,7 +47,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw VenonatEggMoves
+	dw BetobebiiEggMoves
 	dw NoEggMoves
 	dw DiglettEggMoves
 	dw NoEggMoves
@@ -87,7 +87,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SeelEggMoves
 	dw NoEggMoves
-	dw GrimerEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw ShellderEggMoves
 	dw NoEggMoves

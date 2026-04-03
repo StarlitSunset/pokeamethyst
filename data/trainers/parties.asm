@@ -1275,8 +1275,6 @@ GruntMGroup:
 
 	; GRUNTM (19)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, VENONAT
-	db 18, VENONAT
 	db -1 ; end
 
 	; GRUNTM (20)
@@ -1437,7 +1435,6 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (8)
 	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 15, VENONAT
 	db -1 ; end
 
 	; BUG_CATCHER (9)
@@ -1464,7 +1461,6 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (13)
 	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 19, VENONAT
 	db -1 ; end
 
 	; BUG_CATCHER (14)

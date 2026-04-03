@@ -49,7 +49,7 @@ IconPointers:
 	dw VileplumeIcon
 	dw ParasIcon
 	dw ParasectIcon
-	dw VenonatIcon
+	dw BetobebiiIcon
 	dw VenomothIcon
 	dw DiglettIcon
 	dw DugtrioIcon

@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	db BELLOSSOM
 	db BELLSPROUT
 	db BERURUN
+	db BETOBEBII
 	db BLISSEY
 	db BORUBEAA
 	db BUTTERFREE
@@ -240,7 +241,6 @@ AlphabeticalPokedexOrder:
 	db URSARING
 	db VAPOREON
 	db VENOMOTH
-	db VENONAT
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB

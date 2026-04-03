@@ -607,20 +607,18 @@ ParasectEvosAttacks:
 	db 55, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-VenonatEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+BetobebiiEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, GRIMER
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DISABLE
-	db 1, FORESIGHT
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
+	db 1, POISON_GAS
+	db 1, POUND
+	db 5, HARDEN
+	db 10, DISABLE
+	db 16, SLUDGE
+	db 23, MINIMIZE
+	db 31, SCREECH
+	db 40, ACID_ARMOR
+	db 50, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 VenomothEvosAttacks:

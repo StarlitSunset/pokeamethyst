@@ -153,12 +153,6 @@ ParaEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-VenonatEggMoves:
-	db BATON_PASS
-	db SCREECH
-	db GIGA_DRAIN
-	db -1 ; end
-
 DiglettEggMoves:
 	db FAINT_ATTACK
 	db SCREECH
@@ -285,7 +279,7 @@ SeelEggMoves:
 	db ENCORE
 	db -1 ; end
 
-GrimerEggMoves:
+BetobebiiEggMoves:
 	db HAZE
 	db MEAN_LOOK
 	db LICK

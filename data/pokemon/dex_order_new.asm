@@ -132,7 +132,7 @@ NewPokedexOrder:
 	db MITSUBOSHI
 	db PUCHIKOON
 	db TAABAN
-	db VENONAT
+	db BETOBEBII
 	db VENOMOTH
 	db KOFFING
 	db WEEZING
