@@ -250,7 +250,7 @@ INCBIN "gfx/footprints/marowak.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_top
 INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_top
 INCBIN "gfx/footprints/lickitung.1bpp",  footprint_top
-INCBIN "gfx/footprints/koffing.1bpp",    footprint_top
+INCBIN "gfx/footprints/okutank.1bpp",    footprint_top
 INCBIN "gfx/footprints/weezing.1bpp",    footprint_top
 INCBIN "gfx/footprints/rhyhorn.1bpp",    footprint_top
 INCBIN "gfx/footprints/rhydon.1bpp",     footprint_top
@@ -259,7 +259,7 @@ INCBIN "gfx/footprints/marowak.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_bottom
 INCBIN "gfx/footprints/lickitung.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/koffing.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/okutank.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/weezing.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/rhyhorn.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/rhydon.1bpp",     footprint_bottom

@@ -108,7 +108,6 @@ AlphabeticalPokedexOrder:
 	db KINGDRA
 	db KINGLER
 	db KIRINRIKI
-	db KOFFING
 	db KOONYA
 	db KRABBY
 	db KURUSU
@@ -152,6 +151,7 @@ AlphabeticalPokedexOrder:
 	db NOCTOWL
 	db NYOROTONO
 	db OCTILLERY
+	db OKUTANK
 	db ODDISH
 	db OMANYTE
 	db OMASTAR

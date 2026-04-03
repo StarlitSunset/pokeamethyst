@@ -108,7 +108,7 @@ PokemonNames::
 	db "HITMONLEE@"
 	db "HITMONCHAN"
 	db "LICKITUNG@"
-	db "KOFFING@@@"
+	db "OKUTANK@@@"
 	db "WEEZING@@@"
 	db "RHYHORN@@@"
 	db "RHYDON@@@@"

@@ -110,7 +110,7 @@ IconPointers:
 	dw HitmonleeIcon
 	dw HitmonchanIcon
 	dw Lickitung
-	dw KoffingIcon
+	dw OkutankIcon
 	dw WeezingIcon
 	dw RhyhornIcon
 	dw RhydonIcon

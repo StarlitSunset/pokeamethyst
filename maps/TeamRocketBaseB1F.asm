@@ -467,11 +467,11 @@ GeodudeExplodingTrap:
 
 KoffingExplodingTrap:
 	special FadeOutToWhite
-	cry KOFFING
+	cry GRIMER
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon KOFFING, 21
+	loadwildmon GRIMER, 21
 	startbattle
 	end
 

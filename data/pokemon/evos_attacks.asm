@@ -622,7 +622,7 @@ BetobebiiEvosAttacks:
 	db 0 ; no more level-up moves
 
 TeppouoEvosAttacks:
-;	db EVOLVE_LEVEL, 25, OCTILLERY
+	db EVOLVE_LEVEL, 25, OKUTANK
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 11, LOCK_ON
@@ -1451,18 +1451,17 @@ LickitungEvosAttacks:
 	db 43, SCREECH
 	db 0 ; no more level-up moves
 
-KoffingEvosAttacks:
-	db EVOLVE_LEVEL, 35, WEEZING
+OkutankEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
-	db 1, TACKLE
-	db 9, SMOG
-	db 17, SELFDESTRUCT
-	db 21, SLUDGE
-	db 25, SMOKESCREEN
-	db 33, HAZE
-	db 41, EXPLOSION
-	db 45, DESTINY_BOND
+	db 1, WATER_GUN
+	db 11, CONSTRICT
+	db 22, PSYBEAM
+	db 22, AURORA_BEAM
+	db 22, BUBBLEBEAM
+	db 25, OCTAZOOKA
+	db 38, FOCUS_ENERGY
+	db 54, ICE_BEAM
+	db 70, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 WeezingEvosAttacks:

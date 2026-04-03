@@ -134,7 +134,7 @@ NewPokedexOrder:
 	db TAABAN
 	db BETOBEBII
 	db TEPPOUO
-	db KOFFING
+	db OKUTANK
 	db WEEZING
 	db MAGNEMITE
 	db MAGNETON

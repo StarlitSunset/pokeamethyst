@@ -294,8 +294,6 @@ LtSurgeGroup:
 ScientistGroup:
 	; SCIENTIST (1)
 	db "ROSS@", TRAINERTYPE_NORMAL
-	db 22, KOFFING
-	db 22, KOFFING
 	db -1 ; end
 
 	; SCIENTIST (2)
@@ -1177,7 +1175,6 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 14, KOFFING
 	db -1 ; end
 
 	; GRUNTM (2)
@@ -1209,7 +1206,6 @@ GruntMGroup:
 
 	; GRUNTM (7)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, KOFFING
 	db 23, GRIMER
 	db 23, ZUBAT
 	db -1 ; end
@@ -1221,7 +1217,6 @@ GruntMGroup:
 
 	; GRUNTM (9)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, KOFFING
 	db -1 ; end
 
 	; GRUNTM (10)
@@ -1234,7 +1229,6 @@ GruntMGroup:
 	; GRUNTM (11)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 23, MUK
-	db 23, KOFFING
 	db -1 ; end
 
 	; GRUNTM (12)
@@ -1293,18 +1287,14 @@ GruntMGroup:
 
 	; GRUNTM (23)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 30, KOFFING
 	db -1 ; end
 
 	; GRUNTM (24)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, KOFFING
-	db 25, KOFFING
 	db -1 ; end
 
 	; GRUNTM (25)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, KOFFING
 	db 24, MUK
 	db -1 ; end
 
@@ -2004,8 +1994,6 @@ SuperNerdGroup:
 
 	; SUPER_NERD (4)
 	db "JAY@", TRAINERTYPE_NORMAL
-	db 22, KOFFING
-	db 22, KOFFING
 	db -1 ; end
 
 	; SUPER_NERD (5)
@@ -2291,24 +2279,14 @@ HikerGroup:
 BikerGroup:
 	; BIKER (1)
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db 20, KOFFING
-	db 20, KOFFING
-	db 20, KOFFING
 	db -1 ; end
 
 	; BIKER (2)
 	db "KAZU@", TRAINERTYPE_NORMAL
-	db 20, KOFFING
-	db 20, KOFFING
-	db 20, KOFFING
 	db -1 ; end
 
 	; BIKER (3)
 	db "DWAYNE@", TRAINERTYPE_NORMAL
-	db 27, KOFFING
-	db 28, KOFFING
-	db 29, KOFFING
-	db 30, KOFFING
 	db -1 ; end
 
 	; BIKER (4)
@@ -2318,19 +2296,14 @@ BikerGroup:
 
 	; BIKER (5)
 	db "ZEKE@", TRAINERTYPE_NORMAL
-	db 32, KOFFING
-	db 32, KOFFING
 	db -1 ; end
 
 	; BIKER (6)
 	db "CHARLES@", TRAINERTYPE_NORMAL
-	db 30, KOFFING
-	db 30, WEEZING
 	db -1 ; end
 
 	; BIKER (7)
 	db "RILEY@", TRAINERTYPE_NORMAL
-	db 34, WEEZING
 	db -1 ; end
 
 	; BIKER (8)
@@ -2341,9 +2314,7 @@ BikerGroup:
 
 	; BIKER (9)
 	db "GLENN@", TRAINERTYPE_NORMAL
-	db 28, KOFFING
 	db 30, MAGMAR
-	db 32, WEEZING
 	db -1 ; end
 
 BlaineGroup:
@@ -2357,30 +2328,23 @@ BlaineGroup:
 BurglarGroup:
 	; BURGLAR (1)
 	db "DUNCAN@", TRAINERTYPE_NORMAL
-	db 23, KOFFING
 	db 25, MAGMAR
-	db 23, KOFFING
 	db -1 ; end
 
 	; BURGLAR (2)
 	db "EDDIE@", TRAINERTYPE_MOVES
 	db 26, GROWLITHE,  ROAR, EMBER, LEER, TAKE_DOWN
-	db 24, KOFFING,    TACKLE, SMOG, SLUDGE, SMOKESCREEN
 	db -1 ; end
 
 	; BURGLAR (3)
 	db "COREY@", TRAINERTYPE_NORMAL
-	db 25, KOFFING
 	db 28, MAGMAR
-	db 25, KOFFING
-	db 30, KOFFING
 	db -1 ; end
 
 FirebreatherGroup:
 	; FIREBREATHER (1)
 	db "OTIS@", TRAINERTYPE_NORMAL
 	db 29, MAGMAR
-	db 32, WEEZING
 	db 29, MAGMAR
 	db -1 ; end
 
@@ -2390,21 +2354,16 @@ FirebreatherGroup:
 
 	; FIREBREATHER (3)
 	db "NED@", TRAINERTYPE_NORMAL
-	db 15, KOFFING
 	db 16, GROWLITHE
-	db 15, KOFFING
 	db -1 ; end
 
 	; FIREBREATHER (4)
 	db "BURT@", TRAINERTYPE_NORMAL
-	db 32, KOFFING
 	db 32, SLUGMA
 	db -1 ; end
 
 	; FIREBREATHER (5)
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
 	db -1 ; end
 
 	; FIREBREATHER (6)
@@ -2420,9 +2379,7 @@ FirebreatherGroup:
 
 	; FIREBREATHER (8)
 	db "LYLE@", TRAINERTYPE_NORMAL
-	db 28, KOFFING
 	db 31, FLAREON
-	db 28, KOFFING
 	db -1 ; end
 
 JugglerGroup:
@@ -2535,7 +2492,6 @@ ExecutiveMGroup:
 	; EXECUTIVEM (1)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
 	db 33, HOUNDOUR,   EMBER, ROAR, BITE, FAINT_ATTACK
-	db 33, KOFFING,    TACKLE, SLUDGE, SMOKESCREEN, HAZE
 	db 35, HOUNDOOM,   EMBER, SMOG, BITE, FAINT_ATTACK
 	db -1 ; end
 
@@ -2546,18 +2502,11 @@ ExecutiveMGroup:
 
 	; EXECUTIVEM (3)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 30, KOFFING,    TACKLE, SELFDESTRUCT, SLUDGE, SMOKESCREEN
-	db 30, KOFFING,    TACKLE, SELFDESTRUCT, SLUDGE, SMOKESCREEN
-	db 30, KOFFING,    TACKLE, SELFDESTRUCT, SLUDGE, SMOKESCREEN
-	db 32, WEEZING,    TACKLE, EXPLOSION, SLUDGE, SMOKESCREEN
-	db 30, KOFFING,    TACKLE, SELFDESTRUCT, SLUDGE, SMOKESCREEN
-	db 30, KOFFING,    TACKLE, SMOG, SLUDGE, SMOKESCREEN
 	db -1 ; end
 
 	; EXECUTIVEM (4)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
-	db 22, KOFFING
 	db -1 ; end
 
 PsychicGroup:

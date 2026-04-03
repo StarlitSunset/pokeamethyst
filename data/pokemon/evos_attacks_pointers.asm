@@ -110,7 +110,7 @@ EvosAttacksPointers::
 	dw HitmonleeEvosAttacks
 	dw HitmonchanEvosAttacks
 	dw LickitungEvosAttacks
-	dw KoffingEvosAttacks
+	dw OkutankEvosAttacks
 	dw WeezingEvosAttacks
 	dw RhyhornEvosAttacks
 	dw RhydonEvosAttacks

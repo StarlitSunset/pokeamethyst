@@ -54,7 +54,7 @@ Pokered_MonIndices:
 	db HO_OH ; MISSINGNO.
 	db ELECTABUZZ
 	db MAGNETON
-	db KOFFING
+	db OKUTANK
 	db SNEASEL ; MISSINGNO.
 	db MANKEY
 	db SEEL
