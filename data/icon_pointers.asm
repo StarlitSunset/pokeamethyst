@@ -34,7 +34,7 @@ IconPointers:
 	dw BerurunIcon
 	dw NyorotonoIcon
 	dw MitsuboshiIcon
-	dw NidorinoIcon
+	dw PuchikoonIcon
 	dw NidokingIcon
 	dw ClefairyIcon
 	dw ClefableIcon

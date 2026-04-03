@@ -67,8 +67,8 @@ PokemonPicPointers::
 	dba_pic NyorotonoBackpic
 	dba_pic MitsuboshiFrontpic
 	dba_pic MitsuboshiBackpic
-	dba_pic NidorinoFrontpic
-	dba_pic NidorinoBackpic
+	dba_pic PuchikoonFrontpic
+	dba_pic PuchikoonBackpic
 	dba_pic NidokingFrontpic
 	dba_pic NidokingBackpic
 	dba_pic ClefairyFrontpic

@@ -238,7 +238,7 @@ GeodudeEggMoves:
 	db ROCK_SLIDE
 	db -1 ; end
 
-PonytaEggMoves:
+PuchikoonEggMoves:
 	db FLAME_WHEEL
 	db THRASH
 	db DOUBLE_KICK

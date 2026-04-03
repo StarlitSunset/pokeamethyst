@@ -32,7 +32,7 @@ PokemonNames::
 	db "BERURUN@@@"
 	db "NYOROTONO@"
 	db "MITSUBOSHI"
-	db "NIDORINO@@"
+	db "PUCHIKOON@"
 	db "NIDOKING@@"
 	db "CLEFAIRY@@"
 	db "CLEFABLE@@"

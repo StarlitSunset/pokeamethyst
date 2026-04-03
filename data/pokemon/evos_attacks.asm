@@ -427,17 +427,18 @@ MitsuboshiEvosAttacks:
 	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
+PuchikoonEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, PONYTA
 	db 0 ; no more evolutions
-	db 1, LEER
 	db 1, TACKLE
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, FOCUS_ENERGY
-	db 36, FURY_ATTACK
-	db 46, HORN_DRILL
+	db 4, GROWL
+	db 8, TAIL_WHIP
+	db 13, EMBER
+	db 19, STOMP
+	db 26, FIRE_SPIN
+	db 34, TAKE_DOWN
+	db 43, AGILITY
+	db 53, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:

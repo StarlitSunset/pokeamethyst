@@ -2827,12 +2827,10 @@ CamperGroup:
 
 	; CAMPER (9)
 	db "HARVEY@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
 	db -1 ; end
 
 	; CAMPER (10)
 	db "DALE@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
 	db -1 ; end
 
 	; CAMPER (11)

@@ -166,7 +166,7 @@ Pokered_MonIndices:
 	db RAPIDASH
 	db SHIBIFUGU
 	db GYOPIN
-	db NIDORINO
+	db PUCHIKOON
 	db BERURUN
 	db GEODUDE
 	db PORYGON

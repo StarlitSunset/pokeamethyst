@@ -148,7 +148,6 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db NATU
 	db NIDOKING
-	db NIDORINO
 	db NINETALES
 	db NOCTOWL
 	db NYOROTONO
@@ -179,6 +178,7 @@ AlphabeticalPokedexOrder:
 	db PORYGON2
 	db PRIMEAPE
 	db PSYDUCK
+	db PUCHIKOON
 	db PUPITAR
 	db QUAGSIRE
 	db QUILAVA

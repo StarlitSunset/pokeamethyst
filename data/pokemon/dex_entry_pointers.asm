@@ -33,7 +33,7 @@ PokedexDataPointerTable:
 	dw BerurunPokedexEntry
 	dw NyorotonoPokedexEntry
 	dw MitsuboshiPokedexEntry
-	dw NidorinoPokedexEntry
+	dw PuchikoonPokedexEntry
 	dw NidokingPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry

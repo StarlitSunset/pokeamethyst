@@ -34,7 +34,7 @@ EvosAttacksPointers::
 	dw BerurunEvosAttacks
 	dw NyorotonoEvosAttacks
 	dw MitsuboshiEvosAttacks
-	dw NidorinoEvosAttacks
+	dw PuchikoonEvosAttacks
 	dw NidokingEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks

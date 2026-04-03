@@ -32,7 +32,7 @@ EggMovePointers::
 	dw BerurunEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw PuchikoonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -76,7 +76,7 @@ EggMovePointers::
 	dw GeodudeEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw PonytaEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw SlowpokeEggMoves
 	dw NoEggMoves
