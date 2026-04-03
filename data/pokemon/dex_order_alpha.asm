@@ -229,6 +229,7 @@ AlphabeticalPokedexOrder:
 	db TEDDIURSA
 	db TENTACOOL
 	db TENTACRUEL
+	db TEPPOUO
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
@@ -240,7 +241,6 @@ AlphabeticalPokedexOrder:
 	db UNOWN
 	db URSARING
 	db VAPOREON
-	db VENOMOTH
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB

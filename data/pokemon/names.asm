@@ -48,7 +48,7 @@ PokemonNames::
 	db "PARAS@@@@@"
 	db "PARASECT@@"
 	db "BETOBEBII@"
-	db "VENOMOTH@@"
+	db "TEPPOUO@@@"
 	db "DIGLETT@@@"
 	db "DUGTRIO@@@"
 	db "MEOWTH@@@@"

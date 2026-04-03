@@ -621,21 +621,17 @@ BetobebiiEvosAttacks:
 	db 50, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+TeppouoEvosAttacks:
+;	db EVOLVE_LEVEL, 25, OCTILLERY
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DISABLE
-	db 1, FORESIGHT
-	db 1, SUPERSONIC
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 31, GUST
-	db 36, PSYBEAM
-	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 1, WATER_GUN
+	db 11, LOCK_ON
+	db 22, PSYBEAM
+	db 22, AURORA_BEAM
+	db 22, BUBBLEBEAM
+	db 33, FOCUS_ENERGY
+	db 44, ICE_BEAM
+	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:

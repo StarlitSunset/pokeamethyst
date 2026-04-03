@@ -118,7 +118,7 @@ Pokered_MonIndices:
 	db DODRIO
 	db PRIMEAPE
 	db DUGTRIO
-	db VENOMOTH
+	db TEPPOUO
 	db DEWGONG
 	db KINGDRA ; MISSINGNO.
 	db PHANPY ; MISSINGNO.

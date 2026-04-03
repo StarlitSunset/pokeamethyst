@@ -99,8 +99,8 @@ PokemonPicPointers::
 	dba_pic ParasectBackpic
 	dba_pic BetobebiiFrontpic
 	dba_pic BetobebiiBackpic
-	dba_pic VenomothFrontpic
-	dba_pic VenomothBackpic
+	dba_pic TeppouoFrontpic
+	dba_pic TeppouoBackpic
 	dba_pic DiglettFrontpic
 	dba_pic DiglettBackpic
 	dba_pic DugtrioFrontpic

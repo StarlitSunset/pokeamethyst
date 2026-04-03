@@ -49,7 +49,7 @@ PokedexDataPointerTable:
 	dw ParasPokedexEntry
 	dw ParasectPokedexEntry
 	dw BetobebiiPokedexEntry
-	dw VenomothPokedexEntry
+	dw TeppouoPokedexEntry
 	dw DiglettPokedexEntry
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry

@@ -284,6 +284,14 @@ BetobebiiEggMoves:
 	db MEAN_LOOK
 	db LICK
 	db -1 ; end
+	
+TeppouoEggMoves:
+	db AURORA_BEAM
+	db OCTAZOOKA
+	db SUPERSONIC
+	db HAZE
+	db SCREECH
+	db -1 ; end
 
 ShellderEggMoves:
 	db BUBBLEBEAM

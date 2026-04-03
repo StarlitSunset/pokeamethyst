@@ -50,7 +50,7 @@ EvosAttacksPointers::
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw BetobebiiEvosAttacks
-	dw VenomothEvosAttacks
+	dw TeppouoEvosAttacks
 	dw DiglettEvosAttacks
 	dw DugtrioEvosAttacks
 	dw MeowthEvosAttacks

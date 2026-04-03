@@ -133,7 +133,7 @@ NewPokedexOrder:
 	db PUCHIKOON
 	db TAABAN
 	db BETOBEBII
-	db VENOMOTH
+	db TEPPOUO
 	db KOFFING
 	db WEEZING
 	db MAGNEMITE

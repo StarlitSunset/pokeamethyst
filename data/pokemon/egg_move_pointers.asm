@@ -48,7 +48,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw BetobebiiEggMoves
-	dw NoEggMoves
+	dw TeppouoEggMoves
 	dw DiglettEggMoves
 	dw NoEggMoves
 	dw KoonyaEggMoves

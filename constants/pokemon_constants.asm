@@ -67,7 +67,7 @@
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const BETOBEBII  ; 30
-	const VENOMOTH   ; 31
+	const TEPPOUO    ; 31
 	const DIGLETT    ; 32
 	const DUGTRIO    ; 33
 	const MEOWTH     ; 34

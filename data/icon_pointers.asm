@@ -50,7 +50,7 @@ IconPointers:
 	dw ParasIcon
 	dw ParasectIcon
 	dw BetobebiiIcon
-	dw VenomothIcon
+	dw TeppouoIcon
 	dw DiglettIcon
 	dw DugtrioIcon
 	dw MeowthIcon
