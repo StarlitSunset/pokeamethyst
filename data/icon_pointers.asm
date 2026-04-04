@@ -111,7 +111,7 @@ IconPointers:
 	dw HitmonchanIcon
 	dw Lickitung
 	dw OkutankIcon
-	dw WeezingIcon
+	dw BarukiiIcon
 	dw RhyhornIcon
 	dw RhydonIcon
 	dw ChanseyIcon

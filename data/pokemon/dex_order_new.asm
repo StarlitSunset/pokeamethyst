@@ -135,7 +135,7 @@ NewPokedexOrder:
 	db BETOBEBII
 	db TEPPOUO
 	db OKUTANK
-	db WEEZING
+	db BARUKII
 	db MAGNEMITE
 	db MAGNETON
 	db VOLTORB

@@ -343,6 +343,13 @@ LickitungEggMoves:
 	db MAGNITUDE
 	db BODY_SLAM
 	db -1 ; end
+	
+BarukiiEggMoves:
+	db RAPID_SPIN
+	db HI_JUMP_KICK
+	db MACH_PUNCH
+	db MIND_READER
+	db -1 ; end
 
 RhyhornEggMoves:
 	db CRUNCH

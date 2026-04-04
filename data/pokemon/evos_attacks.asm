@@ -1464,19 +1464,12 @@ OkutankEvosAttacks:
 	db 70, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-WeezingEvosAttacks:
+BarukiiEvosAttacks:
+	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
+	db EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
+	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
 	db 1, TACKLE
-	db 1, SMOG
-	db 1, SELFDESTRUCT
-	db 9, SMOG
-	db 17, SELFDESTRUCT
-	db 21, SLUDGE
-	db 25, SMOKESCREEN
-	db 33, HAZE
-	db 44, EXPLOSION
-	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 RhyhornEvosAttacks:

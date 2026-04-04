@@ -221,8 +221,8 @@ PokemonPicPointers::
 	dba_pic LickitungBackpic
 	dba_pic OkutankFrontpic
 	dba_pic OkutankBackpic
-	dba_pic WeezingFrontpic
-	dba_pic WeezingBackpic
+	dba_pic BarukiiFrontpic
+	dba_pic BarukiiBackpic
 	dba_pic RhyhornFrontpic
 	dba_pic RhyhornBackpic
 	dba_pic RhydonFrontpic

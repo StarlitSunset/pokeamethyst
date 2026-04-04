@@ -109,7 +109,7 @@ PokemonNames::
 	db "HITMONCHAN"
 	db "LICKITUNG@"
 	db "OKUTANK@@@"
-	db "WEEZING@@@"
+	db "BARUKII@@@"
 	db "RHYHORN@@@"
 	db "RHYDON@@@@"
 	db "CHANSEY@@@"

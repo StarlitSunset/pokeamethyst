@@ -128,7 +128,7 @@
 	const HITMONCHAN ; 6b
 	const LICKITUNG  ; 6c
 	const OKUTANK    ; 6d
-	const WEEZING    ; 6e
+	const BARUKII    ; 6e
 	const RHYHORN    ; 6f
 	const RHYDON     ; 70
 	const CHANSEY    ; 71

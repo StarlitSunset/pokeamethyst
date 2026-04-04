@@ -15,6 +15,7 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
+	db BARUKII
 	db BELLOSSOM
 	db BELLSPROUT
 	db BERURUN
@@ -246,7 +247,6 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WEEPINBELL
-	db WEEZING
 	db WIGGLYTUFF
 	db WOBBUFFET
 	db WOOPER

@@ -110,7 +110,7 @@ PokedexDataPointerTable:
 	dw HitmonchanPokedexEntry
 	dw LickitungPokedexEntry
 	dw OkutankPokedexEntry
-	dw WeezingPokedexEntry
+	dw BarukiiPokedexEntry
 	dw RhyhornPokedexEntry
 	dw RhydonPokedexEntry
 	dw ChanseyPokedexEntry

@@ -111,7 +111,7 @@ EvosAttacksPointers::
 	dw HitmonchanEvosAttacks
 	dw LickitungEvosAttacks
 	dw OkutankEvosAttacks
-	dw WeezingEvosAttacks
+	dw BarukiiEvosAttacks
 	dw RhyhornEvosAttacks
 	dw RhydonEvosAttacks
 	dw ChanseyEvosAttacks
