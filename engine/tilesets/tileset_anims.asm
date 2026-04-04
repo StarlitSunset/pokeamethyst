@@ -684,9 +684,9 @@ AnimateFlowerTile:
 	ld b, h
 	ld c, l
 
-; A cycle of 2 frames, updating every other tick
+; A cycle of 4 frames, updating every other tick
 	ld a, [wTileAnimationTimer]
-	and %10
+	and %110
 
 ; CGB has different tile graphics for flowers
 	ld e, a
@@ -711,6 +711,10 @@ AnimateFlowerTile:
 	INCBIN "gfx/tilesets/flower/cgb_1.2bpp"
 	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
 	INCBIN "gfx/tilesets/flower/cgb_2.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_3.2bpp"
+	INCBIN "gfx/tilesets/flower/cgb_3.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_4.2bpp"
+	INCBIN "gfx/tilesets/flower/cgb_4.2bpp"
 
 AnimateLavaBubbleTile1:
 ; Save the stack pointer in bc for WriteTile to restore
