@@ -126,7 +126,6 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MAGNEMITE
 	db MAGNETON
 	db MANBOO
 	db MANKEY
@@ -180,6 +179,7 @@ AlphabeticalPokedexOrder:
 	db PRIMEAPE
 	db PSYDUCK
 	db PUCHIKOON
+	db PUDI
 	db PUPITAR
 	db QUAGSIRE
 	db QUILAVA

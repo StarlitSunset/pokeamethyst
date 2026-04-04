@@ -2,7 +2,6 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
-	db MAGNEMITE
 	db GRIMER
 	db TANGELA
 	db MR__MIME

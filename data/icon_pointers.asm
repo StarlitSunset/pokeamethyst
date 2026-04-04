@@ -82,7 +82,7 @@ IconPointers:
 	dw RapidashIcon
 	dw SlowpokeIcon
 	dw SlowbroIcon
-	dw MagnemiteIcon
+	dw PudiIcon
 	dw MagnetonIcon
 	dw FarfetchdIcon
 	dw DoduoIcon

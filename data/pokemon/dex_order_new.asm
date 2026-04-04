@@ -136,7 +136,7 @@ NewPokedexOrder:
 	db TEPPOUO
 	db OKUTANK
 	db BARUKII
-	db MAGNEMITE
+	db PUDI
 	db MAGNETON
 	db VOLTORB
 	db DIGLETT

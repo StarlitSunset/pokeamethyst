@@ -80,7 +80,7 @@ PokemonNames::
 	db "RAPIDASH@@"
 	db "SLOWPOKE@@"
 	db "SLOWBRO@@@"
-	db "MAGNEMITE@"
+	db "PUDI@@@@@@"
 	db "MAGNETON@@"
 	db "FARFETCH'D"
 	db "DODUO@@@@@"

@@ -57,7 +57,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MankeyEggMoves
 	dw NoEggMoves
-	dw GrowlitheEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw PoliwagEggMoves
 	dw NoEggMoves
@@ -80,7 +80,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SlowpokeEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw PudiEggMoves
 	dw NoEggMoves
 	dw FarfetchDEggMoves
 	dw NoEggMoves

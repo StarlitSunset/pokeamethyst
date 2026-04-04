@@ -1068,18 +1068,17 @@ SlowbroEvosAttacks:
 	db 54, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-MagnemiteEvosAttacks:
-	db EVOLVE_LEVEL, 30, MAGNETON
+PudiEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, GROWLITHE
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 6, THUNDERSHOCK
-	db 11, SUPERSONIC
-	db 16, SONICBOOM
-	db 21, THUNDER_WAVE
-	db 27, LOCK_ON
-	db 33, SWIFT
-	db 39, SCREECH
-	db 45, ZAP_CANNON
+	db 1, BITE
+	db 1, ROAR
+	db 9, EMBER
+	db 18, LEER
+	db 26, TAKE_DOWN
+	db 34, FLAME_WHEEL
+	db 42, AGILITY
+	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
