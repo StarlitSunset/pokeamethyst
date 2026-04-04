@@ -39,7 +39,6 @@ AlphabeticalPokedexOrder:
 	db DAINABEA
 	db DELIBIRD
 	db DEWGONG
-	db DIGLETT
 	db DITTO
 	db DODRIO
 	db DODUO
@@ -81,6 +80,7 @@ AlphabeticalPokedexOrder:
 	db GYARADOS
 	db GYOPIN
 	db HANAGOMURA
+	db HANEKKO
 	db HANEEI
 	db HAUNTER
 	db HERACROSS
@@ -126,7 +126,6 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MAGNETON
 	db MANBOO
 	db MANKEY
 	db MANTINE
@@ -174,6 +173,7 @@ AlphabeticalPokedexOrder:
 	db POLIWHIRL
 	db POLIWRATH
 	db PONYTA
+	db POPOKKO
 	db PORYGON
 	db PORYGON2
 	db PRIMEAPE
@@ -244,8 +244,8 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VICTREEBEL
 	db VILEPLUME
-	db VOLTORB
 	db VULPIX
+	db WATAKKO
 	db WEEPINBELL
 	db WIGGLYTUFF
 	db WOBBUFFET

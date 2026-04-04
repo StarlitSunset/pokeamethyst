@@ -101,8 +101,8 @@ PokemonPicPointers::
 	dba_pic BetobebiiBackpic
 	dba_pic TeppouoFrontpic
 	dba_pic TeppouoBackpic
-	dba_pic DiglettFrontpic
-	dba_pic DiglettBackpic
+	dba_pic WatakkoFrontpic
+	dba_pic WatakkoBackpic
 	dba_pic DugtrioFrontpic
 	dba_pic DugtrioBackpic
 	dba_pic MeowthFrontpic
@@ -165,8 +165,8 @@ PokemonPicPointers::
 	dba_pic SlowbroBackpic
 	dba_pic PudiFrontpic
 	dba_pic PudiBackpic
-	dba_pic MagnetonFrontpic
-	dba_pic MagnetonBackpic
+	dba_pic HanekkoFrontpic
+	dba_pic HanekkoBackpic
 	dba_pic FarfetchDFrontpic
 	dba_pic FarfetchDBackpic
 	dba_pic DoduoFrontpic
@@ -201,8 +201,8 @@ PokemonPicPointers::
 	dba_pic KrabbyBackpic
 	dba_pic KinglerFrontpic
 	dba_pic KinglerBackpic
-	dba_pic VoltorbFrontpic
-	dba_pic VoltorbBackpic
+	dba_pic PopokkoFrontpic
+	dba_pic PopokkoBackpic
 	dba_pic ElectrodeFrontpic
 	dba_pic ElectrodeBackpic
 	dba_pic ExeggcuteFrontpic

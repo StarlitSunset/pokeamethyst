@@ -51,7 +51,7 @@ IconPointers:
 	dw ParasectIcon
 	dw BetobebiiIcon
 	dw TeppouoIcon
-	dw DiglettIcon
+	dw WatakkoIcon
 	dw DugtrioIcon
 	dw MeowthIcon
 	dw PersianIcon
@@ -83,7 +83,7 @@ IconPointers:
 	dw SlowpokeIcon
 	dw SlowbroIcon
 	dw PudiIcon
-	dw MagnetonIcon
+	dw HanekkoIcon
 	dw FarfetchdIcon
 	dw DoduoIcon
 	dw DodrioIcon
@@ -101,7 +101,7 @@ IconPointers:
 	dw KoonyaIcon
 	dw KrabbyIcon
 	dw KinglerIcon
-	dw VoltorbIcon
+	dw PopokkoIcon
 	dw ElectrodeIcon
 	dw ExeggcuteIcon
 	dw ExeggutorIcon

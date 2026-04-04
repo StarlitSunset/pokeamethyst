@@ -49,7 +49,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw BetobebiiEggMoves
 	dw TeppouoEggMoves
-	dw DiglettEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw KoonyaEggMoves
 	dw NoEggMoves
@@ -81,7 +81,7 @@ EggMovePointers::
 	dw SlowpokeEggMoves
 	dw NoEggMoves
 	dw PudiEggMoves
-	dw NoEggMoves
+	dw HanekkoEggMoves
 	dw FarfetchDEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

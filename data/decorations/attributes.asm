@@ -46,14 +46,14 @@ DecorationAttributes:
 	decoration DECO_DOLL,    MEWTWO,      	  SET_UP_DOLL,       EVENT_DECO_DAINABEA_DOLL,       	 SPRITE_MEWTWO
 	decoration DECO_DOLL,    MEW,  		      SET_UP_DOLL,       EVENT_DECO_AKUERIA_DOLL,            SPRITE_MEW
 	decoration DECO_DOLL,    POLIWAG,         SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
-	decoration DECO_DOLL,    DIGLETT,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
+	decoration DECO_DOLL,    ENTEI,           SET_UP_DOLL,       EVENT_DECO_ENTEI_DOLL,              SPRITE_ENTEI
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARYU_DOLL,             SPRITE_STARMIE
 	decoration DECO_DOLL,    MAGIKARP,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
 	decoration DECO_DOLL,    ODDISH,          SET_UP_DOLL,       EVENT_DECO_ODDISH_DOLL,             SPRITE_ODDISH
 	decoration DECO_DOLL,    GENGAR,          SET_UP_DOLL,       EVENT_DECO_GENGAR_DOLL,             SPRITE_GENGAR
 	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
 	decoration DECO_DOLL,    ZAPDOS,          SET_UP_DOLL,       EVENT_DECO_GRIMER_DOLL,             SPRITE_ZAPDOS
-	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
+	decoration DECO_DOLL,    RAIKOU,          SET_UP_DOLL,       EVENT_DECO_RAIKOU_DOLL,             SPRITE_RAIKOU
 	decoration DECO_DOLL,    MOLTRES,         SET_UP_DOLL,       EVENT_DECO_MOLTRES_DOLL,            SPRITE_MOLTRES
 	decoration DECO_DOLL,    UNOWN,           SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,              SPRITE_UNOWN
 	decoration DECO_DOLL,    GEODUDE,         SET_UP_DOLL,       EVENT_DECO_GEODUDE_DOLL,            SPRITE_GEODUDE

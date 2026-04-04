@@ -68,7 +68,7 @@
 	const PARASECT   ; 2f
 	const BETOBEBII  ; 30
 	const TEPPOUO    ; 31
-	const DIGLETT    ; 32
+	const WATAKKO    ; 32
 	const DUGTRIO    ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
@@ -100,7 +100,7 @@
 	const SLOWPOKE   ; 4f
 	const SLOWBRO    ; 50
 	const PUDI       ; 51
-	const MAGNETON   ; 52
+	const HANEKKO    ; 52
 	const FARFETCH_D ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55
@@ -118,7 +118,7 @@
 	const KOONYA     ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
-	const VOLTORB    ; 64
+	const POPOKKO    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67

@@ -13,7 +13,7 @@ SpriteMons:
 	db MEW
 	db TOGEPI
 	db BUTTERFREE
-	db DIGLETT
+	db ENTEI
 	db POLIWAG
 	db S_PICHU
 	db CLEFAIRY
@@ -28,7 +28,7 @@ SpriteMons:
 	db ARTICUNO
 	db TAUROS
 	db MACHOP
-	db VOLTORB
+	db RAIKOU
 	db LAPRAS
 	db RHYDON
 	db MOLTRES

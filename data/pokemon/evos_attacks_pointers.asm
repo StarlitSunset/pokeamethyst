@@ -51,7 +51,7 @@ EvosAttacksPointers::
 	dw ParasectEvosAttacks
 	dw BetobebiiEvosAttacks
 	dw TeppouoEvosAttacks
-	dw DiglettEvosAttacks
+	dw WatakkoEvosAttacks
 	dw DugtrioEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
@@ -83,7 +83,7 @@ EvosAttacksPointers::
 	dw SlowpokeEvosAttacks
 	dw SlowbroEvosAttacks
 	dw PudiEvosAttacks
-	dw MagnetonEvosAttacks
+	dw HanekkoEvosAttacks
 	dw FarfetchDEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks
@@ -101,7 +101,7 @@ EvosAttacksPointers::
 	dw KoonyaEvosAttacks
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
-	dw VoltorbEvosAttacks
+	dw PopokkoEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks

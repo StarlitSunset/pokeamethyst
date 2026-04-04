@@ -50,7 +50,7 @@ PokedexDataPointerTable:
 	dw ParasectPokedexEntry
 	dw BetobebiiPokedexEntry
 	dw TeppouoPokedexEntry
-	dw DiglettPokedexEntry
+	dw WatakkoPokedexEntry
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
@@ -82,7 +82,7 @@ PokedexDataPointerTable:
 	dw SlowpokePokedexEntry
 	dw SlowbroPokedexEntry
 	dw PudiPokedexEntry
-	dw MagnetonPokedexEntry
+	dw HanekkoPokedexEntry
 	dw FarfetchDPokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry
@@ -100,7 +100,7 @@ PokedexDataPointerTable:
 	dw KoonyaPokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
-	dw VoltorbPokedexEntry
+	dw PopokkoPokedexEntry
 	dw ElectrodePokedexEntry
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry

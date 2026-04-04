@@ -634,17 +634,21 @@ TeppouoEvosAttacks:
 	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-DiglettEvosAttacks:
-	db EVOLVE_LEVEL, 26, DUGTRIO
+WatakkoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 33, SLASH
-	db 41, EARTHQUAKE
-	db 49, FISSURE
+	db 1, SPLASH
+	db 1, SYNTHESIS
+	db 1, TAIL_WHIP
+	db 1, TACKLE
+	db 5, SYNTHESIS
+	db 5, TAIL_WHIP
+	db 10, TACKLE
+	db 13, POISONPOWDER
+	db 15, STUN_SPORE
+	db 17, SLEEP_POWDER
+	db 22, LEECH_SEED
+	db 33, COTTON_SPORE
+	db 44, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
 DugtrioEvosAttacks:
@@ -1081,20 +1085,19 @@ PudiEvosAttacks:
 	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-MagnetonEvosAttacks:
+HanekkoEvosAttacks:
+	db EVOLVE_LEVEL, 18, POPOKKO
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, THUNDERSHOCK
-	db 1, SUPERSONIC
-	db 1, SONICBOOM
-	db 6, THUNDERSHOCK
-	db 11, SUPERSONIC
-	db 16, SONICBOOM
-	db 21, THUNDER_WAVE
-	db 27, LOCK_ON
-	db 35, TRI_ATTACK
-	db 43, SCREECH
-	db 53, ZAP_CANNON
+	db 1, SPLASH
+	db 5, SYNTHESIS
+	db 5, TAIL_WHIP
+	db 10, TACKLE
+	db 13, POISONPOWDER
+	db 15, STUN_SPORE
+	db 17, SLEEP_POWDER
+	db 20, LEECH_SEED
+	db 25, COTTON_SPORE
+	db 30, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -1323,17 +1326,22 @@ KinglerEvosAttacks:
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
-VoltorbEvosAttacks:
+PopokkoEvosAttacks:
+	db EVOLVE_LEVEL, 27, WATAKKO
 	db 0 ; no more evolutions
+	db 1, SPLASH
+	db 1, SYNTHESIS
+	db 1, TAIL_WHIP
 	db 1, TACKLE
-	db 9, SCREECH
-	db 17, SONICBOOM
-	db 23, SELFDESTRUCT
-	db 29, ROLLOUT
-	db 33, LIGHT_SCREEN
-	db 37, SWIFT
-	db 39, EXPLOSION
-	db 41, MIRROR_COAT
+	db 5, SYNTHESIS
+	db 5, TAIL_WHIP
+	db 10, TACKLE
+	db 13, POISONPOWDER
+	db 15, STUN_SPORE
+	db 17, SLEEP_POWDER
+	db 22, LEECH_SEED
+	db 29, COTTON_SPORE
+	db 36, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:

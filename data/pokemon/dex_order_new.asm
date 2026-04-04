@@ -137,9 +137,9 @@ NewPokedexOrder:
 	db OKUTANK
 	db BARUKII
 	db PUDI
-	db MAGNETON
-	db VOLTORB
-	db DIGLETT
+	db HANEKKO
+	db POPOKKO
+	db WATAKKO
 	db DUGTRIO
 	db MANKEY
 	db PRIMEAPE

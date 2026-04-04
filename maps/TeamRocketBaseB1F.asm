@@ -446,13 +446,13 @@ ExplodingTrap22:
 	end
 
 VoltorbExplodingTrap:
-	special FadeOutToWhite
-	cry VOLTORB
-	special FadeInFromWhite
-	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 23
-	startbattle
+;	special FadeOutToWhite
+;	cry VOLTORB
+;	special FadeInFromWhite
+;	setlasttalked -1
+;	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+;	loadwildmon VOLTORB, 23
+;	startbattle
 	end
 
 GeodudeExplodingTrap:

@@ -153,14 +153,6 @@ ParaEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-DiglettEggMoves:
-	db FAINT_ATTACK
-	db SCREECH
-	db ANCIENTPOWER
-	db PURSUIT
-	db BEAT_UP
-	db -1 ; end
-
 KoonyaEggMoves:
 	db SPITE
 	db CHARM
@@ -318,6 +310,16 @@ KrabbyEggMoves:
 	db AMNESIA
 	db FLAIL
 	db SLAM
+	db -1 ; end
+	
+HanekkoEggMoves:
+	db CONFUSION
+	db GROWL
+	db ENCORE
+	db DOUBLE_EDGE
+	db REFLECT
+	db AMNESIA
+	db PAY_DAY
 	db -1 ; end
 
 ExeggcuteEggMoves:
