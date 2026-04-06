@@ -111,8 +111,8 @@ PokemonPicPointers::
 	dba_pic PersianBackpic
 	dba_pic KotoraFrontpic
 	dba_pic KotoraBackpic
-	dba_pic GolduckFrontpic
-	dba_pic GolduckBackpic
+	dba_pic RaitoraFrontpic
+	dba_pic RaitoraBackpic
 	dba_pic TsubomittoFrontpic
 	dba_pic TsubomittoBackpic
 	dba_pic BomushikaaFrontpic

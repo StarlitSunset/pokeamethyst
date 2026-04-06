@@ -71,7 +71,6 @@ AlphabeticalPokedexOrder:
 	db GLOOM
 	db GOLBAT
 	db GOLDEEN
-	db GOLDUCK
 	db GOLEM
 	db GRANBULL
 	db GRAVELER
@@ -185,6 +184,7 @@ AlphabeticalPokedexOrder:
 	db QWILFISH
 	db RAICHU
 	db RAIKOU
+	db RAITORA
 	db RAPIDASH
 	db REMORAID
 	db RHYDON

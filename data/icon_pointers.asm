@@ -56,7 +56,7 @@ IconPointers:
 	dw MeowthIcon
 	dw PersianIcon
 	dw KotoraIcon
-	dw GolduckIcon
+	dw RaitoraIcon
 	dw TsubomittoIcon
 	dw BomushikaaIcon
 	dw GrowlitheIcon

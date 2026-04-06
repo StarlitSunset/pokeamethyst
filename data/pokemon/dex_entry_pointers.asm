@@ -55,7 +55,7 @@ PokedexDataPointerTable:
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw KotoraPokedexEntry
-	dw GolduckPokedexEntry
+	dw RaitoraPokedexEntry
 	dw TsubomittoPokedexEntry
 	dw BomushikaaPokedexEntry
 	dw GrowlithePokedexEntry

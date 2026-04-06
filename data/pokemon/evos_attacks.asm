@@ -694,7 +694,7 @@ PersianEvosAttacks:
 	db 0 ; no more level-up moves
 
 KotoraEvosAttacks:
-	db EVOLVE_ITEM, THUNDERSTONE, GOLDUCK
+	db EVOLVE_ITEM, THUNDERSTONE, RAITORA
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, GROWL
@@ -709,19 +709,19 @@ KotoraEvosAttacks:
 	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
-GolduckEvosAttacks:
+RaitoraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, TAIL_WHIP
-	db 1, DISABLE
-	db 1, CONFUSION
-	db 5, TAIL_WHIP
-	db 10, DISABLE
-	db 16, CONFUSION
-	db 23, SCREECH
-	db 31, PSYCH_UP
-	db 44, FURY_SWIPES
-	db 58, HYDRO_PUMP
+	db 1, THUNDERSHOCK
+	db 1, GROWL
+	db 6, TAIL_WHIP
+	db 8, THUNDER_WAVE
+	db 11, QUICK_ATTACK
+	db 15, DOUBLE_TEAM
+	db 20, SLAM
+	db 26, THUNDERBOLT
+	db 33, AGILITY
+	db 41, THUNDER
+	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 TsubomittoEvosAttacks:

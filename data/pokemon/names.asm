@@ -54,7 +54,7 @@ PokemonNames::
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"
 	db "KOTORA@@@@"
-	db "GOLDUCK@@@"
+	db "RAITORA@@@"
 	db "TSUBOMITTO"
 	db "BOMUSHIKAA"
 	db "GROWLITHE@"

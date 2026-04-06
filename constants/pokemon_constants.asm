@@ -73,7 +73,7 @@
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const KOTORA     ; 36
-	const GOLDUCK    ; 37
+	const RAITORA    ; 37
 	const TSUBOMITTO ; 38
 	const BOMUSHIKAA ; 39
 	const GROWLITHE  ; 3a

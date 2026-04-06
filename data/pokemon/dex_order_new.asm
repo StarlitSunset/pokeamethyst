@@ -144,7 +144,7 @@ NewPokedexOrder:
 	db TSUBOMITTO
 	db BOMUSHIKAA
 	db KOTORA
-	db GOLDUCK
+	db RAITORA
 	db MACHOP
 	db MACHOKE
 	db MACHAMP
