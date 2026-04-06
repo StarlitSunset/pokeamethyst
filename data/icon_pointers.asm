@@ -57,7 +57,7 @@ IconPointers:
 	dw PersianIcon
 	dw PsyduckIcon
 	dw GolduckIcon
-	dw MankeyIcon
+	dw TsubomittoIcon
 	dw PrimeapeIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon

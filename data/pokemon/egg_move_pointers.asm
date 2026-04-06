@@ -55,7 +55,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw PsyduckEggMoves
 	dw NoEggMoves
-	dw MankeyEggMoves
+	dw TsubomittoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

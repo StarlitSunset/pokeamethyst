@@ -127,7 +127,6 @@ AlphabeticalPokedexOrder:
 	db MAGIKARP
 	db MAGMAR
 	db MANBOO
-	db MANKEY
 	db MANTINE
 	db MAREEP
 	db MARILL
@@ -234,6 +233,7 @@ AlphabeticalPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
+	db TSUBOMITTO
 	db TSUINZU
 	db TYPHLOSION
 	db TYRANITAR

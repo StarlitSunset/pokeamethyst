@@ -171,13 +171,12 @@ PsyduckEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
-MankeyEggMoves:
-	db ROCK_SLIDE
-	db FORESIGHT
-	db MEDITATE
-	db COUNTER
-	db REVERSAL
-	db BEAT_UP
+TsubomittoEggMoves:
+	db SWORDS_DANCE
+	db ENCORE
+	db REFLECT
+	db SYNTHESIS
+	db LEECH_LIFE
 	db -1 ; end
 
 PudiEggMoves:

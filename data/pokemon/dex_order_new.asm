@@ -141,7 +141,7 @@ NewPokedexOrder:
 	db POPOKKO
 	db WATAKKO
 	db BARIRIINA
-	db MANKEY
+	db TSUBOMITTO
 	db PRIMEAPE
 	db PSYDUCK
 	db GOLDUCK

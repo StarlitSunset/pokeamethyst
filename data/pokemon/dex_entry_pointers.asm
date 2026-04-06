@@ -56,7 +56,7 @@ PokedexDataPointerTable:
 	dw PersianPokedexEntry
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
-	dw MankeyPokedexEntry
+	dw TsubomittoPokedexEntry
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry

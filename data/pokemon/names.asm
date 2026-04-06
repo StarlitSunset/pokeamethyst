@@ -55,7 +55,7 @@ PokemonNames::
 	db "PERSIAN@@@"
 	db "PSYDUCK@@@"
 	db "GOLDUCK@@@"
-	db "MANKEY@@@@"
+	db "TSUBOMITTO"
 	db "PRIMEAPE@@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"

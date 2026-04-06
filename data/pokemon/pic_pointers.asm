@@ -113,8 +113,8 @@ PokemonPicPointers::
 	dba_pic PsyduckBackpic
 	dba_pic GolduckFrontpic
 	dba_pic GolduckBackpic
-	dba_pic MankeyFrontpic
-	dba_pic MankeyBackpic
+	dba_pic TsubomittoFrontpic
+	dba_pic TsubomittoBackpic
 	dba_pic PrimeapeFrontpic
 	dba_pic PrimeapeBackpic
 	dba_pic GrowlitheFrontpic

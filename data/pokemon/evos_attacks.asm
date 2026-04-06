@@ -721,19 +721,20 @@ GolduckEvosAttacks:
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-MankeyEvosAttacks:
-	db EVOLVE_LEVEL, 28, PRIMEAPE
+TsubomittoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 9, LOW_KICK
-	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 33, SEISMIC_TOSS
-	db 39, CROSS_CHOP
-	db 45, SCREECH
-	db 51, THRASH
+	db 1, VINE_WHIP
+	db 1, GROWTH
+	db 1, WRAP
+	db 6, GROWTH
+	db 11, WRAP
+	db 15, SLEEP_POWDER
+	db 17, POISONPOWDER
+	db 19, STUN_SPORE
+	db 24, ACID
+	db 33, SWEET_SCENT
+	db 42, RAZOR_LEAF
+	db 54, SLAM
 	db 0 ; no more level-up moves
 
 PrimeapeEvosAttacks:

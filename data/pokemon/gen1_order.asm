@@ -56,7 +56,7 @@ Pokered_MonIndices:
 	db HANEKKO
 	db OKUTANK
 	db SNEASEL ; MISSINGNO.
-	db MANKEY
+	db TSUBOMITTO
 	db SEEL
 	db WATAKKO
 	db TAUROS
