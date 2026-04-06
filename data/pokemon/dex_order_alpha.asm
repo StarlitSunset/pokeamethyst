@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db LUGIA
 	db MACHAMP
 	db MACHOKE
-	db MACHOP
+	db MADAAMU
 	db MAGBY
 	db MAGCARGO
 	db MAGIKARP

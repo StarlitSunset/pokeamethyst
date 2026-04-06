@@ -67,7 +67,7 @@ IconPointers:
 	dw AbraIcon
 	dw KadabraIcon
 	dw AlakazamIcon
-	dw MachopIcon
+	dw MadaamuIcon
 	dw MachokeIcon
 	dw MachampIcon
 	dw BellsproutIcon

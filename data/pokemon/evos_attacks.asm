@@ -854,19 +854,16 @@ AlakazamEvosAttacks:
 	db 45, REFLECT
 	db 0 ; no more level-up moves
 
-MachopEvosAttacks:
-	db EVOLVE_LEVEL, 28, MACHOKE
+MadaamuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LOW_KICK
-	db 1, LEER
-	db 7, FOCUS_ENERGY
-	db 13, KARATE_CHOP
-	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
-	db 31, VITAL_THROW
-	db 37, CROSS_CHOP
-	db 43, SCARY_FACE
-	db 49, SUBMISSION
+	db 1, PECK
+	db 7, SAND_ATTACK
+	db 13, LEER
+	db 19, FURY_ATTACK
+	db 25, SWORDS_DANCE
+	db 31, AGILITY
+	db 37, SLASH
+	db 44, FALSE_SWIPE
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
@@ -1106,6 +1103,7 @@ HanekkoEvosAttacks:
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
+	db EVOLVE_LEVEL, 54, MADAAMU
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 7, SAND_ATTACK

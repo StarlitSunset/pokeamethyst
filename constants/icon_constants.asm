@@ -66,7 +66,7 @@
 	const ICON_ABRA        ; ABRA
 	const ICON_KADABRA     ; KADABRA
 	const ICON_ALAKAZAM    ; ALAKAZAM
-	const ICON_MACHOP      ; MACHOP*
+	const ICON_MADAAMU     ; MADAAMU
 	const ICON_MACHOKE     ; MACHOKE*
 	const ICON_MACHAMP     ; MACHAMP*
 	const ICON_BELLSPROUT  ; BELLSPROUT

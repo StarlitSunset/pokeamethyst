@@ -27,7 +27,7 @@ SpriteMons:
 	db PARAS
 	db ARTICUNO
 	db TAUROS
-	db MACHOP
+	db WOOPER
 	db RAIKOU
 	db LAPRAS
 	db RHYDON

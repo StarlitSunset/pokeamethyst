@@ -67,7 +67,7 @@ EvosAttacksPointers::
 	dw AbraEvosAttacks
 	dw KadabraEvosAttacks
 	dw AlakazamEvosAttacks
-	dw MachopEvosAttacks
+	dw MadaamuEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
 	dw BellsproutEvosAttacks

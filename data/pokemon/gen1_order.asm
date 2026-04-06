@@ -105,7 +105,7 @@ Pokered_MonIndices:
 	db FLAREON
 	db JOLTEON
 	db VAPOREON
-	db MACHOP
+	db MADAAMU
 	db ZUBAT
 	db HINAAZU
 	db PARAS

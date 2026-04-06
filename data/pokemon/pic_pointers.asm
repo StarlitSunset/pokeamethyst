@@ -133,8 +133,8 @@ PokemonPicPointers::
 	dba_pic KadabraBackpic
 	dba_pic AlakazamFrontpic
 	dba_pic AlakazamBackpic
-	dba_pic MachopFrontpic
-	dba_pic MachopBackpic
+	dba_pic MadaamuFrontpic
+	dba_pic MadaamuBackpic
 	dba_pic MachokeFrontpic
 	dba_pic MachokeBackpic
 	dba_pic MachampFrontpic

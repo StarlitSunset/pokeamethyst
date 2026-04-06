@@ -145,7 +145,7 @@ NewPokedexOrder:
 	db BOMUSHIKAA
 	db KOTORA
 	db RAITORA
-	db MACHOP
+	db MADAAMU
 	db MACHOKE
 	db MACHAMP
 	db KRABBY

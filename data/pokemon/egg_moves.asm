@@ -204,13 +204,6 @@ AbraEggMoves:
 	db BARRIER
 	db -1 ; end
 
-MachopEggMoves:
-	db LIGHT_SCREEN
-	db MEDITATE
-	db ROLLING_KICK
-	db ENCORE
-	db -1 ; end
-
 BellsproutEggMoves:
 	db SWORDS_DANCE
 	db ENCORE
