@@ -179,6 +179,14 @@ TsubomittoEggMoves:
 	db LEECH_LIFE
 	db -1 ; end
 
+BomushikaaEggMoves:
+	db BODY_SLAM
+	db SAFEGUARD
+	db CRUNCH
+	db THRASH
+	db FIRE_SPIN
+	db -1 ; end
+
 PudiEggMoves:
 	db BODY_SLAM
 	db SAFEGUARD

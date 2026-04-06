@@ -57,7 +57,7 @@ PokedexDataPointerTable:
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
 	dw TsubomittoPokedexEntry
-	dw PrimeapePokedexEntry
+	dw BomushikaaPokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw PoliwagPokedexEntry

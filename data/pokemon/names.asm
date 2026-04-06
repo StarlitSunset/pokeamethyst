@@ -56,7 +56,7 @@ PokemonNames::
 	db "PSYDUCK@@@"
 	db "GOLDUCK@@@"
 	db "TSUBOMITTO"
-	db "PRIMEAPE@@"
+	db "BOMUSHIKAA"
 	db "GROWLITHE@"
 	db "ARCANINE@@"
 	db "POLIWAG@@@"

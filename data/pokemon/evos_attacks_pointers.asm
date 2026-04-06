@@ -58,7 +58,7 @@ EvosAttacksPointers::
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
 	dw TsubomittoEvosAttacks
-	dw PrimeapeEvosAttacks
+	dw BomushikaaEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw PoliwagEvosAttacks

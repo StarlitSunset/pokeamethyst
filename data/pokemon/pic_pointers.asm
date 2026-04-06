@@ -115,8 +115,8 @@ PokemonPicPointers::
 	dba_pic GolduckBackpic
 	dba_pic TsubomittoFrontpic
 	dba_pic TsubomittoBackpic
-	dba_pic PrimeapeFrontpic
-	dba_pic PrimeapeBackpic
+	dba_pic BomushikaaFrontpic
+	dba_pic BomushikaaBackpic
 	dba_pic GrowlitheFrontpic
 	dba_pic GrowlitheBackpic
 	dba_pic ArcanineFrontpic

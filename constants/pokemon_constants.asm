@@ -75,7 +75,7 @@
 	const PSYDUCK    ; 36
 	const GOLDUCK    ; 37
 	const TSUBOMITTO ; 38
-	const PRIMEAPE   ; 39
+	const BOMUSHIKAA ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const POLIWAG    ; 3c

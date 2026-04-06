@@ -737,7 +737,7 @@ TsubomittoEvosAttacks:
 	db 54, SLAM
 	db 0 ; no more level-up moves
 
-PrimeapeEvosAttacks:
+BomushikaaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER

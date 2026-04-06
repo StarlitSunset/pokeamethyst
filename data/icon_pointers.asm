@@ -58,7 +58,7 @@ IconPointers:
 	dw PsyduckIcon
 	dw GolduckIcon
 	dw TsubomittoIcon
-	dw PrimeapeIcon
+	dw BomushikaaIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon
 	dw PoliwagIcon

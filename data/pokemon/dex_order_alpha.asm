@@ -22,6 +22,7 @@ AlphabeticalPokedexOrder:
 	db BERURUN
 	db BETOBEBII
 	db BLISSEY
+	db BOMUSHIKAA
 	db BORUBEAA
 	db BUTTERFREE
 	db CELEBI
@@ -175,7 +176,6 @@ AlphabeticalPokedexOrder:
 	db POPOKKO
 	db PORYGON
 	db PORYGON2
-	db PRIMEAPE
 	db PSYDUCK
 	db PUCHIKOON
 	db PUDI

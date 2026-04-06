@@ -116,7 +116,7 @@ Pokered_MonIndices:
 	db ANIMON
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
-	db PRIMEAPE
+	db BOMUSHIKAA
 	db BARIRIINA
 	db TEPPOUO
 	db DEWGONG
