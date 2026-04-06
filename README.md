@@ -86,13 +86,13 @@ to working on making life easier for creators like me.
 <li>VENONAT > BETOBEBII (GRIMER)</li>
 <li>VENOMOTH > TEPPOUO (REMORAID EXPLOSIVE)</li>
 <li>KOFFING > OKUTANK (OCTILLERY EXPLOSIVE)</li>
-<li>WEEZING > GONGU (TYROGUE)</li>
+<li>WEEZING > BARUKII (TYROGUE)</li>
 <li>MAGNEMITE > PUDI (GROWLITHE)</li>
-<li>MAGNETON > HANEKO</li>
-<li>VOLTORB > POPONEKO</li>
-<li>DIGLETT > WATANEKO</li>
+<li>MAGNETON > HANEKKO</li>
+<li>VOLTORB > POPOKKO</li>
+<li>DIGLETT > WATAKKO</li>
 <li>DUGTRIO > BARIRIINA (MIME JR)</li>
-<li>MANKEY > TSUBONITTO (WEEPINBELL)</li>
+<li>MANKEY > TSUBOMITTO (WEEPINBELL)</li>
 <li>PRIMEAPE > BOMUSHIKAA (VOLCANIAN/LAPRAS + MAGMAR)</li>
 <li>PSYDUCK > KOTORA (BLITZLE/PIKA)</li>
 <li>GOLDUCK > RAITORA</li>
@@ -114,8 +114,7 @@ to working on making life easier for creators like me.
 <li>KABUTOPS > KOKOPE (CELEBI)</li>
 
 <li>One additional Pokémon has been added that will be important for encountering Celebi...</li>
-<li>Two generation 1 Pokémon have been made into 'faux legendaries' due to their evolutions being deleted but my want to
-	keep them in the game in some regard.</li>
+<li>Two generation 1 Pokémon have had their evolutions deleted, but the fully evolved #MON remains in the game.</li>
 <li>All three legendary birds, legendary beasts, and Mew and Mewtwo have been given special events and/or encounter requirements
 	Additionally, this means there are no roaming Pokémon, and there is no Suicune storyline</li>
 <li>Added ! and ? as the 27th and 28th Unown forms. I HIGHLY recommend catching all of the Unown.</li>

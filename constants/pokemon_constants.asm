@@ -69,7 +69,7 @@
 	const BETOBEBII  ; 30
 	const TEPPOUO    ; 31
 	const WATAKKO    ; 32
-	const DUGTRIO    ; 33
+	const BARIRIINA  ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const PSYDUCK    ; 36

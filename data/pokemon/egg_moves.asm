@@ -392,7 +392,7 @@ GyopinEggMoves:
 	db HYDRO_PUMP
 	db -1 ; end
 
-MrMimeEggMoves:
+BaririinaEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
 	db MIMIC

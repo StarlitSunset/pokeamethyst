@@ -103,8 +103,8 @@ PokemonPicPointers::
 	dba_pic TeppouoBackpic
 	dba_pic WatakkoFrontpic
 	dba_pic WatakkoBackpic
-	dba_pic DugtrioFrontpic
-	dba_pic DugtrioBackpic
+	dba_pic BaririinaFrontpic
+	dba_pic BaririinaBackpic
 	dba_pic MeowthFrontpic
 	dba_pic MeowthBackpic
 	dba_pic PersianFrontpic

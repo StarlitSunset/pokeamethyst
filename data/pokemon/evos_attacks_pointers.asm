@@ -52,7 +52,7 @@ EvosAttacksPointers::
 	dw BetobebiiEvosAttacks
 	dw TeppouoEvosAttacks
 	dw WatakkoEvosAttacks
-	dw DugtrioEvosAttacks
+	dw BaririinaEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
 	dw PsyduckEvosAttacks

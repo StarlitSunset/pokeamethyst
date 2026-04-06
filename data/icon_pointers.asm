@@ -52,7 +52,7 @@ IconPointers:
 	dw BetobebiiIcon
 	dw TeppouoIcon
 	dw WatakkoIcon
-	dw DugtrioIcon
+	dw BaririinaIcon
 	dw MeowthIcon
 	dw PersianIcon
 	dw PsyduckIcon

@@ -51,7 +51,7 @@ PokedexDataPointerTable:
 	dw BetobebiiPokedexEntry
 	dw TeppouoPokedexEntry
 	dw WatakkoPokedexEntry
-	dw DugtrioPokedexEntry
+	dw BaririinaPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw PsyduckPokedexEntry

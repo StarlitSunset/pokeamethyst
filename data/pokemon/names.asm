@@ -50,7 +50,7 @@ PokemonNames::
 	db "BETOBEBII@"
 	db "TEPPOUO@@@"
 	db "WATAKKO@@@"
-	db "DUGTRIO@@@"
+	db "BARIRIINA@"
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"
 	db "PSYDUCK@@@"

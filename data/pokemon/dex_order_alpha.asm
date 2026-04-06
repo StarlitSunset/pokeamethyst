@@ -14,8 +14,9 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
-	db BAYLEEF
+	db BARIRIINA
 	db BARUKII
+	db BAYLEEF
 	db BELLOSSOM
 	db BELLSPROUT
 	db BERURUN
@@ -46,7 +47,6 @@ AlphabeticalPokedexOrder:
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
-	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE
 	db ELECTABUZZ

@@ -50,7 +50,7 @@ EggMovePointers::
 	dw BetobebiiEggMoves
 	dw TeppouoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw BaririinaEggMoves
 	dw KoonyaEggMoves
 	dw NoEggMoves
 	dw PsyduckEggMoves
@@ -121,7 +121,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MrMimeEggMoves
+	dw NoEggMoves
 	dw ScytherEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

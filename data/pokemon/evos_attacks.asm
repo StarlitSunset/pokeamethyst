@@ -651,19 +651,20 @@ WatakkoEvosAttacks:
 	db 44, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
-DugtrioEvosAttacks:
+BaririinaEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, MR__MIME
 	db 0 ; no more evolutions
-	db 1, TRI_ATTACK
-	db 1, SCRATCH
-	db 1, GROWL
-	db 1, MAGNITUDE
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 37, SLASH
-	db 49, EARTHQUAKE
-	db 61, FISSURE
+	db 1, BARRIER
+	db 6, CONFUSION
+	db 11, SUBSTITUTE
+	db 16, MEDITATE
+	db 21, DOUBLESLAP
+	db 26, LIGHT_SCREEN
+	db 26, REFLECT
+	db 31, ENCORE
+	db 36, PSYBEAM
+	db 41, BATON_PASS
+	db 46, SAFEGUARD
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:

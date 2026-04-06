@@ -140,7 +140,7 @@ NewPokedexOrder:
 	db HANEKKO
 	db POPOKKO
 	db WATAKKO
-	db DUGTRIO
+	db BARIRIINA
 	db MANKEY
 	db PRIMEAPE
 	db PSYDUCK
