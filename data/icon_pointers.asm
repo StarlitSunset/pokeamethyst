@@ -55,7 +55,7 @@ IconPointers:
 	dw BaririinaIcon
 	dw MeowthIcon
 	dw PersianIcon
-	dw PsyduckIcon
+	dw KotoraIcon
 	dw GolduckIcon
 	dw TsubomittoIcon
 	dw BomushikaaIcon

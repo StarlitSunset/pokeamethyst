@@ -111,6 +111,7 @@ AlphabeticalPokedexOrder:
 	db KINGLER
 	db KIRINRIKI
 	db KOONYA
+	db KOTORA
 	db KRABBY
 	db KURUSU
 	db LANTURN
@@ -176,7 +177,6 @@ AlphabeticalPokedexOrder:
 	db POPOKKO
 	db PORYGON
 	db PORYGON2
-	db PSYDUCK
 	db PUCHIKOON
 	db PUDI
 	db PUPITAR

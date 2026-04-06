@@ -160,15 +160,10 @@ KoonyaEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-PsyduckEggMoves:
-	db ICE_BEAM
-	db HYPNOSIS
-	db PSYBEAM
-	db FORESIGHT
-	db LIGHT_SCREEN
-	db FUTURE_SIGHT
-	db PSYCHIC_M
-	db CROSS_CHOP
+KotoraEggMoves:
+	db FLAIL
+	db SUPERSONIC
+	db SCREECH
 	db -1 ; end
 
 TsubomittoEggMoves:

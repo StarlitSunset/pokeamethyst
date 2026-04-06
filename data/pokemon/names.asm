@@ -53,7 +53,7 @@ PokemonNames::
 	db "BARIRIINA@"
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"
-	db "PSYDUCK@@@"
+	db "KOTORA@@@@"
 	db "GOLDUCK@@@"
 	db "TSUBOMITTO"
 	db "BOMUSHIKAA"

@@ -54,7 +54,7 @@ PokedexDataPointerTable:
 	dw BaririinaPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
-	dw PsyduckPokedexEntry
+	dw KotoraPokedexEntry
 	dw GolduckPokedexEntry
 	dw TsubomittoPokedexEntry
 	dw BomushikaaPokedexEntry

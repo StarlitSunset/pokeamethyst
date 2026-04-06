@@ -143,7 +143,7 @@ NewPokedexOrder:
 	db BARIRIINA
 	db TSUBOMITTO
 	db BOMUSHIKAA
-	db PSYDUCK
+	db KOTORA
 	db GOLDUCK
 	db MACHOP
 	db MACHOKE

@@ -693,17 +693,20 @@ PersianEvosAttacks:
 	db 53, SLASH
 	db 0 ; no more level-up moves
 
-PsyduckEvosAttacks:
-	db EVOLVE_LEVEL, 33, GOLDUCK
+KotoraEvosAttacks:
+	db EVOLVE_ITEM, THUNDERSTONE, GOLDUCK
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 5, TAIL_WHIP
-	db 10, DISABLE
-	db 16, CONFUSION
-	db 23, SCREECH
-	db 31, PSYCH_UP
-	db 40, FURY_SWIPES
-	db 50, HYDRO_PUMP
+	db 1, THUNDERSHOCK
+	db 1, GROWL
+	db 6, TAIL_WHIP
+	db 8, THUNDER_WAVE
+	db 11, QUICK_ATTACK
+	db 15, DOUBLE_TEAM
+	db 20, SLAM
+	db 26, THUNDERBOLT
+	db 33, AGILITY
+	db 41, THUNDER
+	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 GolduckEvosAttacks:

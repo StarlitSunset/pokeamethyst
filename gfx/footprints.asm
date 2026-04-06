@@ -125,7 +125,7 @@ INCBIN "gfx/footprints/watakko.1bpp",    footprint_top
 INCBIN "gfx/footprints/baririina.1bpp",  footprint_top
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
 INCBIN "gfx/footprints/persian.1bpp",    footprint_top
-INCBIN "gfx/footprints/psyduck.1bpp",    footprint_top
+INCBIN "gfx/footprints/kotora.1bpp",     footprint_top
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/tsubomitto.1bpp", footprint_top
 ; 049-056 bottom halves
@@ -134,7 +134,7 @@ INCBIN "gfx/footprints/watakko.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/baririina.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/persian.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/psyduck.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/kotora.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tsubomitto.1bpp", footprint_bottom
 ; 057-064 top halves

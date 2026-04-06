@@ -53,7 +53,7 @@ EggMovePointers::
 	dw BaririinaEggMoves
 	dw KoonyaEggMoves
 	dw NoEggMoves
-	dw PsyduckEggMoves
+	dw KotoraEggMoves
 	dw NoEggMoves
 	dw TsubomittoEggMoves
 	dw BomushikaaEggMoves

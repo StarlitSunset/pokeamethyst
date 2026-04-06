@@ -46,7 +46,7 @@ Pokered_MonIndices:
 	db HITMONCHAN
 	db TSUINZU
 	db PARASECT
-	db PSYDUCK
+	db KOTORA
 	db KIRINRIKI
 	db GOLEM
 	db HERACROSS ; MISSINGNO.

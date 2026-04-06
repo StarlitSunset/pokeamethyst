@@ -72,7 +72,7 @@
 	const BARIRIINA  ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
-	const PSYDUCK    ; 36
+	const KOTORA     ; 36
 	const GOLDUCK    ; 37
 	const TSUBOMITTO ; 38
 	const BOMUSHIKAA ; 39

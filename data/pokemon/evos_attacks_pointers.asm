@@ -55,7 +55,7 @@ EvosAttacksPointers::
 	dw BaririinaEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
-	dw PsyduckEvosAttacks
+	dw KotoraEvosAttacks
 	dw GolduckEvosAttacks
 	dw TsubomittoEvosAttacks
 	dw BomushikaaEvosAttacks
