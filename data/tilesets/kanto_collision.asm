@@ -50,9 +50,9 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 31
 	tilecoll WALL, CUT_TREE, WALL, FLOOR ; 32
 	tilecoll WALL, WALL, FLOOR, CUT_TREE ; 33
-	tilecoll CUT_TREE, FLOOR, WALL, WALL ; 34
-	tilecoll FLOOR, CUT_TREE, WALL, FLOOR ; 35
-	tilecoll WALL, WALL, FLOOR, WALL ; 36
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 34
+	tilecoll WALL, FLOOR, WALL, WALL ; 35
+	tilecoll FLOOR, WALL, WALL, WALL ; 36
 	tilecoll WALL, WALL, WALL, WALL ; 37
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 38
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 39

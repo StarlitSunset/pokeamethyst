@@ -2,11 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-Usage: python palfix.py image.png
+Usage: python3 palfix.py image.png...
 
 Fix the palette format of the input image. Colored images (Pokémon or trainer
 sprites) will become indexed, with a palette sorted {white, light color, dark
 color, black}. Grayscale images will become two-bit grayscale.
+
+Copyright (c) 2024, Rangi42
+SPDX-License-Identifier: MIT
 """
 
 import sys
@@ -27,7 +30,7 @@ def invert(c):
 
 def luminance(c):
 	r, g, b = c
-	return 0.299 * r**2 + 0.587 * g**2 + 0.114 * b**2
+	return 0.299 * r + 0.587 * g + 0.114 * b
 
 def rgb5_pixels(row):
 	yield from (rgb8_to_rgb5(row[x:x+3]) for x in range(0, len(row), 4))
@@ -64,13 +67,15 @@ def fix_pal(filename):
 
 def main():
 	if len(sys.argv) < 2:
-		print(f'Usage: {sys.argv[0]} pic.png', file=sys.stderr)
+		print(f'Usage: {sys.argv[0]} image.png...', file=sys.stderr)
 		sys.exit(1)
 	for filename in sys.argv[1:]:
 		if not filename.lower().endswith('.png'):
 			print(f'{filename} is not a .png file!', file=sys.stderr)
 		elif not fix_pal(filename):
 			print(f'{filename} has too many colors!', file=sys.stderr)
+		else:
+			print(f'{filename} was fixed')
 
 if __name__ == '__main__':
 	main()

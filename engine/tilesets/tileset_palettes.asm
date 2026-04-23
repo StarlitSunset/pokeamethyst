@@ -18,8 +18,8 @@ LoadSpecialMapPalette:
 	jr z, .house
 	cp TILESET_RADIO_TOWER
 	jr z, .radio_tower
-	cp TILESET_MANSION
-	jr z, .mansion_mobile
+	cp TILESET_KANTO
+	jr z, .kanto
 	jr .do_nothing
 	
 .darkness
@@ -56,10 +56,17 @@ LoadSpecialMapPalette:
 	scf
 	ret
 
-.mansion_mobile
-	call LoadMansionPalette
+.kanto
+	call LoadKantoPalette
 	scf
 	ret
+	
+;ld a, [wMapTileset]
+;cp TILESET_YOU_WANT_TO_CHANGE
+;jr nz, .donotchangepalette
+;ld a, [wTimeofDay]
+;cp MORN
+;jr z, .applyyourpalette
 
 .do_nothing
 	and a
@@ -130,31 +137,17 @@ LoadRadioTowerPalette:
 RadioTowerPalette:
 INCLUDE "gfx/tilesets/radio_tower.pal"
 
-MansionPalette1:
-INCLUDE "gfx/tilesets/mansion_1.pal"
-
-LoadMansionPalette:
+LoadKantoPalette:
 	ld a, BANK(wBGPals1)
 	ld de, wBGPals1
-	ld hl, MansionPalette1
+	ld hl, KantoPalette
 	ld bc, 8 palettes
 	call FarCopyWRAM
-	ld a, BANK(wBGPals1)
-	ld de, wBGPals1 palette PAL_BG_YELLOW
-	ld hl, MansionPalette2
-	ld bc, 1 palettes
-	call FarCopyWRAM
-	ld a, BANK(wBGPals1)
-	ld de, wBGPals1 palette PAL_BG_WATER
-	ld hl, MansionPalette1 palette 6
-	ld bc, 1 palettes
-	call FarCopyWRAM
-	ld a, BANK(wBGPals1)
-	ld de, wBGPals1 palette PAL_BG_ROOF
-	ld hl, MansionPalette1 palette 8
-	ld bc, 1 palettes
-	call FarCopyWRAM
 	ret
+	
+KantoPalette:
+INCLUDE "gfx/tilesets/kanto.pal"
+
 
 MansionPalette2:
 INCLUDE "gfx/tilesets/mansion_2.pal"

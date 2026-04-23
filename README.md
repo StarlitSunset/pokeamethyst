@@ -121,22 +121,33 @@ to working on making life easier for creators like me.
 
 
 # TODO
-
-data/text/common_2.asm about page
-edit wise trio event
-
-add water current tiles and data/collision/collision_permissions.asm {tilecoll CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN ; 81}
--use rock climb guide
-
+custom spring pal 	RGB 27,31,27, 20,15,03, 12,16,21, 07,07,07 ; spring (day)
+after add mon:
+Edit fleemon, treemon (and maps)
 make sure to edit headbutt tree code to work in 'kanto' wildmon headbutt trees
-
-Turn Kanto Badges into island challenge rewards
 replace murkrow sprite and other sprites that are better from gold and silver:
 SS Ticket flag to open Amethyst Islands: create event where RED runs into you before entering Amethyst and check at mt silver for island challenge badges
+edit wise trio event
+
+data/text/common_2.asm about page
+
+
+add water current tiles and data/collision/collision_permissions.asm {tilecoll CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN, CURRENT_DOWN ; 81} 
+-use rock climb guide
+
+Turn Kanto Badges into island challenge rewards
 Remove/Edit items Normal + Gorgeous Box
 Add movesets to wild legends
 Add/Edit items, then edit marts (mist stone availability)
-Edit fleemon, treemon (and maps)
 Move hidden items from Kanto/around in Amethyst *silver wing
+change room decorations to funtion as completion trophies (mom calls)
 
 # Storyline (Avoid this one for spoilers)
+
+Yeah, yeah, yeah, we all know that old song and dance: Team Rocket is back and bad blah blah blah.
+
+In this hack, the main story has been edited to be more focused on the custom areas and #MON I have worked on and implemented.
+Team Rocket is back, but their goal is to hunt down the #MON professors heading the research on a sacred and wild region, untouched by man.
+Thwart their efforts, become the #MON champion, and maybe juuuust maybe see if you can take on the hidden Amethyst Region and its 
+	difficult island challenges protecting rare guardians of the land.
+Successfully overcome these new and diverse challenges and you may discover that someone else has also conquered these secret challenges.

@@ -114,9 +114,9 @@
 	RGB 13,08,23, 06,03,11 ; eve
 
 ; group 23 (Viridian)
- 	RGB 21,31,07, 13,25,04 ; morn/day
- 	RGB 09,14,08, 06,10,04 ; nite
-	RGB 18,24,05, 11,19,02 ; eve
+ 	RGB 12,16,21, 09,08,21 ; morn/day
+ 	RGB 07,10,17, 04,06,15 ; nite
+	RGB 08,11,19, 07,07,15 ; eve
 
 ; group 24 (New Bark)
  	RGB 20,31,14, 11,23,05 ; morn/day
